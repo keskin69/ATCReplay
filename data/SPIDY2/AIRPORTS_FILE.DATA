@@ -1,0 +1,1546 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         AIRPORTS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD      AIRPORT
+  IDENT     DTMB
+  POSITION
+  BEGINS
+                LAT              NORTH 35.7581
+                LONG             EAST  10.7547
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     DTTA
+  POSITION
+  BEGINS
+                LAT              NORTH 36.8511
+                LONG             EAST  10.2269
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EBBR
+  POSITION
+  BEGINS
+                LAT              NORTH 50.9022
+                LONG             EAST   4.4861
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EBLG
+  POSITION
+  BEGINS
+                LAT              NORTH 50.6364
+                LONG             EAST   5.4428
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDB
+  POSITION
+  BEGINS
+                LAT              NORTH 52.3786
+                LONG             EAST  13.5206
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDE
+  POSITION
+  BEGINS
+                LAT              NORTH 50.9797
+                LONG             EAST  10.9581
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDF
+  POSITION
+  BEGINS
+                LAT              NORTH 50.0333
+                LONG             EAST   8.5706
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDG
+  POSITION
+  BEGINS
+                LAT              NORTH 52.1347
+                LONG             EAST   7.6847
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDH
+  POSITION
+  BEGINS
+                LAT              NORTH 53.6303
+                LONG             EAST   9.9883
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDK
+  POSITION
+  BEGINS
+                LAT              NORTH 50.8658
+                LONG             EAST   7.1428
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDL
+  POSITION
+  BEGINS
+                LAT              NORTH 51.2808
+                LONG             EAST   6.7572
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDM
+  POSITION
+  BEGINS
+                LAT              NORTH 48.3539
+                LONG             EAST  11.7861
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDN
+  POSITION
+  BEGINS
+                LAT              NORTH 49.4986
+                LONG             EAST  11.0778
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDT
+  POSITION
+  BEGINS
+                LAT              NORTH 52.5597
+                LONG             EAST  13.2878
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDDV
+  POSITION
+  BEGINS
+                LAT              NORTH 52.4603
+                LONG             EAST   9.6836
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDFH
+  POSITION
+  BEGINS
+                LAT              NORTH 49.9486
+                LONG             EAST   7.2639
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDLW
+  POSITION
+  BEGINS
+                LAT              NORTH 51.5183
+                LONG             EAST   7.6122
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDMO
+  POSITION
+  BEGINS
+                LAT              NORTH 48.0831
+                LONG             EAST  11.2833
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDNY
+  POSITION
+  BEGINS
+                LAT              NORTH 47.6714
+                LONG             EAST   9.5114
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EDRZ
+  POSITION
+  BEGINS
+                LAT              NORTH 49.2094
+                LONG             EAST   7.4011
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EFHK
+  POSITION
+  BEGINS
+                LAT              NORTH 60.3169
+                LONG             EAST  24.9664
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGCC
+  POSITION
+  BEGINS
+                LAT              NORTH 53.3536
+                LONG             WEST   2.2750
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGFF
+  POSITION
+  BEGINS
+                LAT              NORTH 51.3967
+                LONG             WEST   3.3433
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGGD
+  POSITION
+  BEGINS
+                LAT              NORTH 51.3825
+                LONG             WEST   2.7189
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGGW
+  POSITION
+  BEGINS
+                LAT              NORTH 51.8747
+                LONG             WEST   0.3683
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGKK
+  POSITION
+  BEGINS
+                LAT              NORTH 51.1481
+                LONG             WEST   0.1903
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGLF
+  POSITION
+  BEGINS
+                LAT              NORTH 51.2758
+                LONG             WEST   0.7764
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGLL
+  POSITION
+  BEGINS
+                LAT              NORTH 51.4775
+                LONG             WEST   0.4614
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGNM
+  POSITION
+  BEGINS
+                LAT              NORTH 53.8658
+                LONG             WEST   1.6606
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGNT
+  POSITION
+  BEGINS
+                LAT              NORTH 55.0372
+                LONG             WEST   1.6917
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EGSS
+  POSITION
+  BEGINS
+                LAT              NORTH 51.8850
+                LONG             EAST   0.2350
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EHAM
+  POSITION
+  BEGINS
+                LAT              NORTH 52.3081
+                LONG             EAST   4.7642
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EHRD
+  POSITION
+  BEGINS
+                LAT              NORTH 51.9569
+                LONG             EAST   4.4372
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EIDW
+  POSITION
+  BEGINS
+                LAT              NORTH 53.4211
+                LONG             WEST   6.2700
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EINN
+  POSITION
+  BEGINS
+                LAT              NORTH 52.7019
+                LONG             WEST   8.9247
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EKCH
+  POSITION
+  BEGINS
+                LAT              NORTH 55.6181
+                LONG             EAST  12.6561
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     ELLX
+  POSITION
+  BEGINS
+                LAT              NORTH 49.6242
+                LONG             EAST   6.2056
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     ENGM
+  POSITION
+  BEGINS
+                LAT              NORTH 60.2028
+                LONG             EAST  11.0839
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EPGD
+  POSITION
+  BEGINS
+                LAT              NORTH 54.3781
+                LONG             EAST  18.4681
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EPKT
+  POSITION
+  BEGINS
+                LAT              NORTH 50.4742
+                LONG             EAST  19.0800
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EPWA
+  POSITION
+  BEGINS
+                LAT              NORTH 52.1658
+                LONG             EAST  20.9672
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     ESGG
+  POSITION
+  BEGINS
+                LAT              NORTH 57.6631
+                LONG             EAST  12.2828
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     ESSA
+  POSITION
+  BEGINS
+                LAT              NORTH 59.6525
+                LONG             EAST  17.9219
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     EVRA
+  POSITION
+  BEGINS
+                LAT              NORTH 56.9236
+                LONG             EAST  23.9711
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     HECA
+  POSITION
+  BEGINS
+                LAT              NORTH 30.1219
+                LONG             EAST  31.4056
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     HEGN
+  POSITION
+  BEGINS
+                LAT              NORTH 27.1786
+                LONG             EAST  33.8008
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     HKJK
+  POSITION
+  BEGINS
+                LAT              SOUTH  1.3186
+                LONG             EAST  36.9258
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     KATL
+  POSITION
+  BEGINS
+                LAT              NORTH 33.6333
+                LONG             WEST  84.4333
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     KJFK
+  POSITION
+  BEGINS
+                LAT              NORTH 40.6403
+                LONG             WEST  73.7783
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LATI
+  POSITION
+  BEGINS
+                LAT              NORTH 41.4122
+                LONG             EAST  19.7167
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LBSF
+  POSITION
+  BEGINS
+                LAT              NORTH 42.6950
+                LONG             EAST  23.4083
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LBWN
+  POSITION
+  BEGINS
+                LAT              NORTH 43.2333
+                LONG             EAST  27.8250
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LCLK
+  POSITION
+  BEGINS
+                LAT              NORTH 34.8789
+                LONG             EAST  33.6303
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LDDU
+  POSITION
+  BEGINS
+                LAT              NORTH 42.5614
+                LONG             EAST  18.2683
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LDRI
+  POSITION
+  BEGINS
+                LAT              NORTH 45.2169
+                LONG             EAST  14.5703
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LDSP
+  POSITION
+  BEGINS
+                LAT              NORTH 43.5389
+                LONG             EAST  16.2981
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LDZA
+  POSITION
+  BEGINS
+                LAT              NORTH 45.7431
+                LONG             EAST  16.0689
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LDZD
+  POSITION
+  BEGINS
+                LAT              NORTH 44.1083
+                LONG             EAST  15.3467
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LEBL
+  POSITION
+  BEGINS
+                LAT              NORTH 41.2969
+                LONG             EAST   2.0783
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LEGE
+  POSITION
+  BEGINS
+                LAT              NORTH 41.9008
+                LONG             EAST   2.7606
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LEIB
+  POSITION
+  BEGINS
+                LAT              NORTH 38.8728
+                LONG             EAST   1.3731
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LEMD
+  POSITION
+  BEGINS
+                LAT              NORTH 40.4722
+                LONG             WEST   3.5608
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LEMG
+  POSITION
+  BEGINS
+                LAT              NORTH 36.6750
+                LONG             WEST   4.4992
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LEPA
+  POSITION
+  BEGINS
+                LAT              NORTH 39.5517
+                LONG             EAST   2.7389
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFLL
+  POSITION
+  BEGINS
+                LAT              NORTH 45.7256
+                LONG             EAST   5.0811
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFMD
+  POSITION
+  BEGINS
+                LAT              NORTH 43.5500
+                LONG             EAST   6.9500
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFMN
+  POSITION
+  BEGINS
+                LAT              NORTH 43.6653
+                LONG             EAST   7.2150
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFPB
+  POSITION
+  BEGINS
+                LAT              NORTH 48.9694
+                LONG             EAST   2.4414
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFPG
+  POSITION
+  BEGINS
+                LAT              NORTH 49.0097
+                LONG             EAST   2.5478
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFPO
+  POSITION
+  BEGINS
+                LAT              NORTH 48.7233
+                LONG             EAST   2.3794
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFRS
+  POSITION
+  BEGINS
+                LAT              NORTH 47.1569
+                LONG             WEST   1.6078
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFSB
+  POSITION
+  BEGINS
+                LAT              NORTH 47.5900
+                LONG             EAST   7.5292
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LFTZ
+  POSITION
+  BEGINS
+                LAT              NORTH 43.2064
+                LONG             EAST   6.4825
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGAV
+  POSITION
+  BEGINS
+                LAT              NORTH 37.9367
+                LONG             EAST  23.9444
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGIR
+  POSITION
+  BEGINS
+                LAT              NORTH 35.3381
+                LONG             EAST  25.1775
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGKF
+  POSITION
+  BEGINS
+                LAT              NORTH 38.1211
+                LONG             EAST  20.5011
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGKR
+  POSITION
+  BEGINS
+                LAT              NORTH 39.6075
+                LONG             EAST  19.9111
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGMK
+  POSITION
+  BEGINS
+                LAT              NORTH 37.4383
+                LONG             EAST  25.3478
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGRP
+  POSITION
+  BEGINS
+                LAT              NORTH 36.4056
+                LONG             EAST  28.0869
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGRX
+  POSITION
+  BEGINS
+                LAT              NORTH 38.1500
+                LONG             EAST  21.4167
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGSA
+  POSITION
+  BEGINS
+                LAT              NORTH 35.5322
+                LONG             EAST  24.1517
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGSK
+  POSITION
+  BEGINS
+                LAT              NORTH 39.1783
+                LONG             EAST  23.5042
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGSM
+  POSITION
+  BEGINS
+                LAT              NORTH 37.6903
+                LONG             EAST  26.9128
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGSR
+  POSITION
+  BEGINS
+                LAT              NORTH 36.4000
+                LONG             EAST  25.4667
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LGZA
+  POSITION
+  BEGINS
+                LAT              NORTH 37.7522
+                LONG             EAST  20.8847
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LHBP
+  POSITION
+  BEGINS
+                LAT              NORTH 47.4394
+                LONG             EAST  19.2619
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIBD
+  POSITION
+  BEGINS
+                LAT              NORTH 41.1375
+                LONG             EAST  16.7650
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIBR
+  POSITION
+  BEGINS
+                LAT              NORTH 40.6581
+                LONG             EAST  17.9467
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIBV
+  POSITION
+  BEGINS
+                LAT              NORTH 40.7667
+                LONG             EAST  16.9333
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LICA
+  POSITION
+  BEGINS
+                LAT              NORTH 38.9078
+                LONG             EAST  16.2417
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LICC
+  POSITION
+  BEGINS
+                LAT              NORTH 37.4678
+                LONG             EAST  15.0647
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LICG
+  POSITION
+  BEGINS
+                LAT              NORTH 36.8136
+                LONG             EAST  11.9661
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LICJ
+  POSITION
+  BEGINS
+                LAT              NORTH 38.1833
+                LONG             EAST  13.1000
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LICT
+  POSITION
+  BEGINS
+                LAT              NORTH 37.9117
+                LONG             EAST  12.4864
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIEE
+  POSITION
+  BEGINS
+                LAT              NORTH 39.2464
+                LONG             EAST   9.0572
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIEO
+  POSITION
+  BEGINS
+                LAT              NORTH 40.8981
+                LONG             EAST   9.5181
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIMC
+  POSITION
+  BEGINS
+                LAT              NORTH 45.6308
+                LONG             EAST   8.7242
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIME
+  POSITION
+  BEGINS
+                LAT              NORTH 45.6700
+                LONG             EAST   9.7014
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIML
+  POSITION
+  BEGINS
+                LAT              NORTH 45.4503
+                LONG             EAST   9.2794
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPA
+  POSITION
+  BEGINS
+                LAT              NORTH 46.0317
+                LONG             EAST  12.5983
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPE
+  POSITION
+  BEGINS
+                LAT              NORTH 44.5306
+                LONG             EAST  11.2925
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPH
+  POSITION
+  BEGINS
+                LAT              NORTH 45.6517
+                LONG             EAST  12.1989
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPK
+  POSITION
+  BEGINS
+                LAT              NORTH 44.1950
+                LONG             EAST  12.0697
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPL
+  POSITION
+  BEGINS
+                LAT              NORTH 45.4333
+                LONG             EAST  10.2667
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPQ
+  POSITION
+  BEGINS
+                LAT              NORTH 45.8267
+                LONG             EAST  13.4722
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPR
+  POSITION
+  BEGINS
+                LAT              NORTH 44.0208
+                LONG             EAST  12.6122
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPX
+  POSITION
+  BEGINS
+                LAT              NORTH 45.3953
+                LONG             EAST  10.8875
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPY
+  POSITION
+  BEGINS
+                LAT              NORTH 43.6153
+                LONG             EAST  13.3625
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIPZ
+  POSITION
+  BEGINS
+                LAT              NORTH 45.5000
+                LONG             EAST  12.3500
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIRA
+  POSITION
+  BEGINS
+                LAT              NORTH 45.2961
+                LONG             EAST  13.0289
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIRF
+  POSITION
+  BEGINS
+                LAT              NORTH 41.8111
+                LONG             EAST  12.2525
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIRN
+  POSITION
+  BEGINS
+                LAT              NORTH 40.8833
+                LONG             EAST  14.2889
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIRP
+  POSITION
+  BEGINS
+                LAT              NORTH 43.6997
+                LONG             EAST  10.3944
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LIRQ
+  POSITION
+  BEGINS
+                LAT              NORTH 43.8097
+                LONG             EAST  11.2039
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LJLJ
+  POSITION
+  BEGINS
+                LAT              NORTH 46.2244
+                LONG             EAST  14.4561
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LKPR
+  POSITION
+  BEGINS
+                LAT              NORTH 50.1017
+                LONG             EAST  14.2611
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LLBG
+  POSITION
+  BEGINS
+                LAT              NORTH 32.0106
+                LONG             EAST  34.8772
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LMML
+  POSITION
+  BEGINS
+                LAT              NORTH 35.8667
+                LONG             EAST  14.4833
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LOWW
+  POSITION
+  BEGINS
+                LAT              NORTH 48.1103
+                LONG             EAST  16.5697
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LPPT
+  POSITION
+  BEGINS
+                LAT              NORTH 38.7742
+                LONG             WEST   9.1342
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LQSA
+  POSITION
+  BEGINS
+                LAT              NORTH 43.8247
+                LONG             EAST  18.3317
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LRBS
+  POSITION
+  BEGINS
+                LAT              NORTH 44.5033
+                LONG             EAST  26.1000
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LRCK
+  POSITION
+  BEGINS
+                LAT              NORTH 44.3617
+                LONG             EAST  28.4900
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LROP
+  POSITION
+  BEGINS
+                LAT              NORTH 44.5583
+                LONG             EAST  26.0867
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LSGG
+  POSITION
+  BEGINS
+                LAT              NORTH 46.2381
+                LONG             EAST   6.1089
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LSZA
+  POSITION
+  BEGINS
+                LAT              NORTH 46.0036
+                LONG             EAST   8.9103
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LSZH
+  POSITION
+  BEGINS
+                LAT              NORTH 47.4583
+                LONG             EAST   8.5481
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LSZS
+  POSITION
+  BEGINS
+                LAT              NORTH 46.5344
+                LONG             EAST   9.8839
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LTAC
+  POSITION
+  BEGINS
+                LAT              NORTH 40.1283
+                LONG             EAST  32.9953
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LTAI
+  POSITION
+  BEGINS
+                LAT              NORTH 36.9003
+                LONG             EAST  30.7928
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LTBA
+  POSITION
+  BEGINS
+                LAT              NORTH 40.9761
+                LONG             EAST  28.8142
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LTBJ
+  POSITION
+  BEGINS
+                LAT              NORTH 38.2892
+                LONG             EAST  27.1550
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LTFE
+  POSITION
+  BEGINS
+                LAT              NORTH 37.2472
+                LONG             EAST  27.6814
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LTFJ
+  POSITION
+  BEGINS
+                LAT              NORTH 40.8983
+                LONG             EAST  29.3092
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LYPG
+  POSITION
+  BEGINS
+                LAT              NORTH 42.3594
+                LONG             EAST  19.2519
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LYTV
+  POSITION
+  BEGINS
+                LAT              NORTH 42.4050
+                LONG             EAST  18.7233
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     LZIB
+  POSITION
+  BEGINS
+                LAT              NORTH 48.1700
+                LONG             EAST  17.2128
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     OEJN
+  POSITION
+  BEGINS
+                LAT              NORTH 21.6811
+                LONG             EAST  39.1553
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     OERK
+  POSITION
+  BEGINS
+                LAT              NORTH 24.9667
+                LONG             EAST  46.7000
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     OJAI
+  POSITION
+  BEGINS
+                LAT              NORTH 31.7225
+                LONG             EAST  35.9933
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     OKBK
+  POSITION
+  BEGINS
+                LAT              NORTH 29.2167
+                LONG             EAST  47.9667
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     OLBA
+  POSITION
+  BEGINS
+                LAT              NORTH 33.8206
+                LONG             EAST  35.4892
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     OMAA
+  POSITION
+  BEGINS
+                LAT              NORTH 24.4333
+                LONG             EAST  54.6500
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     OMDB
+  POSITION
+  BEGINS
+                LAT              NORTH 25.2492
+                LONG             EAST  55.3600
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     OTBD
+  POSITION
+  BEGINS
+                LAT              NORTH 25.2667
+                LONG             EAST  51.5667
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     RJAA
+  POSITION
+  BEGINS
+                LAT              NORTH 35.7583
+                LONG             EAST 140.3783
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     UKCC
+  POSITION
+  BEGINS
+                LAT              NORTH 48.0733
+                LONG             EAST  37.7400
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     UKLL
+  POSITION
+  BEGINS
+                LAT              NORTH 49.8117
+                LONG             EAST  23.9550
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     ULLI
+  POSITION
+  BEGINS
+                LAT              NORTH 59.8000
+                LONG             EAST  30.2650
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     UMMS
+  POSITION
+  BEGINS
+                LAT              NORTH 53.8825
+                LONG             EAST  28.0325
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     UUEE
+  POSITION
+  BEGINS
+                LAT              NORTH 55.9667
+                LONG             EAST  37.4167
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     UUWW
+  POSITION
+  BEGINS
+                LAT              NORTH 55.5983
+                LONG             EAST  37.2750
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+
+RECORD      AIRPORT
+  IDENT     ZSPD
+  POSITION
+  BEGINS
+                LAT              NORTH 31.1333
+                LONG             EAST 121.7833
+  ENDS
+  ELEVATION            0
+  TRANSITION_ALTITUDE  5000
+

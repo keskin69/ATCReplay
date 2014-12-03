@@ -1,0 +1,19 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         FPG_PARAMETERS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD          FPG_PARAMETERS_ITEM
+IDENT           1
+TIME_BEFORE_CENTRE_ENTRY_FOR_FPL_LOADING    10

@@ -1,0 +1,5502 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         AIRWAYS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+ RECORD                   AIRWAY
+ IDENT                    A101
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIC 
+       END_POINT          BORMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BORMI 
+       END_POINT          DIBAX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIBAX 
+       END_POINT          RENTA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RENTA 
+       END_POINT          SUXAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SUXAN 
+       END_POINT          VALAV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALAV 
+       END_POINT          RONAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RONAG 
+       END_POINT          VEBEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A102
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          RENTA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RENTA 
+       END_POINT          LORLO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LORLO 
+       END_POINT          NATAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A103
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          GOREP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GOREP 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          ALBET 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALBET 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A104
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          BRENO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A106
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUL 
+       END_POINT          LABIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LABIN 
+       END_POINT          AGOMO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AGOMO 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          KOPER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOPER 
+       END_POINT          OSTEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A107
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BELOV 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A108
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        URBAN 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_1
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DORAV 
+       END_POINT          GEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          MONEB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MONEB 
+       END_POINT          ROBAS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROBAS 
+       END_POINT          GIBLO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIBLO 
+       END_POINT          OSKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSKOR 
+       END_POINT          NESTI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NESTI 
+       END_POINT          TAGIP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TAGIP 
+       END_POINT          DIBAX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIBAX 
+       END_POINT          SUMIR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SUMIR 
+       END_POINT          ALESE 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALESE 
+       END_POINT          VESAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VESAL 
+       END_POINT          MALUG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MALUG 
+       END_POINT          ELKAT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELKAT 
+       END_POINT          NIMDU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIMDU 
+       END_POINT          ASKOD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_10
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        URBAN 
+       END_POINT          PELEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PELEG 
+       END_POINT          LUTOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUTOR 
+       END_POINT          BOA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOA 
+       END_POINT          KREVA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KREVA 
+       END_POINT          BENUS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BENUS 
+       END_POINT          OSTEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSTEG 
+       END_POINT          GAZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_11
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CIA 
+       END_POINT          PEMAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PEMAR 
+       END_POINT          ANEDA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANEDA 
+       END_POINT          LANNO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LANNO 
+       END_POINT          PES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PES 
+       END_POINT          UTENO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UTENO 
+       END_POINT          GERBU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GERBU 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          BUSER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BUSER 
+       END_POINT          NIKOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIKOL 
+       END_POINT          ALIVO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALIVO 
+       END_POINT          MAXUR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MAXUR 
+       END_POINT          VALLU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_12
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        Y7MAL 
+       END_POINT          Y3MAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        Y3MAL 
+       END_POINT          SRN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SRN 
+       END_POINT          PAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PAR 
+       END_POINT          VALEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALEN 
+       END_POINT          VERNA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VERNA 
+       END_POINT          PREKI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PREKI 
+       END_POINT          PES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PES 
+       END_POINT          NORKI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NORKI 
+       END_POINT          LEONN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LEONN 
+       END_POINT          GUBIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GUBIN 
+       END_POINT          URBAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        URBAN 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          MASEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MASEG 
+       END_POINT          NUTRO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NUTRO 
+       END_POINT          ARPIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARPIK 
+       END_POINT          POLYP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        POLYP 
+       END_POINT          RUPAX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_13
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ESISO 
+       END_POINT          OSDOV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSDOV 
+       END_POINT          MADEB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MADEB 
+       END_POINT          TIRUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TIRUL 
+       END_POINT          NATAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NATAG 
+       END_POINT          LORLO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LORLO 
+       END_POINT          RENTA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RENTA 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          VALEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALEN 
+       END_POINT          RESPU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RESPU 
+       END_POINT          AMTEL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMTEL 
+       END_POINT          TAQ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_14
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TRE 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIC 
+       END_POINT          BORMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BORMI 
+       END_POINT          DIBAX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIBAX 
+       END_POINT          SUXAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SUXAN 
+       END_POINT          VALAV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALAV 
+       END_POINT          RONAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RONAG 
+       END_POINT          ARGAX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARGAX 
+       END_POINT          ELMUR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELMUR 
+       END_POINT          ROLSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROLSA 
+       END_POINT          KUDES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KUDES 
+       END_POINT          SONOM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_15
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          OSTEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSTEG 
+       END_POINT          KREVA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KREVA 
+       END_POINT          BOA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOA 
+       END_POINT          VALEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALEN 
+       END_POINT          BAGNO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAGNO 
+       END_POINT          PIDEP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PIDEP 
+       END_POINT          URBAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        URBAN 
+       END_POINT          GUBIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GUBIN 
+       END_POINT          LEONN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LEONN 
+       END_POINT          NORKI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NORKI 
+       END_POINT          PES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_16
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMTEL 
+       END_POINT          BOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOL 
+       END_POINT          TIBER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TIBER 
+       END_POINT          CMP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_17
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FOR 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          ROVIG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROVIG 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          TULIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TULIK 
+       END_POINT          ROSKA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROSKA 
+       END_POINT          MONFA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MONFA 
+       END_POINT          UMBEK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UMBEK 
+       END_POINT          BARPI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BARPI 
+       END_POINT          DOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DOL 
+       END_POINT          VALLU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALLU 
+       END_POINT          LAPNA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAPNA 
+       END_POINT          GOLVA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GOLVA 
+       END_POINT          GBG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GBG 
+       END_POINT          XANUT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_18
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          BELOV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BELOV 
+       END_POINT          URBAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        URBAN 
+       END_POINT          RUNIM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RUNIM 
+       END_POINT          TAKUP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TAKUP 
+       END_POINT          NIKMA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIKMA 
+       END_POINT          BOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOL 
+       END_POINT          TAQ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_19
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TURBU 
+       END_POINT          BADVI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BADVI 
+       END_POINT          RTT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RTT 
+       END_POINT          TOBSO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TOBSO 
+       END_POINT          BAKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAKOR 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          NIVAS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIVAS 
+       END_POINT          BABAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BABAG 
+       END_POINT          PEVAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PEVAL 
+       END_POINT          NAKIT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NAKIT 
+       END_POINT          PUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUL 
+       END_POINT          ZDA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_2
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        EMILY 
+       END_POINT          NORKI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NORKI 
+       END_POINT          VAPIX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VAPIX 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIC 
+       END_POINT          ALESE 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALESE 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          OGEPI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OGEPI 
+       END_POINT          BRENO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BRENO 
+       END_POINT          INN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        INN 
+       END_POINT          NORIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NORIN 
+       END_POINT          KOGOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOGOL 
+       END_POINT          KONIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_20
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GARGA 
+       END_POINT          RIVAM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RIVAM 
+       END_POINT          DIPEP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIPEP 
+       END_POINT          LISKO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LISKO 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIC 
+       END_POINT          KOPER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOPER 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          LUTOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUTOR 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          GINAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GINAR 
+       END_POINT          MAREL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MAREL 
+       END_POINT          ELB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELB 
+       END_POINT          VELAD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_21
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UMBIL 
+       END_POINT          GRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GRZ 
+       END_POINT          RADLY 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RADLY 
+       END_POINT          ARLON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARLON 
+       END_POINT          DOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DOL 
+       END_POINT          GIRDA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIRDA 
+       END_POINT          BAXON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAXON 
+       END_POINT          LANLI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LANLI 
+       END_POINT          VAPIX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VAPIX 
+       END_POINT          GUBIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GUBIN 
+       END_POINT          UMBED 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UMBED 
+       END_POINT          NIKMA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIKMA 
+       END_POINT          VELIM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_22
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LISKO 
+       END_POINT          BUSER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BUSER 
+       END_POINT          AGOMO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AGOMO 
+       END_POINT          AKADO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AKADO 
+       END_POINT          LAPAB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAPAB 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIC 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          ELTAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELTAR 
+       END_POINT          OSKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSKOR 
+       END_POINT          ORI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ORI 
+       END_POINT          SRN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SRN 
+       END_POINT          RIGON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RIGON 
+       END_POINT          NOV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_23
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KALMO 
+       END_POINT          LUPOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUPOS 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          BOA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOA 
+       END_POINT          LASEB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_24
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOA 
+       END_POINT          LUPOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUPOS 
+       END_POINT          BEROK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BEROK 
+       END_POINT          OLKIS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OLKIS 
+       END_POINT          PIS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_25
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SRN 
+       END_POINT          TZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TZO 
+       END_POINT          VAKON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VAKON 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          AGOMO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AGOMO 
+       END_POINT          LABIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LABIN 
+       END_POINT          PUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUL 
+       END_POINT          DOLOM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DOLOM 
+       END_POINT          PALEZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_26
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSPEN 
+       END_POINT          ABRUK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ABRUK 
+       END_POINT          DETSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DETSA 
+       END_POINT          BAKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAKOR 
+       END_POINT          VESAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VESAL 
+       END_POINT          LAMPO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAMPO 
+       END_POINT          ROKIB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROKIB 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_27
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UMSON 
+       END_POINT          IXONA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IXONA 
+       END_POINT          ROTAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROTAR 
+       END_POINT          AKADO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AKADO 
+       END_POINT          LAMPO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAMPO 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_28
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MOMUK 
+       END_POINT          BEMKI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BEMKI 
+       END_POINT          XEBIX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        XEBIX 
+       END_POINT          ELMEM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELMEM 
+       END_POINT          BILDU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BILDU 
+       END_POINT          OTRES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OTRES 
+       END_POINT          GIRIS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIRIS 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          UNIMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UNIMI 
+       END_POINT          SUDUX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SUDUX 
+       END_POINT          MOGTI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_29
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IXONA 
+       END_POINT          PEVAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PEVAL 
+       END_POINT          BABAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BABAG 
+       END_POINT          NIVAS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIVAS 
+       END_POINT          VESAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VESAL 
+       END_POINT          OGEPI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OGEPI 
+       END_POINT          ATRIG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ATRIG 
+       END_POINT          SOTOV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SOTOV 
+       END_POINT          NIGEB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIGEB 
+       END_POINT          MOGTI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MOGTI 
+       END_POINT          NESES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NESES 
+       END_POINT          KPT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KPT 
+       END_POINT          AMEMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_3
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UMSON 
+       END_POINT          ELGUS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELGUS 
+       END_POINT          TORPO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TORPO 
+       END_POINT          LISKO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LISKO 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          URBAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        URBAN 
+       END_POINT          PIDEP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PIDEP 
+       END_POINT          BAGNO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAGNO 
+       END_POINT          VALEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALEN 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          Y5PIS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        Y5PIS 
+       END_POINT          PIS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_30
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TRA 
+       END_POINT          KUDES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KUDES 
+       END_POINT          DEGES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DEGES 
+       END_POINT          VEBEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VEBEG 
+       END_POINT          YLITL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        YLITL 
+       END_POINT          MADEB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MADEB 
+       END_POINT          ELMEM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_31
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          RUXOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RUXOL 
+       END_POINT          BEROK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BEROK 
+       END_POINT          GEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          VOG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VOG 
+       END_POINT          MMP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MMP 
+       END_POINT          PINIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_32
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PEMAR 
+       END_POINT          TIBER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TIBER 
+       END_POINT          BOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOL 
+       END_POINT          GITOD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GITOD 
+       END_POINT          KATAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KATAR 
+       END_POINT          LEONN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LEONN 
+       END_POINT          DIKOM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIKOM 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          GERBU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GERBU 
+       END_POINT          UTENO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UTENO 
+       END_POINT          PES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PES 
+       END_POINT          EMILY 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_33
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAPNA 
+       END_POINT          OSMOT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSMOT 
+       END_POINT          ELSIS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELSIS 
+       END_POINT          TUKDI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TUKDI 
+       END_POINT          ROPAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROPAG 
+       END_POINT          ASKOD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_34
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DORIN 
+       END_POINT          PAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PAR 
+       END_POINT          MAXIM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MAXIM 
+       END_POINT          TZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_35
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SRN 
+       END_POINT          ORI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ORI 
+       END_POINT          OSKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSKOR 
+       END_POINT          LEGLO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LEGLO 
+       END_POINT          DESIP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_36
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOGOL 
+       END_POINT          TULSI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TULSI 
+       END_POINT          BADVI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BADVI 
+       END_POINT          AMDID 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMDID 
+       END_POINT          ROTAX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROTAX 
+       END_POINT          LOMRO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LOMRO 
+       END_POINT          DETSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DETSA 
+       END_POINT          NIVAS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIVAS 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          DITUM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DITUM 
+       END_POINT          PIDEP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PIDEP 
+       END_POINT          RUNIM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_37
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOREX 
+       END_POINT          OBALA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OBALA 
+       END_POINT          NAKIT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NAKIT 
+       END_POINT          ROTAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROTAR 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          ARGEX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARGEX 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_38
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TZO 
+       END_POINT          SRN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SRN 
+       END_POINT          IXORA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IXORA 
+       END_POINT          ARLES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_39
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TRE 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          URBAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_4
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PEMAR 
+       END_POINT          GITOD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GITOD 
+       END_POINT          VERUN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VERUN 
+       END_POINT          IXUSI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IXUSI 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          BOTAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_40
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          LUPOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUPOS 
+       END_POINT          PAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PAR 
+       END_POINT          DORIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_41
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DENUX 
+       END_POINT          PUBEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUBEG 
+       END_POINT          UMBIL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_42
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PREKI 
+       END_POINT          LANNO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LANNO 
+       END_POINT          EMILY 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_43
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUBEG 
+       END_POINT          OSPEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_44
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUSIN 
+       END_POINT          KOTOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOTOR 
+       END_POINT          RJK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RJK 
+       END_POINT          NAKIT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NAKIT 
+       END_POINT          PEVAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_45
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IPINO 
+       END_POINT          LAGUS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAGUS 
+       END_POINT          ROSKA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROSKA 
+       END_POINT          TULIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TULIK 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          GOREP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GOREP 
+       END_POINT          ARGEX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARGEX 
+       END_POINT          BOA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_46
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUL 
+       END_POINT          LOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LOS 
+       END_POINT          MINTU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MINTU 
+       END_POINT          SAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SAL 
+       END_POINT          GAPRI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_47
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MOMOL 
+       END_POINT          KOLUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOLUL 
+       END_POINT          Y2KLO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        Y2KLO 
+       END_POINT          DEGES 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DEGES 
+       END_POINT          DORAP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DORAP 
+       END_POINT          OSDOV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSDOV 
+       END_POINT          XEBIX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        XEBIX 
+       END_POINT          TIRUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_48
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SRN 
+       END_POINT          DESIP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DESIP 
+       END_POINT          ELTAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELTAR 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          ALBET 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALBET 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          LOBSI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LOBSI 
+       END_POINT          FOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_49
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KPT 
+       END_POINT          RAVED 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RAVED 
+       END_POINT          ETOXU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ETOXU 
+       END_POINT          NEGRA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NEGRA 
+       END_POINT          AMIKI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_5
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          DITUM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DITUM 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          MAMTO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MAMTO 
+       END_POINT          KAMPA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KAMPA 
+       END_POINT          TZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TZO 
+       END_POINT          PEPAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PEPAG 
+       END_POINT          ABESI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ABESI 
+       END_POINT          SOPER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SOPER 
+       END_POINT          ELMUR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELMUR 
+       END_POINT          MANEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MANEG 
+       END_POINT          RIPUS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RIPUS 
+       END_POINT          DITON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_50
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TITIX 
+       END_POINT          TRA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TRA 
+       END_POINT          RESIA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RESIA 
+       END_POINT          GIGGI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIGGI 
+       END_POINT          TAGIP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TAGIP 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_51
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIDLO 
+       END_POINT          GRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GRZ 
+       END_POINT          VIW 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIW 
+       END_POINT          DETSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_52
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          ATRIG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ATRIG 
+       END_POINT          MATAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MATAR 
+       END_POINT          NORTO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NORTO 
+       END_POINT          OBAGA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OBAGA 
+       END_POINT          AMGAS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMGAS 
+       END_POINT          OBIXO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OBIXO 
+       END_POINT          OBIKA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_53
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SRN 
+       END_POINT          ROBAS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROBAS 
+       END_POINT          PAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_54
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BO 
+       END_POINT          EBITA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        EBITA 
+       END_POINT          LOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LOS 
+       END_POINT          PUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUL 
+       END_POINT          NAKIT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_55
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUPOS 
+       END_POINT          KALIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KALIK 
+       END_POINT          GEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          TESTO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_56
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          KALIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KALIK 
+       END_POINT          MEBUR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MEBUR 
+       END_POINT          VOG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VOG 
+       END_POINT          VERCE 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_57
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAKOL 
+       END_POINT          MANAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MANAL 
+       END_POINT          TULSI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TULSI 
+       END_POINT          BERAS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BERAS 
+       END_POINT          LIZUM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LIZUM 
+       END_POINT          LIKDA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LIKDA 
+       END_POINT          BAKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_58
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LIZUM 
+       END_POINT          OLPIX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OLPIX 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          ALESE 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALESE 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_59
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TESTO 
+       END_POINT          GEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          BEROK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BEROK 
+       END_POINT          RUXOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RUXOL 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          VALEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_6
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIBAX 
+       END_POINT          UNIMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UNIMI 
+       END_POINT          TUTAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TUTAL 
+       END_POINT          NIGEB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIGEB 
+       END_POINT          DENED 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DENED 
+       END_POINT          IRBIR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IRBIR 
+       END_POINT          AMGAS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMGAS 
+       END_POINT          ANDEC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANDEC 
+       END_POINT          BETOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_60
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ZDA 
+       END_POINT          PUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUL 
+       END_POINT          TIBLA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_61
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VAVOR 
+       END_POINT          TOBAD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TOBAD 
+       END_POINT          ARTUS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARTUS 
+       END_POINT          DETSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_62
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BELOV 
+       END_POINT          AMLON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMLON 
+       END_POINT          LANLI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LANLI 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          LISKO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LISKO 
+       END_POINT          TORPO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TORPO 
+       END_POINT          ELGUS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELGUS 
+       END_POINT          UMSON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_63
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIMDU 
+       END_POINT          XANUT 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        XANUT 
+       END_POINT          NIGSI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIGSI 
+       END_POINT          BALAD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_64
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RI 
+       END_POINT          PUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_65
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          BORMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BORMI 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_66
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TUKDI 
+       END_POINT          GRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_67
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARLON 
+       END_POINT          RIFEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_68
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BADOP 
+       END_POINT          ROSKA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROSKA 
+       END_POINT          AGOMO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AGOMO 
+       END_POINT          BELOV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BELOV 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_69
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TIBER 
+       END_POINT          PEMAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_7
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MEDAL 
+       END_POINT          BOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOL 
+       END_POINT          VERUN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VERUN 
+       END_POINT          DENAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DENAL 
+       END_POINT          VERNA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VERNA 
+       END_POINT          BAGNO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAGNO 
+       END_POINT          PELEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PELEG 
+       END_POINT          ARGEX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARGEX 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          ALBET 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALBET 
+       END_POINT          SUMIR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SUMIR 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          RENTA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RENTA 
+       END_POINT          GIGGI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIGGI 
+       END_POINT          LUSIL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUSIL 
+       END_POINT          RODRU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RODRU 
+       END_POINT          EVANO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        EVANO 
+       END_POINT          LESAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LESAN 
+       END_POINT          DORAV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DORAV 
+       END_POINT          IXITO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IXITO 
+       END_POINT          TALEP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_70
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TZO 
+       END_POINT          ORI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ORI 
+       END_POINT          COD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_71
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GUI 
+       END_POINT          TIBER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TIBER 
+       END_POINT          GITOD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GITOD 
+       END_POINT          BOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_72
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DESIP 
+       END_POINT          SRN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_73
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          ROKIB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROKIB 
+       END_POINT          LAPAB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAPAB 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          ROVIG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROVIG 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_74
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PIPOS 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_75
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LAPAB 
+       END_POINT          ROKIB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROKIB 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          SUMIR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SUMIR 
+       END_POINT          ALBET 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALBET 
+       END_POINT          KREVA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_76
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          LAGEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_77
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          DIKOM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIKOM 
+       END_POINT          LEONN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LEONN 
+       END_POINT          KATAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KATAR 
+       END_POINT          GITOD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_78
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KPT 
+       END_POINT          BEMKI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_79
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LORLO 
+       END_POINT          GIGGI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_8
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PODET 
+       END_POINT          VALLU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALLU 
+       END_POINT          DOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DOL 
+       END_POINT          RIFEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RIFEN 
+       END_POINT          BADOP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BADOP 
+       END_POINT          AKADO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AKADO 
+       END_POINT          KOPER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOPER 
+       END_POINT          PAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PAR 
+       END_POINT          LAGEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_80
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          IXUSI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IXUSI 
+       END_POINT          VERUN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VERUN 
+       END_POINT          NIKMA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_81
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        YSI 
+       END_POINT          TRAUN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TRAUN 
+       END_POINT          ROTIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROTIN 
+       END_POINT          MANAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_82
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PINOB 
+       END_POINT          ARTAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARTAG 
+       END_POINT          GERSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GERSA 
+       END_POINT          KELIP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KELIP 
+       END_POINT          SOPER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SOPER 
+       END_POINT          PELAD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PELAD 
+       END_POINT          RESIA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RESIA 
+       END_POINT          ELTAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELTAR 
+       END_POINT          BOA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_83
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VELAD 
+       END_POINT          ELB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELB 
+       END_POINT          MAREL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MAREL 
+       END_POINT          GINAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GINAR 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          ARGEX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARGEX 
+       END_POINT          GOREP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GOREP 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_84
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RAVED 
+       END_POINT          NEGRA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NEGRA 
+       END_POINT          AKABI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AKABI 
+       END_POINT          TRA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_85
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          LUTOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUTOR 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_86
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIL 
+       END_POINT          KOPER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOPER 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_87
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KALIK 
+       END_POINT          SALSO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SALSO 
+       END_POINT          TIDON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TIDON 
+       END_POINT          COD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_88
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BEROK 
+       END_POINT          BALUK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BALUK 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_89
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LANLI 
+       END_POINT          AMLON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMLON 
+       END_POINT          BELOV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_9
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RUPAX 
+       END_POINT          POLYP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        POLYP 
+       END_POINT          ARPIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARPIK 
+       END_POINT          NUTRO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NUTRO 
+       END_POINT          MASEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MASEG 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          IBENI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IBENI 
+       END_POINT          LOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LOS 
+       END_POINT          KULEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KULEN 
+       END_POINT          KOTOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOTOR 
+       END_POINT          LUSIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    A_90
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSKOR 
+       END_POINT          ELTAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B1
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELB 
+       END_POINT          GEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          VOG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VOG 
+       END_POINT          SRN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SRN 
+       END_POINT          ORI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ORI 
+       END_POINT          OSKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSKOR 
+       END_POINT          ELTAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELTAR 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B10
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TAQ 
+       END_POINT          AMTEL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMTEL 
+       END_POINT          RESPU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RESPU 
+       END_POINT          VALEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALEN 
+       END_POINT          BOA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOA 
+       END_POINT          KREVA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KREVA 
+       END_POINT          BENUS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BENUS 
+       END_POINT          OSTEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSTEG 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          RENTA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RENTA 
+       END_POINT          LORLO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LORLO 
+       END_POINT          NATAG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NATAG 
+       END_POINT          TIRUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B11
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOL 
+       END_POINT          DENAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DENAL 
+       END_POINT          VERNA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VERNA 
+       END_POINT          BAGNO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAGNO 
+       END_POINT          PELEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PELEG 
+       END_POINT          ARGEX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ARGEX 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          KOPER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KOPER 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIC 
+       END_POINT          ALESE 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALESE 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          OGEPI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OGEPI 
+       END_POINT          BRENO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BRENO 
+       END_POINT          INN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B12
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          ALBET 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALBET 
+       END_POINT          SUMIR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SUMIR 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          ATRIG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ATRIG 
+       END_POINT          MATAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MATAR 
+       END_POINT          NORTO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B13
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PES 
+       END_POINT          UTENO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UTENO 
+       END_POINT          GERBU 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GERBU 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          LANLI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LANLI 
+       END_POINT          AMLON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMLON 
+       END_POINT          BELOV 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BELOV 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          VIC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VIC 
+       END_POINT          BORMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BORMI 
+       END_POINT          DIBAX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIBAX 
+       END_POINT          RENTA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RENTA 
+       END_POINT          SUXAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B14
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOL 
+       END_POINT          IXUSI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IXUSI 
+       END_POINT          VALEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B15
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          KALIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KALIK 
+       END_POINT          LUPOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUPOS 
+       END_POINT          BOA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B16
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PIS 
+       END_POINT          BEROK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BEROK 
+       END_POINT          PAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PAR 
+       END_POINT          SRN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B17
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          BORMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BORMI 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          UNIMI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B18
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          ROTAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B19
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROSKA 
+       END_POINT          BADOP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B2
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ELB 
+       END_POINT          MAREL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MAREL 
+       END_POINT          GINAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GINAR 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          BOA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOA 
+       END_POINT          FER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FER 
+       END_POINT          ROVIG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROVIG 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          TULIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TULIK 
+       END_POINT          ROSKA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROSKA 
+       END_POINT          MONFA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MONFA 
+       END_POINT          UMBEK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UMBEK 
+       END_POINT          BARPI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BARPI 
+       END_POINT          DOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B20
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ROTAR 
+       END_POINT          PUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B21
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          IBENI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        IBENI 
+       END_POINT          LOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B22
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          MASEG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        MASEG 
+       END_POINT          NUTRO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NUTRO 
+       END_POINT          ARPIK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B23
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIKOL 
+       END_POINT          ALIVO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B24
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VERUN 
+       END_POINT          GITOD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B3
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          OSKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        OSKOR 
+       END_POINT          NESTI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NESTI 
+       END_POINT          TAGIP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TAGIP 
+       END_POINT          DIBAX 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIBAX 
+       END_POINT          SUMIR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        SUMIR 
+       END_POINT          ALESE 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALESE 
+       END_POINT          VESAL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VESAL 
+       END_POINT          MALUG 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B4
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GEN 
+       END_POINT          KALMO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KALMO 
+       END_POINT          BEROK 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BEROK 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          LASEB 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LASEB 
+       END_POINT          VALEN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        VALEN 
+       END_POINT          BAGNO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAGNO 
+       END_POINT          PIDEP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PIDEP 
+       END_POINT          URBAN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        URBAN 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          LISKO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LISKO 
+       END_POINT          TORPO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TORPO 
+       END_POINT          ELGUS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B5
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RESIA 
+       END_POINT          GIGGI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIGGI 
+       END_POINT          TAGIP 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        TAGIP 
+       END_POINT          ADOSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ADOSA 
+       END_POINT          ALBET 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ALBET 
+       END_POINT          CHI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        CHI 
+       END_POINT          AGOMO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AGOMO 
+       END_POINT          LABIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LABIN 
+       END_POINT          PUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B6
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUSIL 
+       END_POINT          GIGGI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIGGI 
+       END_POINT          RENTA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        RENTA 
+       END_POINT          BZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BZO 
+       END_POINT          BAKOR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAKOR 
+       END_POINT          DETSA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B7
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIRDA 
+       END_POINT          BAXON 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BAXON 
+       END_POINT          LANLI 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LANLI 
+       END_POINT          GUBIN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GUBIN 
+       END_POINT          UMBED 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        UMBED 
+       END_POINT          NIKMA 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIKMA 
+       END_POINT          BOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOL 
+       END_POINT          TAQ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B8
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GIRDA 
+       END_POINT          PUL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PUL 
+       END_POINT          NIKOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        NIKOL 
+       END_POINT          BUSER 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BUSER 
+       END_POINT          ANC 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        ANC 
+       END_POINT          DIKOM 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        DIKOM 
+       END_POINT          LEONN 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LEONN 
+       END_POINT          KATAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        KATAR 
+       END_POINT          GITOD 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        GITOD 
+       END_POINT          BOL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 
+ RECORD                   AIRWAY
+ IDENT                    B9
+ AWY_TYPE                 UNDEFINED
+   AWY 
+   BEGINL 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        BOL 
+       END_POINT          AMTEL 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        AMTEL 
+       END_POINT          FRZ 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        FRZ 
+       END_POINT          LUPOS 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        LUPOS 
+       END_POINT          PAR 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+     AIRWAY_ELEMENTS 
+     BEGINS 
+       START_POINT        PAR 
+       END_POINT          TZO 
+       AWY_WIDTH          10.00
+       AWY_HEIGHT         5
+     ENDS 
+   ENDL 

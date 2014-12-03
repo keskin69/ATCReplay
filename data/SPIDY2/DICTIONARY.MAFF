@@ -1,0 +1,1703 @@
+--
+-- IRS ACE 2008B_3, 25/08/08
+--
+--**********************************************************************
+-- AERONAUTICAL DATA DEFINITIONS
+--*********************************************************** 		
+ SINGLE_BASIC_ENTITY  BOOLEAN                ENUMERATED TRUE  FALSE		
+ SINGLE_BASIC_ENTITY  CYCLES                 INTEGER
+ SINGLE_BASIC_ENTITY  FEET_PER_MINUTE        FLOAT    -20000.0 20000.0
+ SINGLE_BASIC_ENTITY  KNOTS                  FLOAT    0.0 1000.0
+ SINGLE_BASIC_ENTITY  CAS                    FLOAT    0.0 1000.0
+ SINGLE_BASIC_ENTITY  MACH_NUMBER            FLOAT    0.0 3.0 
+ SINGLE_BASIC_ENTITY  FEET                   INTEGER  -1000 100000
+ SINGLE_BASIC_ENTITY  MEGA_HERTZ             FLOAT
+ SINGLE_BASIC_ENTITY  MILES                  FLOAT    0.0 13500.0
+ SINGLE_BASIC_ENTITY  DEGREES                FLOAT    -180.0 180.0
+ SINGLE_BASIC_ENTITY  FULL_DEGREES           FLOAT    0.0 360.0
+ SINGLE_BASIC_ENTITY  PASCALS                FLOAT    0.0 300000.0
+ SINGLE_BASIC_ENTITY  SECONDS                FLOAT
+ SINGLE_BASIC_ENTITY  METERS                 FLOAT    0.0 2.5002E+07 
+ SINGLE_BASIC_ENTITY  KILOGRAMS              FLOAT    0.0 500000.0
+ SINGLE_BASIC_ENTITY  KELVIN                 FLOAT    0.0 50.0
+ SINGLE_BASIC_ENTITY  CELSIUS_TEMPERATURE    FLOAT    -100.0 50.0
+ SINGLE_BASIC_ENTITY  HUMIDITY_PERCENTAGE    FLOAT    0.0 100.0
+ SINGLE_BASIC_ENTITY  FLS                    INTEGER  0 1000
+ SINGLE_BASIC_ENTITY  METERS_PER_SECOND      FLOAT    0.0 101.57833 
+ 
+--**********************************************************************
+-- LAT, LONG COORDINATE DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY LAT_AZIMUTHS   FLOAT 0.0  90.0
+ SINGLE_BASIC_ENTITY LONG_AZIMUTHS  FLOAT 0.0  180.0
+ SINGLE_BASIC_ENTITY   HEMISPHERE 
+    ENUMERATED NORTH SOUTH
+ SINGLE_BASIC_ENTITY   DIRECTION  
+    ENUMERATED EAST WEST
+ MULTIPLE_BASIC_ENTITY LATITUDE 
+ %HEMISPHERE %LAT_AZIMUTHS
+ MULTIPLE_BASIC_ENTITY LONGITUDE 
+   %DIRECTION %LONG_AZIMUTHS
+ STRUCTURE_ENTITY POSITION 
+    FIELD   LAT   %LATITUDE 
+    FIELD   LONG  %LONGITUDE 
+    FIELD   ALT   %FEET
+ STRUCTURE_ENTITY H_POSITION
+    FIELD   LAT   %LATITUDE 
+    FIELD   LONG  %LONGITUDE
+
+--**********************************************************************
+-- DATE DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY HOUR_NUMBER      INTEGER   0 23
+ SINGLE_BASIC_ENTITY MINUTE_NUMBER    INTEGER   0 59
+ SINGLE_BASIC_ENTITY SECOND_DURATION  FLOAT     0.0 60.0
+ SINGLE_BASIC_ENTITY DAY_NUMBER       INTEGER   1 31
+ SINGLE_BASIC_ENTITY MONTH_NUMBER     INTEGER   1 12
+ SINGLE_BASIC_ENTITY YEAR_NUMBER      INTEGER   1900 2050
+ MULTIPLE_BASIC_ENTITY DATE_DAY 
+   %YEAR_NUMBER %MONTH_NUMBER %DAY_NUMBER
+ MULTIPLE_BASIC_ENTITY DAY_HOUR
+   %HOUR_NUMBER %MINUTE_NUMBER %SECOND_DURATION
+ STRUCTURE_ENTITY COMPLETE_DATE
+    FIELD THE_DAY    %DATE_DAY 
+    FIELD THE_HOUR   %DAY_HOUR
+
+ SINGLE_BASIC_ENTITY  NM_1      FLOAT    0.00 1.00
+ SINGLE_BASIC_ENTITY  NM_5      FLOAT    0.00 5.00
+ SINGLE_BASIC_ENTITY  NM_10     FLOAT    0.00 10.00
+ SINGLE_BASIC_ENTITY  NM_15     FLOAT    0.00 15.00
+ SINGLE_BASIC_ENTITY  NM_20     FLOAT    0.00 20.00
+ 
+--**********************************************************************
+-- ATC AND AIRCRAFT RELATED DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY CALL_SIGN         STRING 8
+ SINGLE_BASIC_ENTITY AIRCRAFT          STRING 4
+ SINGLE_BASIC_ENTITY MODEL             STRING 6
+ 
+ SINGLE_BASIC_ENTITY AC_NUMBER         INTEGER 1 99
+ SINGLE_BASIC_ENTITY SSR_CODE          INTEGER 0 7777
+ SINGLE_BASIC_ENTITY FLIGHT_ID         INTEGER 1 2000
+
+ SINGLE_BASIC_ENTITY SSR_MODE
+    ENUMERATED MODE_A MODE_B MODE_C MODE_D  
+ SINGLE_BASIC_ENTITY AIRCRAFT_TYPE
+    ENUMERATED JET TURBO LGHT
+ LIST_ENTITY CATEGORY_LIST   %AIRCRAFT_TYPE
+ SINGLE_BASIC_ENTITY WAKE_TURBULENCE_CAT
+    ENUMERATED LIGHT MEDIUM HEAVY 
+ SINGLE_BASIC_ENTITY AIR_TRAFFIC_TYPE
+    ENUMERATED NONE SCHEDULED NON_SCHEDULED GAT MILITARY OTHER   
+ SINGLE_BASIC_ENTITY AIRCRAFT_SSR_EQUIPMENT 
+    ENUMERATED NOTHING EQ_MODE_A EQ_MODE_C EQ_MODE_S_X EQ_MODE_S_P EQ_MODE_S_I EQ_MODE_S
+ SINGLE_BASIC_ENTITY SPEED_CONSTRAINT_TYPES 
+    ENUMERATED CAS MACH CAS_MACH
+ SINGLE_BASIC_ENTITY CRUISING_SPEED_DOMAIN 
+    ENUMERATED TAS MACH 
+ SINGLE_BASIC_ENTITY FLIGHT_PHASIS 
+    ENUMERATED TAKE_OFF SID EN_ROUTE INITIAL_CLIMB LOW_LEVEL_CLIMB CAS_CRUISE CAS_CLIMB /
+             MACH_CLIMB MACH_CRUISE MACH_DESCENT CAS_DESCENT LOW_LEVEL_DESCENT/
+             INITIAL_APPROACH INTERMEDIATE_APPROACH FINAL_APPROACH STAR LANDING_RUN HOLD
+ SINGLE_BASIC_ENTITY FLIGHT_TYPE 
+    ENUMERATED SHORT_RANGE MID_RANGE LONG_RANGE FULL_RANGE
+ SINGLE_BASIC_ENTITY FLIGHT_RULE 
+    ENUMERATED VFR IFR IFR_THEN_VFR VFR_THEN_IFR
+
+ STRUCTURE_ENTITY SSR_IDENT
+    FIELD   MODE  %SSR_MODE
+    FIELD   CODE  %SSR_CODE            
+ 
+ STRUCTURE_ENTITY CRUISING_SPEED_DEFINITION
+    FIELD   SPEED_DOMAIN      %CRUISING_SPEED_DOMAIN
+    FIELD   TAS_VALUE         %KNOTS
+    FIELD   MACH_VALUE        %MACH_NUMBER
+
+ STRUCTURE_ENTITY SPEED_CONSTRAINTS
+    FIELD   CONSTRAINT        %SPEED_CONSTRAINT_TYPES 
+    FIELD   ROCD              %FEET_PER_MINUTE             
+    FIELD   CAS_VALUE         %CAS
+    FIELD   MACH_VALUE        %MACH_NUMBER
+
+ SINGLE_BASIC_ENTITY AIRLINE           STRING 12
+
+ SINGLE_BASIC_ENTITY AIRCRAFT_FMS_EQUIPMENT 
+    ENUMERATED  NON_EQUIPPED FMS_3D FMS_4D
+	 
+ SINGLE_BASIC_ENTITY AIRCRAFT_ACAS_EQUIPMENT 
+    ENUMERATED EQUIPPED NON_EQUIPPED
+	 
+ SINGLE_BASIC_ENTITY AIRCRAFT_ADS_EQUIPMENT 
+    ENUMERATED EQUIPPED NON_EQUIPPED
+ 
+SINGLE_BASIC_ENTITY AIRCRAFT_RVSM_STATUS 
+    ENUMERATED RVSM NON_RVSM RVSM_STATE NON_RVSM_STATE
+
+SINGLE_BASIC_ENTITY AIRCRAFT_ADS_B_EQUIPMENT
+    ENUMERATED NON_EQUIPPED EMISSION EMISSION_RECEPTION
+
+SINGLE_BASIC_ENTITY AIRCRAFT_ASAS_EQUIPMENT
+    ENUMERATED EQUIPPED NON_EQUIPPED
+
+SINGLE_BASIC_ENTITY ASAS_EQUIPMENT_TYPE
+    ENUMERATED NO BASIC INTER ADVANCED
+
+SINGLE_BASIC_ENTITY AIRCRAFT_DATALINK_EQUIPMENT 
+    ENUMERATED EQUIPPED NON_EQUIPPED
+
+ SINGLE_BASIC_ENTITY MANAGED_BY 
+    ENUMERATED MASS MCS DUMMY
+
+ SINGLE_BASIC_ENTITY PREP_FLAG 
+    ENUMERATED VALUE_0 VALUE_1 VALUE_2 VALUE_3 VALUE_4 VALUE_5 VALUE_6 VALUE_7 
+	       VALUE_8 VALUE_9 VALUE_10 VALUE_11 VALUE_12 VALUE_13 VALUE_14 
+               VALUE_15
+					
+--**********************************************************************
+-- AIRSPACE MODEL BASIC DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY ATC_CONSTRAINT_ID STRING 20 
+	 LIST_ENTITY ATC_CONSTRAINT_ID_LIST %ATC_CONSTRAINT_ID
+ 
+ STRUCTURE_ENTITY ALTITUDE_RANGE
+    FIELD   MAXI   %FEET 
+    FIELD   MINI   %FEET
+  
+ STRUCTURE_ENTITY SPEED_RANGE
+    FIELD   MAXI   %KNOTS 
+    FIELD   MINI   %KNOTS
+
+ SINGLE_BASIC_ENTITY NAVAID_TYPE 
+    ENUMERATED NDB_NAVAID VHF_NAVAID MLS_NAVAID WAYPOINT
+ SINGLE_BASIC_ENTITY VHF_NAVAID_TYPE
+    ENUMERATED VOR VOR_DME TACAN VORTAC
+ SINGLE_BASIC_ENTITY  FIR_UIR_ID              STRING 5
+ SINGLE_BASIC_ENTITY  NAVIGATION_POINT_NAME   STRING 5
+ SINGLE_BASIC_ENTITY  AIRPORT_ID              STRING 4
+
+   -- RUNWAY
+ SINGLE_BASIC_ENTITY APPROACH_INSTRUMENT_KIND
+    ENUMERATED ILS MLS
+ SINGLE_BASIC_ENTITY ILS_CATEGORY 
+  ENUMERATED '0' '1' '2' '3'
+ MULTIPLE_BASIC_ENTITY ILS_DESCRIPTOR
+ %DEGREES %ILS_CATEGORY   -- A RAJOUTER
+ STRUCTURE_ENTITY APPROACH_INSTRUMENT 
+    FIELD    KIND       %APPROACH_INSTRUMENT_KIND 
+    FIELD   ILS_INFO    %ILS_DESCRIPTOR            
+ SINGLE_BASIC_ENTITY  RUNWAY_QFU   STRING 2  -- par exemple 34
+
+ SINGLE_BASIC_ENTITY  RUNWAY_DIRECTION
+    ENUMERATED   'L' 'R' 'C'
+
+ SINGLE_BASIC_ENTITY  MAGVAR_SIGN
+    ENUMERATED   'E' 'W' 'T'
+SINGLE_BASIC_ENTITY  MAGVAR_ANGLE     INTEGER    0 360
+SINGLE_BASIC_ENTITY POINT_LONG_NAME           STRING 30
+SINGLE_BASIC_ENTITY  LOC_FREQUENCY     FLOAT    0.0000 999.9999
+SINGLE_BASIC_ENTITY  ELEVATION     INTEGER    -9999 99999
+
+ STRUCTURE_ENTITY RUNWAY_ID
+    FIELD NB   %RUNWAY_QFU
+    FIELD DR   %RUNWAY_DIRECTION
+
+ STRUCTURE_ENTITY RUNWAY_KEY 
+   FIELD AP   %AIRPORT_ID 
+   FIELD RU   %RUNWAY_ID
+
+ LIST_ENTITY RUNWAY_KEY_LIST %RUNWAY_KEY
+
+   --HOLD
+ SINGLE_BASIC_ENTITY  HOLD_DIRECTION 
+    ENUMERATED 'L' 'R'
+ SINGLE_BASIC_ENTITY HOLD_DUPLICATE_IDENT  STRING 2
+ STRUCTURE_ENTITY    HOLD_KEY 
+   FIELD POINT    %NAVIGATION_POINT_NAME 
+   FIELD DUP_ID   %HOLD_DUPLICATE_IDENT
+
+ LIST_ENTITY HOLD_KEY_LIST %HOLD_KEY
+
+   --STAR
+ SINGLE_BASIC_ENTITY    STAR_ID      STRING  7 
+ MULTIPLE_BASIC_ENTITY    STAR_KEY 
+   %STAR_ID %AIRPORT_ID 
+ LIST_ENTITY STAR_KEY_LIST %STAR_KEY
+
+   --SID
+ SINGLE_BASIC_ENTITY       SID_ID    STRING 7 
+ MULTIPLE_BASIC_ENTITY     SID_KEY 
+   %SID_ID  %AIRPORT_ID    
+ LIST_ENTITY   SID_KEY_LIST   %SID_KEY
+
+   --CENTRE 
+ SINGLE_BASIC_ENTITY  SOFTWARE_CENTRE_NUMBER    INTEGER 1 10   
+ SINGLE_BASIC_ENTITY  SOFTWARE_CENTRE_NAME      STRING 8       
+ SINGLE_BASIC_ENTITY  ATC_CENTRE_NUMBER         INTEGER 1 20   
+ SINGLE_BASIC_ENTITY  ATC_CENTRE_NAME           STRING 8       
+ SINGLE_BASIC_ENTITY  ATC_CENTRE_ADDRESS        STRING 8       
+ SINGLE_BASIC_ENTITY  ATC_CENTRE_PAIR_ID        INTEGER 1 10   
+
+ 
+ SINGLE_BASIC_ENTITY       AIRWAY_ID    STRING   7
+ SINGLE_BASIC_ENTITY       SECTOR_ID    STRING   5
+
+   -- CONTROLLER
+ SINGLE_BASIC_ENTITY  CONTROLLER_NUMBER    INTEGER 0 64
+
+   -- AIRWAY
+ SINGLE_BASIC_ENTITY AIRWAY_TYPE
+    ENUMERATED UPPER LOWER ASAS EXTENDED_GRAPHICAL_CENTRE_LINE UNDEFINED
+
+   -- SECTOR
+ MULTIPLE_BASIC_ENTITY SECTOR_IDS 
+   %SECTOR_ID %MEGA_HERTZ
+ MULTIPLE_BASIC_ENTITY SECTOR_KEY 
+   %SECTOR_ID %MEGA_HERTZ %ATC_CENTRE_NUMBER
+
+ -- SECTOR CONTROLLER MAPPING
+MULTIPLE_BASIC_ENTITY SECT_MAP_KEY 
+   %ATC_CENTRE_NUMBER %SOFTWARE_CENTRE_NUMBER
+
+ SINGLE_BASIC_ENTITY  NAVIGATION_POINT_TYPE
+    ENUMERATED TERMINAL EN_ROUTE
+
+ STRUCTURE_ENTITY MAGVAR 
+    FIELD   SIGN           %MAGVAR_SIGN 
+    FIELD   ANGLE        %MAGVAR_ANGLE
+
+ STRUCTURE_ENTITY NAVAID_KIND 
+    FIELD   KIND       %NAVAID_TYPE 
+    FIELD   VHF_TYPE   %VHF_NAVAID_TYPE
+
+ SINGLE_BASIC_ENTITY NAVIGATION_EQUIPMENT_STATE 
+    ENUMERATED ACTIVE IDL DAMAGED
+
+ SINGLE_BASIC_ENTITY TERMINAL_USAGE_KIND 
+    ENUMERATED INITIAL_APPROACH_FIX FINAL_APPROACH_CURSE_FIX
+               FINAL_APPROACH_FIX AIRPORT HOLDING GATEWAY
+
+ STRUCTURE_ENTITY TERMINAL_USAGE 
+    FIELD   KIND     %TERMINAL_USAGE_KIND 
+    FIELD   RUNWAY   %RUNWAY_ID
+
+ SINGLE_BASIC_ENTITY  EN_ROUTE_USAGE 
+    ENUMERATED HIGH_AIRWAY LOW_AIRWAY HIGH_AND_LOW_AIRWAY RNAV_AIRWAY HOLDING
+
+ SINGLE_BASIC_ENTITY  DISPLAY 
+    ENUMERATED DISPLAY_NEEDED DISPLAY_NOT_NEEDED 
+ 
+   --SIGNIFICANT_POINT
+ SINGLE_BASIC_ENTITY  SIGNIFICANT_POINT_KIND 
+    ENUMERATED GEOGRAPHICAL PUBLISHED_POINT RANGE_AND_BEARING
+
+ STRUCTURE_ENTITY SIGNIFICANT_POINT_DEFINITION
+   FIELD    POINT_KIND  %SIGNIFICANT_POINT_KIND  
+   FIELD    POSITION    %H_POSITION               
+   FIELD    NAME        %NAVIGATION_POINT_NAME   
+   FIELD    BEARING     %FULL_DEGREES            
+   FIELD    DISTANCE    %MILES                   
+   
+ STRUCTURE_ENTITY ENTRY_POINT
+   FIELD START_POINT  %SIGNIFICANT_POINT_DEFINITION  
+   FIELD NEXT_POINT   %SIGNIFICANT_POINT_DEFINITION   
+   FIELD HEADING      %FULL_DEGREES                   
+
+--**********************************************************************
+-- AIRSPACE BOX
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY SEG_POINT_NAME  STRING 5
+ STRUCTURE_ENTITY SEG_POINT_INFO
+   FIELD    NAME %SEG_POINT_NAME      
+   FIELD    POS  %H_POSITION          
+
+ STRUCTURE_ENTITY SEGMENT_BOXES
+    FIELD BEG_POINT  %SEG_POINT_INFO
+    FIELD END_POINT  %SEG_POINT_INFO
+    FIELD LEVEL_INF  %FLS     
+    FIELD LEVEL_SUP  %FLS     
+
+ LIST_ENTITY SEGMENT_BOXES_LIST %SEGMENT_BOXES
+
+ SINGLE_BASIC_ENTITY BOX_NUMBER  INTEGER 1 127
+
+ STRUCTURE_ENTITY    BOX
+    FIELD NUMBER     %BOX_NUMBER       
+    FIELD SEGS_LIST  %SEGMENT_BOXES_LIST
+
+ LIST_ENTITY   BOXES_LIST %BOX
+ 
+--**********************************************************************
+-- DATALINK  DEFINITIONS
+--**********************************************************************
+
+SINGLE_BASIC_ENTITY DATA_EQUIPMENT
+    ENUMERATED EQUIPPED NON_EQUIPPED
+SINGLE_BASIC_ENTITY CM_MAINT_COM INTEGER 0 10
+SINGLE_BASIC_ENTITY TIME_BEF_BOUND INTEGER 1 30
+SINGLE_BASIC_ENTITY COUNTRY_CODE STRING 3
+SINGLE_BASIC_ENTITY CENTRE_TYPE
+   ENUMERATED SIMULATED EXPERIMENTAL
+SINGLE_BASIC_ENTITY DTL_NAME
+    ENUMERATED CMA CPC ADS TN
+SINGLE_BASIC_ENTITY DTL_MODE
+ ENUMERATED AIR_OR_GROUND_INITIATED GROUND_ONLY_INITIATED AIR_ONLY_INITIATED
+SINGLE_BASIC_ENTITY DTL_VERSION INTEGER 1 255
+SINGLE_BASIC_ENTITY DTL_ADDRESS STRING 44
+
+STRUCTURE_ENTITY APPLICATION_ITEM
+    FIELD NAME %DTL_NAME
+    FIELD MODE %DTL_MODE
+    FIELD VERSION %DTL_VERSION
+    FIELD ADDRESS %DTL_ADDRESS
+
+LIST_ENTITY DATA_APPLI %APPLICATION_ITEM
+
+--**********************************************************************
+-- AIR GROUND COMMUNICATION DEVICES DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY DEVICE_TYPE_ORIGIN
+    ENUMERATED UNDEFINED_ORIGIN ADS_ORIGIN RADAR_ORIGIN COMBINED_ORIGIN
+
+--**********************************************************************
+-- SEPARATION PARAMETERS
+--**********************************************************************
+
+SINGLE_BASIC_ENTITY  ALTITUDE_SEPARATION  FLOAT      0.0 100000.0
+SINGLE_BASIC_ENTITY  HORIZONTAL_SEPARATION  FLOAT    0.0 100.0
+
+--**********************************************************************
+--  CONTENTS OF SUPERVISION_FILE
+--
+--                   START_TIME             RECORD 
+--**********************************************************************
+
+ RECORD START_TIME 
+    FIELD   ST    %COMPLETE_DATE
+
+
+   --**********************************************************************
+   --**********************************************************************
+   --    1. BEGINING SECTION FOR :
+   --       TRAFFIC DATA FILES
+   --**********************************************************************
+   --**********************************************************************
+  
+--**********************************************************************
+--  CONTENTS OF TRAFFIC_FILE
+--                      1. TRAFFIC_ITEM RECORD            
+--**********************************************************************
+SINGLE_BASIC_ENTITY   SPEED_MANAGEMENT_SYSTEM_STATE
+   ENUMERATED   AUTOMATIC MANUAL
+
+STRUCTURE_ENTITY RTA_DATA
+    FIELD   WAYPOINT                %NAVIGATION_POINT_NAME
+    FIELD   TIME                    %DAY_HOUR                
+
+ STRUCTURE_ENTITY FLIGHT_INFO
+    FIELD   CALL_SIGN               %CALL_SIGN                
+    FIELD   AIR_MANAGED_BY          %MANAGED_BY       
+    FIELD   SPEED_MANAGEMENT_SYSTEM %SPEED_MANAGEMENT_SYSTEM_STATE 
+    FIELD   AIRLINE_NAME            %AIRLINE                  
+    FIELD   FTYPE                   %AIR_TRAFFIC_TYPE         
+    FIELD   FRULES                  %FLIGHT_RULE              
+    FIELD   SSR_EQUIPMENT           %AIRCRAFT_SSR_EQUIPMENT   
+    FIELD   ADEP                    %AIRPORT_ID               
+    FIELD   ADES                    %AIRPORT_ID               
+    FIELD   FLIGHT_RANGE            %FLIGHT_TYPE              
+    FIELD   ETD                     %DAY_HOUR                   
+    FIELD   SID                     %SID_ID                   
+    FIELD   STAR                    %STAR_ID                  
+    FIELD   RTA                     %RTA_DATA 
+    FIELD   ENTRY_POINT             %ENTRY_POINT              
+    FIELD   AIRCRAFT_TYPE           %AIRCRAFT                 
+    FIELD   WTC                     %WAKE_TURBULENCE_CAT      
+    FIELD   AC_NUMBER               %AC_NUMBER                
+    FIELD   AIRCRAFT_MODEL          %MODEL                    
+    FIELD   SSR_IDENT_INFO          %SSR_IDENT                
+    FIELD   FIRST_SECTOR            %SECTOR_IDS              
+    FIELD   PREP_RESERVED_FLAG_1    %PREP_FLAG                
+    FIELD   PREP_RESERVED_FLAG_2    %PREP_FLAG                
+ 
+ STRUCTURE_ENTITY FLIGHT_EQUIP
+    FIELD   AIRFRAME_ID               %FLIGHT_ID
+    FIELD   FIRST_GROUND_DESIGNATOR   %ATC_CENTRE_NAME
+    FIELD   FMS_EQUIPMENT             %AIRCRAFT_FMS_EQUIPMENT   
+    FIELD   ACAS_EQUIPMENT            %AIRCRAFT_ACAS_EQUIPMENT   
+    FIELD   RVSM_STATUS               %AIRCRAFT_RVSM_STATUS  
+    FIELD   ADS_B_EQUIPMENT           %AIRCRAFT_ADS_B_EQUIPMENT  
+    FIELD   ASAS_EQUIPMENT            %AIRCRAFT_ASAS_EQUIPMENT   
+    FIELD   SEQUENCING                %ASAS_EQUIPMENT_TYPE       
+    FIELD   CROSSING                  %ASAS_EQUIPMENT_TYPE        
+    FIELD   DATALINK_EQUIPMENT        %AIRCRAFT_DATALINK_EQUIPMENT 
+    FIELD   DATALINK_APPLICATION      %DATA_APPLI
+	 
+
+ SINGLE_BASIC_ENTITY PATH_KIND
+    ENUMERATED AIRWAY POINT
+
+ STRUCTURE_ENTITY PATH_ELEMENT
+    FIELD   PATH_ITEM_KIND     %PATH_KIND                    
+    FIELD   AIRWAY             %AIRWAY_ID                     
+    FIELD   SIGNIFICANT_POINT  %SIGNIFICANT_POINT_DEFINITION 
+
+ STRUCTURE_ENTITY ROUTE_ITEM
+    FIELD   PATH_ITEM       %PATH_ELEMENT                
+    FIELD   RFL             %FLS                        
+    FIELD   CONTROL_FL      %FLS                        
+    FIELD   CRUISING_SPEED  %CRUISING_SPEED_DEFINITION  
+
+ LIST_ENTITY ROUTE_ITEM_LIST %ROUTE_ITEM
+
+--**********************************************************************
+-- ESTIMATED_DATA_LIST 
+--**********************************************************************
+
+ STRUCTURE_ENTITY ESTIMATED_DATA
+    FIELD CENTRE          %SOFTWARE_CENTRE_NUMBER        
+    FIELD BPN             %SIGNIFICANT_POINT_DEFINITION  
+    FIELD ETB             %DAY_HOUR                      
+    FIELD CFL             %FLS                           
+    FIELD AFL             %FLS                           
+    FIELD MASS            %KILOGRAMS                     
+    FIELD SSR_IDENT_INFO  %SSR_IDENT                     
+
+ LIST_ENTITY ESTIMATED_FLIGHT_DATA_LIST %ESTIMATED_DATA
+
+ RECORD TRAFFIC_ITEM
+    IDENT %FLIGHT_ID
+    FIELD FLIGHT_INFORMATION  %FLIGHT_INFO
+    FIELD FLIGHT_EQUIPMENTS     %FLIGHT_EQUIP
+    FIELD ROUTE               %ROUTE_ITEM_LIST
+    FIELD ESTIMATED_DATA_LIST %ESTIMATED_FLIGHT_DATA_LIST
+
+   
+   --**********************************************************************
+   --**********************************************************************
+   --    2. BEGINING SECTION FOR :
+   --       AIRSPACE MODEL DATA FILES
+   --**********************************************************************
+   --**********************************************************************
+
+--**********************************************************************
+--  CONTENTS OF NAVIGATION_POINTS_FILE
+--                      1. NAVIGATION_POINT RECORD
+--**********************************************************************
+
+
+--**********************************************************************
+-- NAVIGATION_POINT
+--**********************************************************************
+
+ RECORD NAVIGATION_POINT                             
+    IDENT   %NAVIGATION_POINT_NAME                   
+    FIELD   FIR_UIR          %FIR_UIR_ID             
+    FIELD   PTYPE            %NAVIGATION_POINT_TYPE  
+    FIELD   POSITION         %H_POSITION             
+    FIELD   NAVAID           %NAVAID_KIND             
+    FIELD   STATE            %NAVIGATION_EQUIPMENT_STATE
+    FIELD   TUSAGE           %TERMINAL_USAGE         
+    FIELD   EUSAGE           %EN_ROUTE_USAGE         
+    FIELD   REPORT_NEEDED    %BOOLEAN   
+    FIELD   DISPLAY_ON_STRIP %DISPLAY  
+    FIELD   CWP_DISPLAYABLE  %DISPLAY  
+    FIELD   ATC_CONSTRAINTS  %ATC_CONSTRAINT_ID_LIST
+    FIELD   LONG_NAME           %POINT_LONG_NAME     
+    FIELD   FREQUENCY           %LOC_FREQUENCY       
+    FIELD   ELEVATION           %ELEVATION         
+    FIELD   MAGNETIC_VARIATION  %MAGVAR       
+
+
+--**********************************************************************
+--  CONTENTS OF AIRPORTS_FILE
+--                   1. AIRPORT RECORD
+--**********************************************************************
+
+--**********************************************************************
+-- AIRPORT
+--**********************************************************************
+
+ RECORD AIRPORT 
+    IDENT   %AIRPORT_ID                         
+    FIELD   POSITION             %H_POSITION     
+    FIELD   ELEVATION            %FEET          
+    FIELD  TRANSITION_ALTITUDE   %FEET         
+
+--**********************************************************************
+--  CONTENTS RUNWAYS_FILE
+--                   1. RUNWAY RECORD
+--**********************************************************************
+
+--**********************************************************************
+-- RUNWAY
+--**********************************************************************
+ SINGLE_BASIC_ENTITY RUNWAY_USE ENUMERATED DEPARTURE ARRIVAL
+
+ RECORD RUNWAY
+    IDENT   %RUNWAY_KEY                            
+    FIELD   ACTIVE               %BOOLEAN
+    FIELD   USE                  %RUNWAY_USE
+    FIELD   MAGNETIC_BEARING     %FULL_DEGREES       
+    FIELD   POSITION             %H_POSITION         
+    FIELD   LENGTH               %METERS             
+    FIELD   EQUIPMENT            %APPROACH_INSTRUMENT
+    FIELD   STRIP_WIDTH          %NM_1
+    FIELD   APM_DISTANCE         %NM_20
+    FIELD   GLIDE_ANGLE          %NM_5
+    FIELD   LATERAL_ANGLE        %NM_15
+    FIELD   RADIUS_INHIBITION    %NM_10
+    FIELD   DPM_DISTANCE         %NM_20
+    FIELD   CLIMB_ANGLE          %NM_5
+    FIELD   APM_GLIDE_THRESHOLD  %NM_1
+    FIELD   DPM_GLIDE_THRESHOLD  %NM_1
+    FIELD   ROLL_OUT             %H_POSITION
+    FIELD   FREQUENCY            %LOC_FREQUENCY
+    FIELD   ELEVATION            %ELEVATION
+    FIELD   MAGNETIC_VARIATION   %MAGVAR
+    FIELD   CENTRE_LINE_LENGTH   %METERS
+    FIELD   CENTRE_LINE_REF_DIST %METERS
+
+
+--**********************************************************************
+--  CONTENTS OF HOLDS_FILE
+--                     1. HOLD RECORD
+--                     2. HOLD_DEFAULT_SPEED RECORD         
+--**********************************************************************
+
+--**********************************************************************
+-- HOLD
+--**********************************************************************
+
+ RECORD HOLD
+    IDENT   %HOLD_KEY                       
+    FIELD   ORIENTATION    %FULL_DEGREES     
+    FIELD   TURN_DIRECTION %HOLD_DIRECTION  
+    FIELD   LEG_TIME       %SECONDS          
+    FIELD   LEG_LENGTH     %MILES           
+    FIELD   LEVEL_HOLD     %ALTITUDE_RANGE
+
+
+--**********************************************************************
+-- HOLD_DEFAULT_SPEED
+--**********************************************************************
+
+ STRUCTURE_ENTITY    HOLD_LEVEL_SPEED
+    FIELD   LEVEL_R   %ALTITUDE_RANGE
+    FIELD   SPEED_R   %SPEED_RANGE
+ LIST_ENTITY   HOLD_LEVEL_SPEED_LIST  %HOLD_LEVEL_SPEED  
+ RECORD HOLD_DEFAULT_SPEED 
+    FIELD   TR   %HOLD_LEVEL_SPEED_LIST
+
+
+
+--**********************************************************************
+--  CONTENTS OF SIDS_STARS_FILE
+--                   1. SID RECORD
+--                   2. STAR RECORD
+--**********************************************************************
+
+
+--**********************************************************************
+-- SID
+--**********************************************************************
+ 
+ STRUCTURE_ENTITY SID_POINTS 
+    FIELD   POINT          	%NAVIGATION_POINT_NAME  
+    FIELD   CONTROLLER_ID       %CONTROLLER_NUMBER      
+    FIELD   TARGET_ALT     	%FEET                   
+    FIELD   CAS_VALUE           %CAS                    
+
+ LIST_ENTITY SID_POINTS_LIST %SID_POINTS
+
+ RECORD SID
+    IDENT %SID_KEY                             
+    FIELD RU          %RUNWAY_ID              
+    FIELD START       %NAVIGATION_POINT_NAME  
+    FIELD EXIT_P      %NAVIGATION_POINT_NAME  
+    FIELD POINTS_LIST %SID_POINTS_LIST
+    FIELD AIRCRAFT_CATEGORY_LIST %CATEGORY_LIST 
+    
+
+--**********************************************************************
+-- STAR
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY APPROACH_KIND 
+    ENUMERATED INITIAL INTERMEDIARY FINAL GO_AROUND
+
+ STRUCTURE_ENTITY STAR_POINTS 
+    FIELD POINT 		%NAVIGATION_POINT_NAME   
+    FIELD CONTROLLER_ID         %CONTROLLER_NUMBER      
+    FIELD TARGET_ALT     	%FEET
+    FIELD NOT_BELOW_ALT 	%FEET
+    FIELD NOT_ABOVE_ALT 	%FEET
+    FIELD PHASIS         	%APPROACH_KIND  
+    FIELD CAS_VALUE             %CAS           
+
+ LIST_ENTITY STAR_POINTS_LIST  %STAR_POINTS
+
+ RECORD STAR
+    IDENT %STAR_KEY                         
+    FIELD RU       %RUNWAY_ID              
+    FIELD GATE    %NAVIGATION_POINT_NAME   
+    FIELD FAF     %NAVIGATION_POINT_NAME   
+    FIELD POINTS_LIST    %STAR_POINTS_LIST 
+    FIELD AIRCRAFT_CATEGORY_LIST %CATEGORY_LIST
+    
+
+--**********************************************************************
+--  CONTENTS OF AIRWAYS_FILE
+--                   1. AIRWAY RECORD
+--**********************************************************************
+
+--**********************************************************************
+-- AIRWAY
+--**********************************************************************
+
+ STRUCTURE_ENTITY    AIRWAY_ELEMENTS
+    FIELD   START_POINT    %NAVIGATION_POINT_NAME 
+    FIELD   END_POINT      %NAVIGATION_POINT_NAME 
+    FIELD   AWY_WIDTH      %NM_20
+    FIELD   AWY_HEIGHT     %FLS
+
+
+ LIST_ENTITY AIRWAY_ELEMENTS_LIST %AIRWAY_ELEMENTS
+
+ RECORD AIRWAY
+    IDENT %AIRWAY_ID
+    FIELD AWY_TYPE   %AIRWAY_TYPE
+    FIELD AWY        %AIRWAY_ELEMENTS_LIST
+
+
+--**********************************************************************
+--  CONTENTS OF SECTORS_FILE
+--                   1. SECTOR RECORD
+--**********************************************************************
+
+--**********************************************************************
+-- SECTOR
+-- 
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY SECTOR_KIND 
+    ENUMERATED CIVIL MILITARY
+
+ SINGLE_BASIC_ENTITY SECTOR_CONTROL_KIND 
+    ENUMERATED EN_ROUTE APPROACH TOWER
+
+ SINGLE_BASIC_ENTITY FLIGHT_REGION
+    ENUMERATED FIR  UIR BOTH
+
+ RECORD SECTOR
+    IDENT %SECTOR_KEY    
+    FIELD  K                        %SECTOR_KIND 
+    FIELD  CONTROL_KIND             %SECTOR_CONTROL_KIND
+    FIELD  VERTICAL_SEPARATION_INF  %ALTITUDE_SEPARATION
+    FIELD  VERTICAL_SEPARATION_SUP  %ALTITUDE_SEPARATION
+    FIELD  LATERAL_SEPARATION       %HORIZONTAL_SEPARATION
+    FIELD  BL                       %BOXES_LIST
+    FIELD  FL_REGION                %FLIGHT_REGION
+
+
+   --**********************************************************************
+   --   4. BEGINING OF MAIN SECTION FOR :
+   --       FILE METEO MODEL 
+   --**********************************************************************
+   --**********************************************************************
+
+--**********************************************************************
+--  CONTENTS OF METEO_MODEL_FILE
+--                      1. WIND_MESURE RECORD
+--                      2. DELTA_ISA RECORD
+--                      3. AIRPORTS_QFE RECORD
+--
+--  CONTENTS OF DETAILED METEO_MODEL_FILE
+--                      1. DELTA_ISA RECORD
+--                      2. METEO_VOLUMES RECORD
+
+--**********************************************************************
+
+--**********************************************************************
+-- WIND_MESURE
+--**********************************************************************
+
+ RECORD WIND_MESURE 
+    FIELD   AMPLITUDE   %METERS_PER_SECOND      
+    FIELD   HEADING     %DEGREES               
+
+--**********************************************************************
+-- DELTA_ISA TO BE CHANGED IN SEA LEVEL TEMPERATURE
+--**********************************************************************
+
+ RECORD DELTA_ISA
+    FIELD   TEMP        %CELSIUS_TEMPERATURE
+
+--**********************************************************************
+-- WIND DATA FOR NEW DETAILED METEO MODEL
+--**********************************************************************
+LIST_ENTITY SEG_POINT_LIST %SEG_POINT_INFO
+
+STRUCTURE_ENTITY WIND_MEASURE
+    FIELD   AMPLITUDE   %METERS_PER_SECOND
+    FIELD   HEADING     %DEGREES
+
+STRUCTURE_ENTITY METEO_DATA_ENTITY
+    FIELD INF_LEVEL	         %FLS
+    FIELD SUP_LEVEL	         %FLS
+    FIELD WIND	                 %WIND_MEASURE
+    FIELD TEMPERATURE            %CELSIUS_TEMPERATURE
+    FIELD PRESSURE               %PASCALS
+    FIELD HUMIDITY               %HUMIDITY_PERCENTAGE
+
+LIST_ENTITY METEO_DATA_ENTITY_LIST %METEO_DATA_ENTITY
+
+STRUCTURE_ENTITY   VERTICAL_FORECAST
+    FIELD   FORECAST_TIME %DAY_HOUR
+    FIELD   METEO_DATA_LIST %METEO_DATA_ENTITY_LIST
+
+LIST_ENTITY   VERTICAL_FORECAST_LIST %VERTICAL_FORECAST
+
+STRUCTURE_ENTITY VOLUME_FORECASTS
+    FIELD   HORIZONTAL_LIMITS %SEG_POINT_LIST
+    FIELD   VERTICAL_FORECASTS %VERTICAL_FORECAST_LIST
+
+LIST_ENTITY VOLUME_FORECASTS_LIST %VOLUME_FORECASTS
+
+RECORD WINDS
+    FIELD   DATE %DATE_DAY
+    FIELD   VOLUMES_FORECASTS %VOLUME_FORECASTS_LIST
+
+--**********************************************************************
+-- AIRPORTS_QFE
+-- NEW DATA
+--**********************************************************************
+
+ STRUCTURE_ENTITY AIRPORT_QFE
+   FIELD AIRPORT  %AIRPORT_ID
+   FIELD QFE      %PASCALS
+
+ LIST_ENTITY   AIRPORT_QFE_LIST  %AIRPORT_QFE
+
+ RECORD  AIRPORTS_QFE
+   FIELD AQE   %AIRPORT_QFE_LIST  
+
+
+   --**********************************************************************
+   --**********************************************************************
+   --   5. BEGINNING OF SECTION 
+   --       
+   --**********************************************************************
+   --**********************************************************************
+  
+--**********************************************************************
+--  CONTENTS OF AIR GROUND COM DEVICES COVERAGE FILE
+--                      1. DEVICE_ITEM RECORD            
+--**********************************************************************
+
+STRUCTURE_ENTITY DEVICES_TYPE_ORIGINS
+   FIELD INSIDE_COVERAGE_TYPE_ORIGIN   %DEVICE_TYPE_ORIGIN
+   FIELD OUTSIDE_COVERAGE_TYPE_ORIGIN  %DEVICE_TYPE_ORIGIN
+
+RECORD DEVICES_COVERAGE_ITEM
+    IDENT   %SOFTWARE_CENTRE_NUMBER
+    FIELD   DEVICES_ORIGINS    %DEVICES_TYPE_ORIGINS
+    FIELD   DEVICES_COVERAGE   %BOXES_LIST
+
+--**********************************************************************
+-- STCA PARAMETER DATA DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY  SEPARATION           FLOAT    0.0 2000.0
+ SINGLE_BASIC_ENTITY  SEPARATION_DISTANCE  FLOAT    0.0 20.0
+ SINGLE_BASIC_ENTITY  DETECTION_TIME       FLOAT    0.0 600.0
+
+ RECORD STCA_PARAMETERS_ITEM
+   IDENT %SOFTWARE_CENTRE_NUMBER                             
+   FIELD LOOKAHEAD                   %DETECTION_TIME
+   FIELD SAMPLING_STEP               %DETECTION_TIME
+   FIELD MORE_RESTRICTIVE_PARAMETERS %BOOLEAN
+
+--**********************************************************************
+-- APW PARAMETER DATA DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY  MAX_LOOKAHEAD_TIME   FLOAT    0.0 6000.0
+ SINGLE_BASIC_ENTITY  LOOKAHEAD_TIME       FLOAT    0.0 600.0
+ SINGLE_BASIC_ENTITY  SAMPLING_TIME        FLOAT    0.0 60.0
+
+ RECORD APW_PARAMETERS_ITEM
+   IDENT %SOFTWARE_CENTRE_NUMBER                             
+   FIELD LOOKAHEAD_MAX               %MAX_LOOKAHEAD_TIME
+   FIELD LOOKAHEAD                   %LOOKAHEAD_TIME
+   FIELD SAMPLING_STEP               %SAMPLING_TIME
+   FIELD CFL_ALGORITHM               %BOOLEAN
+	FIELD DETECT_MILITARY             %BOOLEAN
+
+--**********************************************************************
+-- MTAPW PARAMETER DATA DEFINITIONS
+--**********************************************************************
+
+ RECORD MTAPW_PARAMETERS_ITEM
+   IDENT %SOFTWARE_CENTRE_NUMBER                             
+   FIELD LOOKAHEAD_MAX               %MAX_LOOKAHEAD_TIME
+   FIELD LOOKAHEAD                   %LOOKAHEAD_TIME
+   FIELD SAMPLING_STEP               %SAMPLING_TIME
+
+--**********************************************************************
+-- FPG PARAMETER DATA DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY  TIME_BEFORE_LOADING  INTEGER 0 1440
+
+ RECORD FPG_PARAMETERS_ITEM
+   IDENT %SOFTWARE_CENTRE_NUMBER                         
+   FIELD TIME_BEFORE_CENTRE_ENTRY_FOR_FPL_LOADING        %TIME_BEFORE_LOADING
+ 
+--**********************************************************************
+-- IAS PARAMETER DATA DEFINITIONS
+--**********************************************************************
+
+ RECORD IAS_PARAMETERS_ITEM
+   IDENT %SOFTWARE_CENTRE_NUMBER                             
+   FIELD AIR_SITUATION_ESTABLISHMENT_PERIOD              %SECONDS
+   FIELD TRACK_OBSOLESCENCE_TIME                         %SECONDS
+   FIELD TIME_AFTER_FLIGHT_END_FOR_FLIGHT_PLAN_DELETION  %SECONDS
+
+--**********************************************************************
+-- TDM PARAMETER DATA DEFINITIONS
+--**********************************************************************
+ SINGLE_BASIC_ENTITY  MODULO_PERIOD          INTEGER 1 10
+ SINGLE_BASIC_ENTITY  TDM_COMPUTATION_TIME  INTEGER 0 36000
+
+ SINGLE_BASIC_ENTITY  TDM_TIME_THRESHOLD          INTEGER 0 36000
+ SINGLE_BASIC_ENTITY  TDM_ALTITUDE_THRESHOLD      INTEGER 0 10000
+ SINGLE_BASIC_ENTITY  TDM_LONGITUDINAL_THRESHOLD  FLOAT 0.0 100.0
+ SINGLE_BASIC_ENTITY  TDM_LATERAL_THRESHOLD       FLOAT 0.0 20.0
+ SINGLE_BASIC_ENTITY  TDM_HEADING_THRESHOLD       FLOAT 0.0 180.0
+ SINGLE_BASIC_ENTITY  TDM_GROUNDSPEED_THRESHOLD   FLOAT 0.0 1000.0
+
+ RECORD TDM_PARAMETERS_ITEM
+   IDENT %SOFTWARE_CENTRE_NUMBER                             
+   FIELD TRACK_DEVIATION_COMPUTATION_PERIOD              %TDM_COMPUTATION_TIME
+   FIELD MODULO_FOR_TDM_ON_UNCORRELATED_FPL              %MODULO_PERIOD
+   FIELD TRACK_DEVIATION_COMPUTATION_SHIFT               %TDM_COMPUTATION_TIME
+   FIELD DO_COMPUTATION_FOR_AIRCRAFT_IN_HOLD             %BOOLEAN
+   FIELD TRACK_DEVIATION_IN_THE_CENTRE_IS_ACTIVE         %BOOLEAN
+   FIELD TIME_DEVIATION_THRESHOLD_IS_ACTIVE              %BOOLEAN
+   FIELD TIME_DEVIATION_THRESHOLD                        %TDM_TIME_THRESHOLD
+   FIELD ALTITUDE_DEVIATION_THRESHOLD_IS_ACTIVE      	 %BOOLEAN
+   FIELD ALTITUDE_DEVIATION_THRESHOLD 		  	 %TDM_ALTITUDE_THRESHOLD
+   FIELD LONGITUDINAL_DEVIATION_THRESHOLD_IS_ACTIVE   	 %BOOLEAN
+   FIELD LONGITUDINAL_DEVIATION_THRESHOLD		 %TDM_LONGITUDINAL_THRESHOLD
+   FIELD LATERAL_DEVIATION_THRESHOLD_IS_ACTIVE     	 %BOOLEAN
+   FIELD LATERAL_DEVIATION_THRESHOLD 			 %TDM_LATERAL_THRESHOLD
+   FIELD HEADING_DEVIATION_THRESHOLD_IS_ACTIVE  	 %BOOLEAN
+   FIELD HEADING_DEVIATION_THRESHOLD			 %TDM_HEADING_THRESHOLD
+   FIELD GROUNDSPEED_DEVIATION_THRESHOLD_IS_ACTIVE  	 %BOOLEAN
+   FIELD GROUNDSPEED_DEVIATION_THRESHOLD 		 %TDM_GROUNDSPEED_THRESHOLD
+   FIELD NOT_CORRELATED_FPL_TIME_SHIFT                   %SECONDS
+   FIELD TIME_SHIFT_TRIGGERING_DEADLINE                  %SECONDS
+
+--**********************************************************************
+-- SYSCO PARAMETER DATA DEFINITIONS
+--**********************************************************************
+SINGLE_BASIC_ENTITY   NM_100      FLOAT     0.00 100.00
+
+SINGLE_BASIC_ENTITY   DIAL_LEVEL                  INTEGER 0 5
+SINGLE_BASIC_ENTITY   MSG_FORMAT                  ENUMERATED ADEXP ICAO
+SINGLE_BASIC_ENTITY   ICAO_IDENT                  STRING 4
+SINGLE_BASIC_ENTITY   ADEXP_IDENT                 STRING 8
+SINGLE_BASIC_ENTITY   PAC_FORMAT_T                ENUMERATED ABI PAC
+SINGLE_BASIC_ENTITY   RESPONSE                    ENUMERATED ACP LAM
+SINGLE_BASIC_ENTITY   RESPONSE_FOR_SYSCO          ENUMERATED ACP ROF
+SINGLE_BASIC_ENTITY   MINUTES                     INTEGER 0 60
+SINGLE_BASIC_ENTITY   COORDINATION_POINT_TYPE_T   ENUMERATED INTERSECTION OTHER
+
+STRUCTURE_ENTITY EXTERNAL_COORDINATION_PARAMETERS
+    FIELD CENTRE_NAME                                      %ATC_CENTRE_NAME
+    FIELD DIALOGUE_LEVEL                                   %DIAL_LEVEL
+    FIELD MESSAGE_FORMAT                                   %MSG_FORMAT
+    FIELD ICAO_IDENTIFIER                                  %ICAO_IDENT
+    FIELD ADEXP_IDENTIFIER                                 %ADEXP_IDENT
+    FIELD USE_PAC                                          %BOOLEAN
+    FIELD PAC_FORMAT                                       %PAC_FORMAT_T
+    FIELD USE_REV                                          %BOOLEAN
+    FIELD USE_MAC                                          %BOOLEAN
+    FIELD ENTRY_MAS                                        %BOOLEAN
+    FIELD EXIT_MAS                                         %BOOLEAN
+    FIELD ENTRY_COF                                        %BOOLEAN
+    FIELD EXIT_COF                                         %BOOLEAN
+    FIELD ACT_RESPONSE                                     %RESPONSE
+    FIELD REV_RESPONSE                                     %RESPONSE
+    FIELD HOP_RESPONSE_FOR_SYSCO_I                         %RESPONSE_FOR_SYSCO
+    FIELD ABI_FIELD_8                                      %BOOLEAN
+    FIELD ABI_FIELD_10                                     %BOOLEAN
+    FIELD ABI_FIELD_15                                     %BOOLEAN
+    FIELD ABI_FIELD_18                                     %BOOLEAN
+    FIELD PAC_FIELD_3C                                     %BOOLEAN
+    FIELD PAC_FIELD_8                                      %BOOLEAN
+    FIELD PAC_FIELD_10                                     %BOOLEAN
+    FIELD PAC_FIELD_13B                                    %BOOLEAN
+    FIELD PAC_FIELD_15                                     %BOOLEAN
+    FIELD PAC_FIELD_18                                     %BOOLEAN
+    FIELD ACT_FIELD_8                                      %BOOLEAN
+    FIELD ACT_FIELD_10                                     %BOOLEAN
+    FIELD ACT_FIELD_15                                     %BOOLEAN
+    FIELD ACT_FIELD_18                                     %BOOLEAN
+    FIELD RAP_FIELD_8                                      %BOOLEAN
+    FIELD RAP_FIELD_10                                     %BOOLEAN
+    FIELD RAP_FIELD_15                                     %BOOLEAN
+    FIELD RAP_FIELD_18                                     %BOOLEAN
+    FIELD RAP_FIELD_REASON                                 %BOOLEAN
+    FIELD MAC_FIELD_3C                                     %BOOLEAN
+    FIELD REV_FIELD_3C                                     %BOOLEAN
+    FIELD RRV_FIELD_3C                                     %BOOLEAN
+    FIELD RRV_FIELD_REASON                                 %BOOLEAN
+    FIELD CDN_FIELD_18                                     %BOOLEAN
+    FIELD ACP_FIELD_7A                                     %BOOLEAN
+    FIELD ACP_FIELD_13A                                    %BOOLEAN
+    FIELD ACP_FIELD_16                                     %BOOLEAN
+    FIELD ACP_FIELD_18                                     %BOOLEAN
+    FIELD TIM_FIELD_POSITION                               %BOOLEAN
+    FIELD HOP_FIELD_POSITION                               %BOOLEAN
+    FIELD ROF_FIELD_FREQ                                   %BOOLEAN
+    FIELD COF_FIELD_POSITION                               %BOOLEAN
+    FIELD ABI_RESENDING_TIME                               %MINUTES
+    FIELD MINIMUM_COP_ETO_DELTA_FOR_ABI_RESENDING          %MINUTES
+    FIELD MINIMUM_COP_ETO_ETD_DELTA_FOR_PAC_RESENDING      %MINUTES
+    FIELD MINIMUM_COP_ETO_DELTA_FOR_REV_RRV_SENDING        %MINUTES
+    FIELD MINIMUM_LEVEL_DELTA_FOR_REV_RRV_SENDING          %FEET
+    FIELD RAP_RRV_CONTENTS_ACCEPTANCE_TIME                 %MINUTES
+    FIELD COORDINATION_PHASE_INITIATION_TIME               %MINUTES
+    FIELD TRANSFER_PHASE_INITIATION_TIME                   %SECONDS
+    FIELD ABI_TRANSMISSION_TIME                            %MINUTES
+    FIELD LAM_SBY_RECEPTION_TIME_OUT                       %SECONDS
+    FIELD ACP_RECEPTION_TIME_OUT                           %SECONDS
+    FIELD OPERATIONAL_RESPONSE_COORDINATION_TIME_OUT       %MINUTES
+    FIELD COORDINATION_POINT_TYPE                          %COORDINATION_POINT_TYPE_T
+    FIELD MINIMUM_COP_POSITION_FOR_REV_REVISION            %NM_5
+    FIELD COORDINATION_PHASE_INITIATION_DISTANCE           %NM_100
+
+LIST_ENTITY EXTERNAL_COORDINATION_PARAMETERS_LIST          %EXTERNAL_COORDINATION_PARAMETERS
+
+STRUCTURE_ENTITY INTERNAL_COORDINATION_PARAMETERS
+    FIELD DIALOGUE_LEVEL                                   %DIAL_LEVEL
+    FIELD USE_PAC                                          %BOOLEAN
+    FIELD ENTRY_MAS                                        %BOOLEAN
+    FIELD EXIT_MAS                                         %BOOLEAN
+    FIELD ENTRY_COF                                        %BOOLEAN
+    FIELD EXIT_COF                                         %BOOLEAN
+    FIELD MINIMUM_COP_ETO_DELTA_FOR_ABI_RESENDING          %MINUTES
+    FIELD MINIMUM_COP_ETO_ETD_DELTA_FOR_PAC_RESENDING      %MINUTES
+    FIELD MINIMUM_COP_ETO_DELTA_FOR_REV_RRV_SENDING        %MINUTES
+    FIELD COORDINATION_PHASE_INITIATION_TIME               %MINUTES
+    FIELD TRANSFER_PHASE_INITIATION_TIME                   %SECONDS
+    FIELD ABI_TRANSMISSION_TIME                            %MINUTES
+    FIELD OPERATIONAL_RESPONSE_COORDINATION_TIME_OUT       %MINUTES
+    FIELD OPERATIONAL_RESPONSE_TRANSFER_TIME_OUT           %MINUTES
+    FIELD COORDINATION_POINT_TYPE                          %COORDINATION_POINT_TYPE_T
+    FIELD COORDINATION_PHASE_INITIATION_DISTANCE           %NM_100
+    FIELD CONTROLLING_TIME_THRESHOLD                       %SECONDS
+    FIELD MINIMUM_COP_POSITION_FOR_REV_REVISION            %NM_5
+    
+RECORD SYSCO_PARAMETERS_ITEM
+   IDENT                                                   %SOFTWARE_CENTRE_NUMBER   
+   FIELD EXTER_COORDINATION_PARAMETERS_LIST                %EXTERNAL_COORDINATION_PARAMETERS_LIST
+   FIELD INTER_COORDINATION_PARAMETERS                     %INTERNAL_COORDINATION_PARAMETERS
+	 
+
+-- La  definition suivante doit varier simultanement avec ACTIVATION
+SINGLE_BASIC_ENTITY DAY_SECONDS_INTERVAL FLOAT 0.0 86399.99  
+
+   --**********************************************************************
+   --**********************************************************************
+   --    7. BEGINING OF SECTION FOR :
+   --    GENERAL MASS CONFIGURATION DATA FILES
+   --**********************************************************************
+   --**********************************************************************
+
+--**********************************************************************
+-- CONFIGURATION DATA  BASIC DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY  EXERCISE_ID    INTEGER
+ SINGLE_BASIC_ENTITY EXERCISE_NAME   STRING 8
+ SINGLE_BASIC_ENTITY VM_CLASS 
+    ENUMERATED  EXERCISE_MANAGEMENT
+                OPERATOR_INTERFACE
+	        FLIGHTS_SET DISGATEWAY
+	        CONTEXT_MANAGEMENT
+	        CPDLC_DATALINK
+	        NEGOTIATOR_DATALINK
+	        TRAJECTORY_PREDICTOR
+		SURVEILLANCE_DATALINK
+		ASAS
+		PPD_DATALINK
+		
+ SINGLE_BASIC_ENTITY VM_ID           INTEGER  1 100
+ STRUCTURE_ENTITY CONFIGURATION_RECORD 
+    FIELD   IDENT_VM_ID    %VM_ID
+    FIELD   CLASS    %VM_CLASS
+ LIST_ENTITY  CONFIGURATION   %CONFIGURATION_RECORD
+ SINGLE_BASIC_ENTITY OPERATOR_STATUS
+    ENUMERATED OPEN CLOSED OUT_OF_ORDER
+SINGLE_BASIC_ENTITY MAIN_FREQ FLOAT
+SINGLE_BASIC_ENTITY SUB_FREQ1 FLOAT
+SINGLE_BASIC_ENTITY SUB_FREQ2 FLOAT
+MULTIPLE_BASIC_ENTITY FREQUENCIES
+    %MAIN_FREQ   %SUB_FREQ1    %SUB_FREQ2
+STRUCTURE_ENTITY OPERATOR_STATUS_RECORD 
+    FIELD   STATUS       %OPERATOR_STATUS
+    FIELD   OPERATOR     %VM_ID
+    FIELD   FREQ         %FREQUENCIES
+	LIST_ENTITY  OPERATOR_CONFIGURATION    %OPERATOR_STATUS_RECORD
+
+ SINGLE_BASIC_ENTITY GENERAL_SUPERVISOR 
+    ENUMERATED SUPERVISION CUSTOMER
+ SINGLE_BASIC_ENTITY    TIME_GENERATOR 
+    ENUMERATED SUPERVISION CUSTOMER
+ SINGLE_BASIC_ENTITY UPLINK_MODE
+     ENUMERATED AUTOMATIC MANUAL
+
+--*********************************
+-- ASAS PARAMETER DATA DEFINITIONS
+--*********************************
+
+ SINGLE_BASIC_ENTITY  ASAS_SEPARATION_DISTANCE  INTEGER  1   8
+
+ RECORD ASAS_PARAMETERS
+        FIELD DEFAULT_LATERAL_SEPARATION_ON_ROUTE      %ASAS_SEPARATION_DISTANCE     
+        FIELD DEFAULT_LATERAL_SEPARATION_TMA           %ASAS_SEPARATION_DISTANCE     
+        FIELD LEVEL_FOR_TRANSITION                     %FLS                          
+        FIELD LEVEL_FOR_SPEED_SATURATION               %FLS                          
+        FIELD SPEED_FOR_SPEED_SATURATION               %KNOTS                        
+
+--**********************************************************************
+--  CONTENTS OF MASS_SYSTEM_CONFIGURATION_FILE
+--                   THE_GENERAL_SUPERVISOR RECORD 
+--                   THE_TIME_GENERATOR     RECORD 
+--                   DELTA_TIME             RECORD 
+--                   HARDWARE_CLOCK_DELTA_TIME          RECORD 
+--                   CREATION_ACTIVATION_DELTA_TIME     RECORD 
+--                   POSITIONS_DELIVERY_CADENCE     RECORD 
+--                   FLIGHTS_CREATION_CADENCE       RECORD 
+--                   CONFIGURATION_TABLE            RECORD 
+--                   OPERATOR_STATUS_TABLE          RECORD 
+--   new data will be filled by the MASS TEAM
+--**********************************************************************
+
+ RECORD  CPDLC_UPLINK_ORDER_MODE
+      FIELD   MODE  %UPLINK_MODE
+
+ RECORD  THE_GENERAL_SUPERVISOR 
+    FIELD   TGS   %GENERAL_SUPERVISOR
+
+ RECORD THE_TIME_GENERATOR 
+    FIELD   TTG   %TIME_GENERATOR
+
+ RECORD  DELTA_TIME                 
+    FIELD   DT    %SECOND_DURATION
+
+ RECORD  HARDWARE_CLOCK_DELTA_TIME                 
+    FIELD   HCDT    %SECOND_DURATION
+
+ RECORD  CREATION_ACTIVATION_DELTA_TIME 
+    FIELD   CADT    %SECONDS
+
+ RECORD  CREATION_NEGOTIATOR_DELTA_TIME 
+    FIELD   CNDT    %SECONDS
+
+ RECORD POSITIONS_DELIVERY_CADENCE
+    FIELD   PDC    %CYCLES
+
+ RECORD FLIGHTS_CREATION_CADENCE 
+    FIELD   FCC    %CYCLES
+
+ RECORD CONFIGURATION_TABLE
+    FIELD CONF %CONFIGURATION
+
+ RECORD OPERATOR_STATUS_TABLE 
+    FIELD    CONF %OPERATOR_CONFIGURATION
+	 
+	 
+--**********************************************************************
+-- CONTENTS of  PRODUCT_PARAMETERS_FILE
+-- 1. PRODUCT_PARAMETERS_ITEM
+--**********************************************************************
+
+SINGLE_BASIC_ENTITY INTEGER_16  INTEGER 0 32767           
+SINGLE_BASIC_ENTITY POSITIVE_16 INTEGER 1 32767           
+SINGLE_BASIC_ENTITY POSITIVE_8  INTEGER 1 127             
+
+ 
+RECORD PRODUCT_PARAMETERS_ITEM
+	 
+-- ************************************************************************** --
+-- Constants for the airspace model:                                          --
+--   - corresponding to the maximum number of items allowed for an airspace   --
+--     environment category,                                                  --
+--   - corresponding to the maximum number of items appearing in the          --
+--     description of an airspace environment category.                       --
+-- ************************************************************************** --
+    FIELD   MAX_NB_OF_ATC_CENTRES                   %POSITIVE_8    
+    FIELD   MAX_NB_OF_ATC_CONSTRAINTS               %INTEGER_16    
+    FIELD   MAX_NB_OF_SECTORS                       %POSITIVE_8    
+    FIELD   MAX_NB_OF_SIDS                          %INTEGER_16    
+    FIELD   MAX_NB_OF_STARS                         %INTEGER_16    
+    FIELD   MAX_NB_OF_RUNWAYS                       %INTEGER_16    
+    FIELD   MAX_NB_OF_CONTROLLERS                   %POSITIVE_8    
+    FIELD   MAX_NB_OF_ITEMS_PER_SID                 %INTEGER_16    
+    FIELD   MAX_NB_OF_ITEMS_PER_STAR                %INTEGER_16    
+    FIELD   MAX_NB_OF_ITEMS_PER_AIRWAY              %INTEGER_16    
+    FIELD   MAX_NB_OF_SEGMENTS_PER_BOX              %POSITIVE_8    
+    FIELD   MAX_NB_OF_BOXES_PER_SOFTWARE_CENTRE     %POSITIVE_8    
+    FIELD   MAX_NB_OF_HOLDS_PER_NAVIGATION_POINT    %INTEGER_16    
+    FIELD   MAX_NB_OF_BOXES_PER_SECTOR              %POSITIVE_8    
+    FIELD   MAX_NB_OF_ATC_CONSTRAINTS_PER_NAVIGATION_POINT         
+	                                            %INTEGER_16    
+    FIELD   MAX_NB_OF_LOGICAL_EXPRESSIONS_PER_ATC_CONSTRAINT       
+	  	                                    %INTEGER_16    
+    FIELD   MAX_NB_OF_FLIGHT_CONDITIONS_PER_ATC_AND_STATEMENT         
+	                                            %INTEGER_16    
+    FIELD   MAX_NB_OF_FLIGHT_CONDITIONS_PER_ATC_OR_STATEMENT         
+	                                            %INTEGER_16        
+-- FOR AIR COMPATIBILITY
+    FIELD   MAX_NB_OF_RUNWAYS_PER_AIRPORT           %INTEGER_16
+    FIELD   MAX_NB_OF_SIDS_PER_RUNWAY               %POSITIVE_8
+    FIELD   MAX_NB_OF_STARS_PER_RUNWAY              %POSITIVE_8
+
+    -- ********************************************************************** --
+    -- Constants for airspace reservations                            --
+    -- ********************************************************************** --
+    FIELD MAX_NB_OF_BOXES_PER_AIRSPACE_RESERVATION  %INTEGER_16    
+    FIELD MAX_NB_OF_ACTIVATION_PERIODS_PER_AIRSPACE_RESERVATION
+                                                    %INTEGER_16    
+    FIELD MAX_NB_OF_AIRSPACE_RESERVATIONS_PER_SOFTWARE_CENTRE
+                                                    %INTEGER_16    
+    -- ********************************************************************** --
+    -- Constants for  Cops                            --
+    -- ********************************************************************** --
+    FIELD MAX_NB_OF_GREEN_FLIGHT_LEVELS_PER_LIST         %INTEGER_16  
+    FIELD MAX_NB_OF_DEFAULT_XFL_RESTRICTIONS_PER_LIST    %INTEGER_16  
+    FIELD MAX_NB_OF_OVERFLYING_CONSTRAINT_PER_LIST       %INTEGER_16  
+    FIELD MAX_NB_OF_AIRPORT_CONSTRAINT_PER_LIST          %INTEGER_16  
+    FIELD MAX_NB_OF_SID_CONSTRAINT_PER_LIST              %INTEGER_16  
+    FIELD MAX_NB_OF_STAR_CONSTRAINT_PER_LIST             %INTEGER_16  
+    FIELD MAX_NB_OF_LOA_CONDITION_PER_LIST               %INTEGER_16  
+
+   -- **********************************************************************
+   -- Constants related to detailed meteo model
+   -- **********************************************************************
+   FIELD MAX_NB_OF_METEO_VOLUMES %INTEGER_16
+   FIELD MAX_NB_OF_LAYERS_PER_METEO_VOLUME %INTEGER_16
+   FIELD MAX_NB_OF_WEATHER_FORECASTS %INTEGER_16
+
+-- ************************************************************************** --
+-- Constants for the filed flight plan generation                             --
+-- ************************************************************************** --
+   FIELD   MAX_NB_OF_FILED_FLIGHT_PLANS             %POSITIVE_16   
+   FIELD   MAX_NB_OF_STORED_FLIGHT_PLANS            %POSITIVE_16   
+   FIELD   MAX_NB_OF_ITEMS_PER_ROUTE                %POSITIVE_8    
+	
+-- ************************************************************************** --
+-- Constants for software centre flight data management.                      --
+-- ************************************************************************** --
+   FIELD   MAX_NB_OF_ACTIVE_FLIGHT_PLANS_PER_SOFTWARE_CENTRE 
+                                                    %POSITIVE_16   
+														 
+-- ************************************************************************** --
+-- Constants for aircraft performances.                                       --
+-- ************************************************************************** --
+   FIELD   MAX_NB_OF_AC_MODELS                      %POSITIVE_16   
+   FIELD   MAX_NB_OF_AC_TYPES                       %POSITIVE_16   
+
+-- ************************************************************************** --
+-- Constants for air ground communication.                                    --
+-- ************************************************************************** --
+   FIELD   MAX_NB_OF_PRIMARY_RADARS                 %INTEGER_16    
+   FIELD   MAX_NB_OF_SECONDARY_RADARS               %INTEGER_16    
+   FIELD   MAX_NB_OF_MODE_S_RADARS                  %INTEGER_16    
+   FIELD   MAX_NB_OF_SATELLITES                     %INTEGER_16    
+
+-- ************************************************************************** --
+-- Constants for short term conflict alert --
+-- ************************************************************************** --
+   FIELD   MAX_NB_OF_BOXES_PER_STCA_VOLUME            %INTEGER_16  
+   FIELD   MAX_NB_OF_STCA_VOLUMES_PER_SOFTWARE_CENTRE %INTEGER_16    
+   
+--**********************************************************************
+-- CONTENTS of ATC_Centres_File
+-- 1. ATC_CENTRES_ITEM
+--**********************************************************************
+
+RECORD ATC_CENTRE_ITEM                                        
+    IDENT   %ATC_CENTRE_NUMBER                            
+    FIELD   CENTRE_NAME          %ATC_CENTRE_NAME
+    FIELD   SOFTWARE_CENTRE      %SOFTWARE_CENTRE_NUMBER
+    FIELD DATALINK_EQUIPMENT %DATA_EQUIPMENT
+    FIELD CM_MAINTAINED_COMMUNICATION %CM_MAINT_COM
+    FIELD TIME_BEFORE_CROSSED_BOUNDARY %TIME_BEF_BOUND
+    FIELD ATC_CENTRE_COUNTRY %COUNTRY_CODE
+    FIELD ATC_CENTRE_TYPE %CENTRE_TYPE
+    FIELD DATALINK_APPLICATION %DATA_APPLI
+	 
+--**********************************************************************
+-- CONTENTS of Software_Centres_File
+-- 
+--**********************************************************************
+RECORD SOFTWARE_CENTRE_ITEM 
+    IDENT %SOFTWARE_CENTRE_NUMBER                             
+	 
+ 
+--**********************************************************************
+-- CONTENTS of Software_Centre_Envelopes_File
+-- 1. SOFTWARE_CENTRE_ENVELOPES_ITEM
+--**********************************************************************
+
+RECORD SOFTWARE_CENTRE_ENVELOPES_ITEM                        
+    IDENT %SOFTWARE_CENTRE_NUMBER                          
+    FIELD ENV     %BOXES_LIST
+	 
+--**********************************************************************
+--**********************************************************************
+--*****
+--***** ATC CONSTRAINTS DATA FILE  DEFINITIONS
+--*****
+--**********************************************************************
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY ATC_CONSTRAINT_TYPE 
+    ENUMERATED NAVIGATION_POINT ATS_UNITS_TRANSITION VOLUME
+
+ SINGLE_BASIC_ENTITY ATS_UNITS_ATC_CONSTRAINT 
+    ENUMERATED FOR_DISPLAY FOR_CONTROLLER_INPUT_ORDERS FOR_ALL_CALCULATIONS
+
+ SINGLE_BASIC_ENTITY RESTRICTION_KIND 
+    ENUMERATED CAS MACH LEVEL
+
+ SINGLE_BASIC_ENTITY OPERATOR_1_SET
+    ENUMERATED EQUAL
+	            GREATER
+		    SMALLER
+	            GREATER_OR_EQUAL
+		    SMALLER_OR_EQUAL
+
+ SINGLE_BASIC_ENTITY OPERATOR_2_SET
+    ENUMERATED SMALLER SMALLER_OR_EQUAL
+
+ SINGLE_BASIC_ENTITY RESTRICTION_ITEM_TYPE
+    ENUMERATED ASSIGNEMENT COMPARISON 
+	    BELONGING_TO_INTERVAL EXCLUSION_FROM_INTERVAL
+
+ SINGLE_BASIC_ENTITY THE_COMPARED_ENTITY
+    ENUMERATED RFL PLANNED_LEVEL OPTIMUM_SPEED PLANNED_SPEED
+
+ SINGLE_BASIC_ENTITY RETURNED_ENTITY 
+    ENUMERATED ENTITY_USED STATIC_VALUE TARGET_LEVEL ORIGIN_LEVEL
+
+ STRUCTURE_ENTITY RESTRICTION_ITEM
+    FIELD    EXPRESSION_TYPE			%RESTRICTION_ITEM_TYPE
+    FIELD    CAS_THRESHOLD_1			%CAS
+    FIELD    MACH_THRESHOLD_1			%MACH_NUMBER
+    FIELD    LEVEL_THRESHOLD_1			%FLS
+    FIELD    OPERATOR_1				%OPERATOR_1_SET
+    FIELD    OPERATOR_2				%OPERATOR_2_SET
+    FIELD    CAS_THRESHOLD_2			%CAS
+    FIELD    MACH_THRESHOLD_2			%MACH_NUMBER
+    FIELD    LEVEL_THRESHOLD_2			%FLS
+    FIELD    RETURNED_ENTITY_WHEN_TRUE		%RETURNED_ENTITY
+    FIELD    CAS_VALUE_TO_BE_RETURNED		%CAS
+    FIELD    MACH_VALUE_TO_BE_RETURNED		%MACH_NUMBER
+    FIELD    LEVEL_VALUE_TO_BE_RETURNED	%FLS
+	 
+ LIST_ENTITY RESTRICTION_ITEM_LIST %RESTRICTION_ITEM
+	 
+ STRUCTURE_ENTITY RESTRICTION 
+    FIELD    RESTRICTION_TYPE			%RESTRICTION_KIND
+    FIELD    COMPARED_ENTITY			%THE_COMPARED_ENTITY
+    FIELD    RESTRICTION_EVALUATION_LIST	%RESTRICTION_ITEM_LIST
+	 
+ SINGLE_BASIC_ENTITY THE_APPLICATION_POINT_KIND
+    ENUMERATED AT_REFERENCE_POINT 
+	            DISTANCE_AFTER_REFERENCE_POINT 
+		    DISTANCE_BEFORE_REFERENCE_POINT
+	            TIME_AFTER_REFERENCE_POINT 
+		    TIME_BEFORE_REFERENCE_POINT
+					
+ SINGLE_BASIC_ENTITY REL_TIME FLOAT 0.0 3600.0
+ SINGLE_BASIC_ENTITY REL_DISTANCE FLOAT 0.0 200.0
+ 
+ STRUCTURE_ENTITY APPLICATION_POINT_DEFINITION 
+    FIELD    APPLICATION_POINT_KIND		%THE_APPLICATION_POINT_KIND
+    FIELD    DISTANCE_REFERENCE			%REL_DISTANCE
+    FIELD    RELATIVE_TIME_REFERENCE	%REL_TIME
+	 
+ SINGLE_BASIC_ENTITY THE_APPLICATION_SCOPE_KIND 
+    ENUMERATED AT_APPLICATION_POINT 
+	            DURING_TIME_AFTER_APPLICATION_POINT
+	            DURING_DIST_AFTER_APPLICATION_POINT
+		    UNTIL_SIGNIFICANT_POINT
+	            UNTIL_VOLUME_EXIT
+	            DURING_TIME_AFTER_VOLUME_EXIT
+	            DURING_DIST_AFTER_VOLUME_EXIT
+
+ STRUCTURE_ENTITY APPLICATION_SCOPE_DEFINITION
+    FIELD    APPLICATION_SCOPE_KIND		%THE_APPLICATION_SCOPE_KIND
+    FIELD    DISTANCE						%REL_DISTANCE
+    FIELD    RELATIVE_TIME	    			%REL_TIME
+    FIELD    SIGNIFICANT_POINT			%SIGNIFICANT_POINT_DEFINITION
+	 
+ SINGLE_BASIC_ENTITY THE_FLIGHT_DATA_TYPE 
+    ENUMERATED ADEP
+	        NOT_ADEP
+	        ADES 
+	        NOT_ADES 
+		SID
+		NOT_SID
+		STAR
+		NOT_STAR
+		AIRWAY
+		NOT_AIRWAY
+	        NAVIGATION_POINT
+	        NOT_NAVIGATION_POINT
+		CROSSED_BOUNDARY_PART
+		NOT_CROSSED_BOUNDARY_PART
+		FLIGHT_ARRIVING_IN_SOFTWARE_CENTER
+		FLIGHT_NOT_ARRIVING_IN_SOFTWARE_CENTER
+		FLIGHT_DEPARTING_FROM_SOFTWARE_CENTER
+		FLIGHT_NOT_DEPARTING_FROM_SOFTWARE_CENTER
+
+ SINGLE_BASIC_ENTITY COORDINATION_ID STRING 6
+ 
+ STRUCTURE_ENTITY CONDITION_ITEM 
+    FIELD    FLIGHT_DATA_TYPE				%THE_FLIGHT_DATA_TYPE
+    FIELD    AIRPORT_NAME					%AIRPORT_ID
+    FIELD    SID_NAME						%SID_ID
+    FIELD    STAR_NAME						%STAR_ID
+    FIELD    AIRWAY_NAME					%AIRWAY_ID
+    FIELD    COORDINATION_AREA_NAME		%COORDINATION_ID
+    FIELD    NAVIGATION_POINT_NAME		%NAVIGATION_POINT_NAME
+	 
+ LIST_ENTITY CONDITION_LIST_DEFINITION %CONDITION_ITEM
+
+ STRUCTURE_ENTITY CONDITION_LIST 
+    FIELD    SELECTION_CONDITIONS %CONDITION_LIST_DEFINITION
+
+ LIST_ENTITY CONDITIONS_SET_DEFINITION %CONDITION_LIST
+ 
+ SINGLE_BASIC_ENTITY REF_PT_LOC 
+    ENUMERATED VOLUME_ENTRY VOLUME_EXIT
+	 
+ RECORD ATC_CONSTRAINT 
+    IDENT 	 %ATC_CONSTRAINT_ID
+    FIELD    ATC_CONSTRAINT_TYPE  %ATC_CONSTRAINT_TYPE
+    FIELD    ATS_UNIT_TRANSITION_CONSTRAINT_TYPE  	%ATS_UNITS_ATC_CONSTRAINT
+    FIELD    REFERENCE_POINT_LOCATION	  		%REF_PT_LOC
+    FIELD    RESTRICTION  		%RESTRICTION
+    FIELD    APPLICATION_POINT 		%APPLICATION_POINT_DEFINITION
+    FIELD    APPLICATION_SCOPE 		%APPLICATION_SCOPE_DEFINITION
+    FIELD    CONDITIONS_SET    		%CONDITIONS_SET_DEFINITION
+
+	 
+--**********************************************************************
+--**********************************************************************
+-- 
+-- 
+-- Description of Flight Plan Conflict Detection files
+-- 
+-- 
+--**********************************************************************
+--**********************************************************************
+
+--**********************************************************************
+-- CONTENTS of SOFTWARE_CENTRE_STCA_AIRSPACE_FILE
+--**********************************************************************
+
+STRUCTURE_ENTITY STCA_VOLUME
+   FIELD VOLUME               %BOXES_LIST
+   FIELD VERTICAL_THRESHOLD   %ALTITUDE_SEPARATION
+   FIELD NON_RVSM_VERTICAL_THRESHOLD   %ALTITUDE_SEPARATION
+   FIELD HORIZONTAL_THRESHOLD %HORIZONTAL_SEPARATION
+
+LIST_ENTITY STCA_VOLUME_LIST %STCA_VOLUME
+
+RECORD SOFTWARE_CENTRE_STCA_AIRSPACE_ITEM                    
+    IDENT %SOFTWARE_CENTRE_NUMBER
+    FIELD STCA_VOLUMES       %STCA_VOLUME_LIST
+
+
+--**********************************************************************
+--**********************************************************************
+-- 
+-- 
+-- Description of Airspace Reservation
+-- 
+-- 
+--**********************************************************************
+--**********************************************************************
+
+--**********************************************************************
+--**********************************************************************
+
+SINGLE_BASIC_ENTITY  AIRSPACE_RESERVATION_ID    STRING 12
+SINGLE_BASIC_ENTITY  AIRSPACE_RESERVATION_KIND
+  ENUMERATED MILITARY SEGREGATED TBS VPE MSAW STACK
+
+-- La  definition suivante doit varier simultanement avec -- DAY_SECONDS_INTERVAL
+SINGLE_BASIC_ENTITY ACTIVATION INTEGER 0 86399
+
+SINGLE_BASIC_ENTITY PRE_ACTIVATION INTEGER 0 3600
+
+LIST_ENTITY ACTIVATION_LIST %ACTIVATION
+
+STRUCTURE_ENTITY RESERVED_AREA
+  FIELD RESERVED_AREA_NAME    %AIRSPACE_RESERVATION_ID
+  FIELD KIND                  %AIRSPACE_RESERVATION_KIND
+  FIELD IS_TO_BE_USED         %BOOLEAN
+  FIELD PRE_ACTIVATION_TIME   %PRE_ACTIVATION
+  FIELD IS_ACTIVE             %BOOLEAN
+  FIELD ACTIVATIONS           %ACTIVATION_LIST
+  FIELD VOLUME                %BOXES_LIST
+
+LIST_ENTITY RESERVED_AREA_LIST %RESERVED_AREA
+
+RECORD AIRSPACE_RESERVATION_ITEM                    
+   IDENT %SOFTWARE_CENTRE_NUMBER
+   FIELD RESERVED_AREAS	   %RESERVED_AREA_LIST
+
+
+--**********************************************************************
+--**********************************************************************
+-- 
+-- Description of static display file
+-- 
+--**********************************************************************
+--**********************************************************************
+
+RECORD STATIC_POINT
+   IDENT   %NAVIGATION_POINT_NAME
+   FIELD   LAT                  %LATITUDE
+   FIELD   LONG                 %LONGITUDE
+   FIELD   POINT_NAME_DISPLAY   %BOOLEAN 
+
+LIST_ENTITY   AIRWAY_POINTS_LIST   %NAVIGATION_POINT_NAME
+
+RECORD   STATIC_AIRWAY
+   IDENT   %AIRWAY_ID
+   FIELD   POINTS_LIST   %AIRWAY_POINTS_LIST
+
+RECORD    STATIC_AIRPORT
+   IDENT   %AIRPORT_ID
+   FIELD   LAT      %LATITUDE
+   FIELD   LONG     %LONGITUDE
+
+STRUCTURE_ENTITY   SECTOR_POINTS
+   FIELD   P_NAME   %NAVIGATION_POINT_NAME   
+   FIELD   LAT      %LATITUDE                   
+   FIELD   LONG     %LONGITUDE               
+
+LIST_ENTITY   SECTOR_POINTS_LIST   %SECTOR_POINTS
+
+RECORD   STATIC_SECTOR
+   IDENT   %SECTOR_ID
+   FIELD   LOW_LEVEL     %FEET
+   FIELD   HIGH_LEVEL    %FEET
+   FIELD   POINTS_LIST   %SECTOR_POINTS_LIST
+
+--
+-- EXERCISE DESCRIPTION
+--
+
+RECORD   STATIC_EXERCISE
+   IDENT   %EXERCISE_NAME
+   FIELD   LAT   %LATITUDE      
+   FIELD   LONG  %LONGITUDE     
+
+--**********************************************************************
+--**********************************************************************
+-- *****
+-- *****  Description of Letters of agreement file
+-- *****
+--**********************************************************************
+--**********************************************************************
+SINGLE_BASIC_ENTITY      NOTIFICATION_PHASE_INITIATION_TIME_IN_MINUTES         INTEGER  0 40
+SINGLE_BASIC_ENTITY      COORDINATION_PHASE_INITIATION_TIME_IN_MINUTES         INTEGER  0 20
+SINGLE_BASIC_ENTITY      COORDINATION_PHASE_INITIATION_DISTANCE_IN_MN          INTEGER  1 1000
+SINGLE_BASIC_ENTITY      TRANSFER_TIME_IN_MINUTES                              INTEGER  0 10
+ 
+STRUCTURE_ENTITY COPS_PARAM
+    FIELD TRANSFER_CENTRE                          %ATC_CENTRE_NAME 
+    FIELD TRANSFER_SECTOR                          %SECTOR_ID
+    FIELD RECEIVE_CENTRE                           %ATC_CENTRE_NAME 
+    FIELD RECEIVE_SECTOR                           %SECTOR_ID
+    FIELD NOTIFICATION_PHASE_INIT_TIME             %NOTIFICATION_PHASE_INITIATION_TIME_IN_MINUTES
+    FIELD COORDINATION_PHASE_INIT_TIME             %COORDINATION_PHASE_INITIATION_TIME_IN_MINUTES
+    FIELD COORDINATION_PHASE_INIT_DISTANCE         %COORDINATION_PHASE_INITIATION_DISTANCE_IN_MN
+    FIELD TRANSFER_PHASE_INITIATION_TIME           %TRANSFER_TIME_IN_MINUTES
+   
+
+STRUCTURE_ENTITY OVERFLYING_CONSTRAINT
+    FIELD NEGATION %BOOLEAN
+    FIELD NAV_POINT %NAVIGATION_POINT_NAME
+
+STRUCTURE_ENTITY AIRPORT_CONSTRAINT
+    FIELD NEGATION %BOOLEAN
+    FIELD AIRPORT_NAME %AIRPORT_ID
+
+STRUCTURE_ENTITY SID_CONSTRAINT
+    FIELD NEGATION %BOOLEAN
+    FIELD SID_NAME %SID_ID
+
+STRUCTURE_ENTITY STAR_CONSTRAINT
+    FIELD NEGATION %BOOLEAN
+    FIELD STAR_NAME %STAR_ID
+
+LIST_ENTITY OVERFLYING_CONSTRAINTS   %OVERFLYING_CONSTRAINT
+LIST_ENTITY AIRPORT_CONSTRAINTS      %AIRPORT_CONSTRAINT
+LIST_ENTITY SID_CONSTRAINTS          %SID_CONSTRAINT
+LIST_ENTITY STAR_CONSTRAINTS         %STAR_CONSTRAINT
+
+STRUCTURE_ENTITY DEFAULT_LEVEL
+    FIELD FIXED_LEVEL                   %RETURNED_ENTITY 
+    FIELD FIXED_VALUE                   %FLS             
+    FIELD RESTRICTION                   %RESTRICTION     
+
+LIST_ENTITY LEVEL_LIST               %FLS
+
+STRUCTURE_ENTITY LOA_CONDITION
+    FIELD GREEN_LEVELS                  %LEVEL_LIST
+    FIELD OVERFLYING_CONSTRAINT_LIST    %OVERFLYING_CONSTRAINTS
+    FIELD ADEP_LIST                     %AIRPORT_CONSTRAINTS
+    FIELD ADES_LIST                     %AIRPORT_CONSTRAINTS
+    FIELD SID_LIST                      %SID_CONSTRAINTS
+    FIELD STAR_LIST                     %STAR_CONSTRAINTS
+    FIELD DEFAULT_XFL			%DEFAULT_LEVEL
+
+LIST_ENTITY LOA_CONDITION_LIST  %LOA_CONDITION
+
+RECORD LETTERS_OF_AGREEMENTS
+   IDENT                               %NAVIGATION_POINT_NAME
+   FIELD COPS_PARAMETERS               %COPS_PARAM
+   FIELD LOA_DESCRIPTION               %LOA_CONDITION_LIST
+
+
+--**********************************************************************
+--**********************************************************************
+
+--**********************************************************************
+--**********************************************************************
+--*****
+--*****  SECTOR CONTROLLER MAPPING FILE 
+--*****
+--**********************************************************************
+--**********************************************************************
+
+SINGLE_BASIC_ENTITY CONTROLLER_TYPE
+  ENUMERATED EXECUTIVE
+             PLANNING
+	     MULTI_SECTOR_PLANNING
+	     ASSISTANT
+	     SUPERVISOR
+	     FEED
+	     FLOW
+	     OTHER
+	     FEED_HYBRID
+	     
+SINGLE_BASIC_ENTITY UNIT_ID STRING 6
+
+LIST_ENTITY SECTORS_LIST %SECTOR_ID
+
+STRUCTURE_ENTITY CONTROLLER
+   FIELD CONTROLLER_ID     %CONTROLLER_NUMBER
+   FIELD CONTROLLER_KIND   %CONTROLLER_TYPE
+   FIELD MEASURED          %BOOLEAN
+
+LIST_ENTITY CONTROLLERS_LIST %CONTROLLER
+
+STRUCTURE_ENTITY CONTROLLER_SECTOR
+   FIELD UNIT_NAME         %UNIT_ID
+   FIELD CONTROLLER_LIST   %CONTROLLERS_LIST
+   FIELD SECTOR_LIST       %SECTORS_LIST
+
+LIST_ENTITY CONTROLLERS_SECTORS_LIST %CONTROLLER_SECTOR
+
+RECORD  SECTOR_CONTROLLER_MAPPING
+   IDENT %SECT_MAP_KEY
+   FIELD CONTROLLER_SECTOR_LIST %CONTROLLERS_SECTORS_LIST
+   
+LIST_ENTITY CODE_LIST %SSR_CODE
+
+RECORD SPECIAL_CODES_ITEM
+	FIELD SPECIAL_CODES_LIST %CODE_LIST
+
+--**********************************************************************
+--**********************************************************************
+-- *****
+-- *****  Description of TBS parameters
+-- *****
+--**********************************************************************
+--**********************************************************************
+
+--**********************************************************************
+-- TBS BASIC DEFINITIONS
+--**********************************************************************
+
+SINGLE_BASIC_ENTITY TBS_VALUE INTEGER
+
+--**********************************************************************
+-- CONTENTS OF TBS_PARAMETERS_FILE
+-- 1. MANAGED RUNWAY RECORD
+-- 2. FIXED TBS RECORD 
+--**********************************************************************
+
+--**********************************************************************
+-- MANAGED RUNWAY RECORD
+--**********************************************************************
+
+RECORD MANAGED_RUNWAY
+    IDENT %RUNWAY_KEY
+    FIELD COMPUTATION_AREA_NAME %AIRSPACE_RESERVATION_ID
+    FIELD LANDING_AREA_NAME     %AIRSPACE_RESERVATION_ID
+
+--**********************************************************************
+-- FIXED TBS RECORD
+--**********************************************************************
+
+RECORD FIXED_TBS
+    FIELD TBS_LH_FH %TBS_VALUE
+    FIELD TBS_LH_FM %TBS_VALUE
+    FIELD TBS_LH_FL %TBS_VALUE
+    FIELD TBS_LM_FH %TBS_VALUE
+    FIELD TBS_LM_FM %TBS_VALUE
+    FIELD TBS_LM_FL %TBS_VALUE
+    FIELD TBS_LL_FH %TBS_VALUE
+    FIELD TBS_LL_FM %TBS_VALUE
+    FIELD TBS_LL_FL %TBS_VALUE
+
+--**********************************************************************
+--**********************************************************************
+-- *****
+-- *****  Description of ERGO parameters
+-- *****
+--**********************************************************************
+--**********************************************************************
+
+--**********************************************************************
+-- ERGO PARAMETER DATA DEFINITIONS
+--**********************************************************************
+
+ SINGLE_BASIC_ENTITY  INTERROGATION_TIME      INTEGER 60 300
+ SINGLE_BASIC_ENTITY  MAX_INTERROGATION_DELAY INTEGER 15 60
+ SINGLE_BASIC_ENTITY  NUMBER_OF_POSITIONS     INTEGER 0 64
+
+ RECORD ERGO_PARAMETERS_ITEM
+   IDENT %SOFTWARE_CENTRE_NUMBER
+   FIELD INTERROGATION_PERIOD        %INTERROGATION_TIME
+   FIELD INTERROGATION_MAX_DELAY     %MAX_INTERROGATION_DELAY
+   FIELD ACTIVATION_TIME             %ACTIVATION 
+   FIELD NUMBER_OF_MEASURED_POSITION %NUMBER_OF_POSITIONS

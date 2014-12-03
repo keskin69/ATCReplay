@@ -1,0 +1,1245 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         AIRSPACE_RESERVATION_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD          AIRSPACE_RESERVATION_ITEM
+IDENT           1
+RESERVED_AREAS
+BEGINL
+  RESERVED_AREA
+  BEGINS
+    RESERVED_AREA_NAME       ACBA
+    KIND                     SEGREGATED
+    IS_TO_BE_USED            TRUE 
+    PRE_ACTIVATION_TIME      0
+    IS_ACTIVE                FALSE
+    VOLUME
+    BEGINL
+      BOX
+      BEGINS
+         NUMBER          1
+            SEGS_LIST
+            BEGINL
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME ACBA1
+                         POS
+                         BEGINS
+                LAT              NORTH 44.8208
+                LONG             EAST  12.7619
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME ACBA2
+                         POS
+                         BEGINS
+                LAT              NORTH 44.7667
+                LONG             EAST  13.5000
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME ACBA2
+                         POS
+                         BEGINS
+                LAT              NORTH 44.7667
+                LONG             EAST  13.5000
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME ACBA3
+                         POS
+                         BEGINS
+                LAT              NORTH 44.5675
+                LONG             EAST  13.7072
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME ACBA3
+                         POS
+                         BEGINS
+                LAT              NORTH 44.5675
+                LONG             EAST  13.7072
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME ACBA4
+                         POS
+                         BEGINS
+                LAT              NORTH 44.3064
+                LONG             EAST  14.1664
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME ACBA4
+                         POS
+                         BEGINS
+                LAT              NORTH 44.3064
+                LONG             EAST  14.1664
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME ACBA5
+                         POS
+                         BEGINS
+                LAT              NORTH 43.7328
+                LONG             EAST  14.9081
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME ACBA5
+                         POS
+                         BEGINS
+                LAT              NORTH 43.7328
+                LONG             EAST  14.9081
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME ACBA6
+                         POS
+                         BEGINS
+                LAT              NORTH 43.7417
+                LONG             EAST  14.1333
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME ACBA6
+                         POS
+                         BEGINS
+                LAT              NORTH 43.7417
+                LONG             EAST  14.1333
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME ACBA7
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8428
+                LONG             EAST  13.5292
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME ACBA7
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8428
+                LONG             EAST  13.5292
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME ACBA1
+                         POS
+                         BEGINS
+                LAT              NORTH 44.8208
+                LONG             EAST  12.7619
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            ENDL
+      ENDS
+    ENDL
+  ENDS
+  RESERVED_AREA
+  BEGINS
+    RESERVED_AREA_NAME       R21
+    KIND                     SEGREGATED
+    IS_TO_BE_USED            TRUE 
+    PRE_ACTIVATION_TIME      0
+    IS_ACTIVE                FALSE
+    VOLUME
+    BEGINL
+      BOX
+      BEGINS
+         NUMBER          1
+            SEGS_LIST
+            BEGINL
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C134
+                         POS
+                         BEGINS
+                LAT              NORTH 44.9000
+                LONG             EAST  12.3403
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C133
+                         POS
+                         BEGINS
+                LAT              NORTH 44.9000
+                LONG             EAST  12.6667
+                         ENDS
+                ENDS
+               LEVEL_INF            125
+               LEVEL_SUP            240
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C133
+                         POS
+                         BEGINS
+                LAT              NORTH 44.9000
+                LONG             EAST  12.6667
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C132
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8017
+                LONG             EAST  13.5297
+                         ENDS
+                ENDS
+               LEVEL_INF            125
+               LEVEL_SUP            240
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C132
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8017
+                LONG             EAST  13.5297
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C100
+                         POS
+                         BEGINS
+                LAT              NORTH 43.7742
+                LONG             EAST  13.2197
+                         ENDS
+                ENDS
+               LEVEL_INF            125
+               LEVEL_SUP            240
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C100
+                         POS
+                         BEGINS
+                LAT              NORTH 43.7742
+                LONG             EAST  13.2197
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C99
+                         POS
+                         BEGINS
+                LAT              NORTH 44.0044
+                LONG             EAST  11.9806
+                         ENDS
+                ENDS
+               LEVEL_INF            125
+               LEVEL_SUP            240
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C99
+                         POS
+                         BEGINS
+                LAT              NORTH 44.0044
+                LONG             EAST  11.9806
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C96
+                         POS
+                         BEGINS
+                LAT              NORTH 44.2667
+                LONG             EAST  11.9333
+                         ENDS
+                ENDS
+               LEVEL_INF            125
+               LEVEL_SUP            240
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C96
+                         POS
+                         BEGINS
+                LAT              NORTH 44.2667
+                LONG             EAST  11.9333
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C134
+                         POS
+                         BEGINS
+                LAT              NORTH 44.9000
+                LONG             EAST  12.3403
+                         ENDS
+                ENDS
+               LEVEL_INF            125
+               LEVEL_SUP            240
+            ENDS
+            ENDL
+      ENDS
+    ENDL
+  ENDS
+  RESERVED_AREA
+  BEGINS
+    RESERVED_AREA_NAME       R26
+    KIND                     SEGREGATED
+    IS_TO_BE_USED            TRUE 
+    PRE_ACTIVATION_TIME      0
+    IS_ACTIVE                FALSE
+    VOLUME
+    BEGINL
+      BOX
+      BEGINS
+         NUMBER          1
+            SEGS_LIST
+            BEGINL
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C101
+                         POS
+                         BEGINS
+                LAT              NORTH 44.8861
+                LONG             EAST  12.2158
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C102
+                         POS
+                         BEGINS
+                LAT              NORTH 44.7344
+                LONG             EAST  11.8336
+                         ENDS
+                ENDS
+               LEVEL_INF            240
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C102
+                         POS
+                         BEGINS
+                LAT              NORTH 44.7344
+                LONG             EAST  11.8336
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C103
+                         POS
+                         BEGINS
+                LAT              NORTH 44.2939
+                LONG             EAST  11.9267
+                         ENDS
+                ENDS
+               LEVEL_INF            240
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C103
+                         POS
+                         BEGINS
+                LAT              NORTH 44.2939
+                LONG             EAST  11.9267
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C104
+                         POS
+                         BEGINS
+                LAT              NORTH 43.9167
+                LONG             EAST  12.5144
+                         ENDS
+                ENDS
+               LEVEL_INF            240
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C104
+                         POS
+                         BEGINS
+                LAT              NORTH 43.9167
+                LONG             EAST  12.5144
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C105
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8403
+                LONG             EAST  12.9078
+                         ENDS
+                ENDS
+               LEVEL_INF            240
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C105
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8403
+                LONG             EAST  12.9078
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C131
+                         POS
+                         BEGINS
+                LAT              NORTH 43.9386
+                LONG             EAST  12.9672
+                         ENDS
+                ENDS
+               LEVEL_INF            240
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C131
+                         POS
+                         BEGINS
+                LAT              NORTH 43.9386
+                LONG             EAST  12.9672
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C101
+                         POS
+                         BEGINS
+                LAT              NORTH 44.8861
+                LONG             EAST  12.2158
+                         ENDS
+                ENDS
+               LEVEL_INF            240
+               LEVEL_SUP            370
+            ENDS
+            ENDL
+      ENDS
+    ENDL
+  ENDS
+  RESERVED_AREA
+  BEGINS
+    RESERVED_AREA_NAME       R49
+    KIND                     SEGREGATED
+    IS_TO_BE_USED            TRUE 
+    PRE_ACTIVATION_TIME      0
+    IS_ACTIVE                FALSE
+    VOLUME
+    BEGINL
+      BOX
+      BEGINS
+         NUMBER          1
+            SEGS_LIST
+            BEGINL
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C63
+                         POS
+                         BEGINS
+                LAT              NORTH 46.0328
+                LONG             EAST  11.8161
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C64
+                         POS
+                         BEGINS
+                LAT              NORTH 46.1333
+                LONG             EAST  12.6000
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C64
+                         POS
+                         BEGINS
+                LAT              NORTH 46.1333
+                LONG             EAST  12.6000
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C65
+                         POS
+                         BEGINS
+                LAT              NORTH 46.3144
+                LONG             EAST  13.2481
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C65
+                         POS
+                         BEGINS
+                LAT              NORTH 46.3144
+                LONG             EAST  13.2481
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C70
+                         POS
+                         BEGINS
+                LAT              NORTH 45.8444
+                LONG             EAST  13.2417
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C70
+                         POS
+                         BEGINS
+                LAT              NORTH 45.8444
+                LONG             EAST  13.2417
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C119
+                         POS
+                         BEGINS
+                LAT              NORTH 45.5750
+                LONG             EAST  12.9714
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C119
+                         POS
+                         BEGINS
+                LAT              NORTH 45.5750
+                LONG             EAST  12.9714
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C120
+                         POS
+                         BEGINS
+                LAT              NORTH 45.5881
+                LONG             EAST  12.8333
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C120
+                         POS
+                         BEGINS
+                LAT              NORTH 45.5881
+                LONG             EAST  12.8333
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C122
+                         POS
+                         BEGINS
+                LAT              NORTH 45.6431
+                LONG             EAST  12.4469
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C122
+                         POS
+                         BEGINS
+                LAT              NORTH 45.6431
+                LONG             EAST  12.4469
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C123
+                         POS
+                         BEGINS
+                LAT              NORTH 45.6044
+                LONG             EAST  12.2328
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C123
+                         POS
+                         BEGINS
+                LAT              NORTH 45.6044
+                LONG             EAST  12.2328
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C124
+                         POS
+                         BEGINS
+                LAT              NORTH 45.6817
+                LONG             EAST  11.9989
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C124
+                         POS
+                         BEGINS
+                LAT              NORTH 45.6817
+                LONG             EAST  11.9989
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C125
+                         POS
+                         BEGINS
+                LAT              NORTH 45.7261
+                LONG             EAST  11.9686
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C125
+                         POS
+                         BEGINS
+                LAT              NORTH 45.7261
+                LONG             EAST  11.9686
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C126
+                         POS
+                         BEGINS
+                LAT              NORTH 45.8078
+                LONG             EAST  11.9125
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C126
+                         POS
+                         BEGINS
+                LAT              NORTH 45.8078
+                LONG             EAST  11.9125
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C127
+                         POS
+                         BEGINS
+                LAT              NORTH 45.9528
+                LONG             EAST  11.8125
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C127
+                         POS
+                         BEGINS
+                LAT              NORTH 45.9528
+                LONG             EAST  11.8125
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C63
+                         POS
+                         BEGINS
+                LAT              NORTH 46.0328
+                LONG             EAST  11.8161
+                         ENDS
+                ENDS
+               LEVEL_INF            50
+               LEVEL_SUP            370
+            ENDS
+            ENDL
+      ENDS
+      BOX
+      BEGINS
+         NUMBER          2
+            SEGS_LIST
+            BEGINL
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C130
+                         POS
+                         BEGINS
+                LAT              NORTH 46.3369
+                LONG             EAST  11.8339
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C129
+                         POS
+                         BEGINS
+                LAT              NORTH 46.5817
+                LONG             EAST  12.5117
+                         ENDS
+                ENDS
+               LEVEL_INF            130
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C129
+                         POS
+                         BEGINS
+                LAT              NORTH 46.5817
+                LONG             EAST  12.5117
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C128
+                         POS
+                         BEGINS
+                LAT              NORTH 46.4667
+                LONG             EAST  13.2500
+                         ENDS
+                ENDS
+               LEVEL_INF            130
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C128
+                         POS
+                         BEGINS
+                LAT              NORTH 46.4667
+                LONG             EAST  13.2500
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C65
+                         POS
+                         BEGINS
+                LAT              NORTH 46.3144
+                LONG             EAST  13.2481
+                         ENDS
+                ENDS
+               LEVEL_INF            130
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C65
+                         POS
+                         BEGINS
+                LAT              NORTH 46.3144
+                LONG             EAST  13.2481
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C64
+                         POS
+                         BEGINS
+                LAT              NORTH 46.1333
+                LONG             EAST  12.6000
+                         ENDS
+                ENDS
+               LEVEL_INF            130
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C64
+                         POS
+                         BEGINS
+                LAT              NORTH 46.1333
+                LONG             EAST  12.6000
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C63
+                         POS
+                         BEGINS
+                LAT              NORTH 46.0328
+                LONG             EAST  11.8161
+                         ENDS
+                ENDS
+               LEVEL_INF            130
+               LEVEL_SUP            370
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C63
+                         POS
+                         BEGINS
+                LAT              NORTH 46.0328
+                LONG             EAST  11.8161
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C130
+                         POS
+                         BEGINS
+                LAT              NORTH 46.3369
+                LONG             EAST  11.8339
+                         ENDS
+                ENDS
+               LEVEL_INF            130
+               LEVEL_SUP            370
+            ENDS
+            ENDL
+      ENDS
+    ENDL
+  ENDS
+  RESERVED_AREA
+  BEGINS
+    RESERVED_AREA_NAME       TSA78
+    KIND                     SEGREGATED
+    IS_TO_BE_USED            TRUE 
+    PRE_ACTIVATION_TIME      0
+    IS_ACTIVE                FALSE
+    VOLUME
+    BEGINL
+      BOX
+      BEGINS
+         NUMBER          1
+            SEGS_LIST
+            BEGINL
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C68
+                         POS
+                         BEGINS
+                LAT              NORTH 46.5817
+                LONG             EAST  12.5117
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C69
+                         POS
+                         BEGINS
+                LAT              NORTH 46.4667
+                LONG             EAST  13.2500
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C69
+                         POS
+                         BEGINS
+                LAT              NORTH 46.4667
+                LONG             EAST  13.2500
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C71
+                         POS
+                         BEGINS
+                LAT              NORTH 45.4167
+                LONG             EAST  13.0000
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C71
+                         POS
+                         BEGINS
+                LAT              NORTH 45.4167
+                LONG             EAST  13.0000
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C72
+                         POS
+                         BEGINS
+                LAT              NORTH 45.1667
+                LONG             EAST  13.0000
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C72
+                         POS
+                         BEGINS
+                LAT              NORTH 45.1667
+                LONG             EAST  13.0000
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C73
+                         POS
+                         BEGINS
+                LAT              NORTH 44.5333
+                LONG             EAST  13.3333
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C73
+                         POS
+                         BEGINS
+                LAT              NORTH 44.5333
+                LONG             EAST  13.3333
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C74
+                         POS
+                         BEGINS
+                LAT              NORTH 43.9792
+                LONG             EAST  13.9500
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C74
+                         POS
+                         BEGINS
+                LAT              NORTH 43.9792
+                LONG             EAST  13.9500
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C76
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8333
+                LONG             EAST  13.7667
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C76
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8333
+                LONG             EAST  13.7667
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C77
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8333
+                LONG             EAST  13.3000
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C77
+                         POS
+                         BEGINS
+                LAT              NORTH 43.8333
+                LONG             EAST  13.3000
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C78
+                         POS
+                         BEGINS
+                LAT              NORTH 43.9906
+                LONG             EAST  12.4008
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C78
+                         POS
+                         BEGINS
+                LAT              NORTH 43.9906
+                LONG             EAST  12.4008
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C79
+                         POS
+                         BEGINS
+                LAT              NORTH 44.2406
+                LONG             EAST  12.0100
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C79
+                         POS
+                         BEGINS
+                LAT              NORTH 44.2406
+                LONG             EAST  12.0100
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C67
+                         POS
+                         BEGINS
+                LAT              NORTH 45.6592
+                LONG             EAST  11.8528
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C67
+                         POS
+                         BEGINS
+                LAT              NORTH 45.6592
+                LONG             EAST  11.8528
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C66
+                         POS
+                         BEGINS
+                LAT              NORTH 46.2661
+                LONG             EAST  11.6403
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME C66
+                         POS
+                         BEGINS
+                LAT              NORTH 46.2661
+                LONG             EAST  11.6403
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME C68
+                         POS
+                         BEGINS
+                LAT              NORTH 46.5817
+                LONG             EAST  12.5117
+                         ENDS
+                ENDS
+               LEVEL_INF            370
+               LEVEL_SUP            600
+            ENDS
+            ENDL
+      ENDS
+    ENDL
+  ENDS
+ENDL

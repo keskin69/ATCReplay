@@ -1,0 +1,29 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         SPECIAL_SSR_CODES_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD SPECIAL_CODES_ITEM
+SPECIAL_CODES_LIST
+BEGINL
+SSR_CODE 2000
+SSR_CODE 7000
+SSR_CODE 7600
+SSR_CODE 7700
+SSR_CODE 7711
+SSR_CODE 7717
+SSR_CODE 7721
+SSR_CODE 7727
+SSR_CODE 7777
+ENDL

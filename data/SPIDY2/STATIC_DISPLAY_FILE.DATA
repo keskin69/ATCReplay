@@ -1,0 +1,4745 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         STATIC_DISPLAY_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD             STATIC_POINT  
+IDENT              ABESI
+                LAT              NORTH 46.1597
+                LONG             EAST   9.0428
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ABRUK
+                LAT              NORTH 47.3831
+                LONG             EAST  15.0067
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ADOSA
+                LAT              NORTH 45.6444
+                LONG             EAST  11.0264
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              AGOMO
+                LAT              NORTH 45.0169
+                LONG             EAST  12.8019
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              AKABI
+                LAT              NORTH 47.7169
+                LONG             EAST   9.2333
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              AKADO
+                LAT              NORTH 45.3333
+                LONG             EAST  12.5000
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ALBET
+                LAT              NORTH 45.4267
+                LONG             EAST  11.5092
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ALESE
+                LAT              NORTH 46.2750
+                LONG             EAST  11.4039
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ALIVO
+                LAT              NORTH 45.5233
+                LONG             EAST  14.7392
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ALPH1
+                LAT              NORTH 44.6167
+                LONG             EAST  12.0833
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ALPH2
+                LAT              NORTH 44.6169
+                LONG             EAST  12.0836
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              ALPH3
+                LAT              NORTH 44.6172
+                LONG             EAST  12.0836
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              ALPH4
+                LAT              NORTH 44.6172
+                LONG             EAST  12.0839
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              AMDID
+                LAT              NORTH 48.0972
+                LONG             EAST  12.3969
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              AMEMI
+                LAT              NORTH 47.8947
+                LONG             EAST  10.1672
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              AMGAS
+                LAT              NORTH 47.7358
+                LONG             EAST  11.2506
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              AMIKI
+                LAT              NORTH 47.5739
+                LONG             EAST   9.0375
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              AMLON
+                LAT              NORTH 44.3392
+                LONG             EAST  12.8764
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              AMTEL
+                LAT              NORTH 43.2203
+                LONG             EAST  11.6086
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ANC
+                LAT              NORTH 43.5864
+                LONG             EAST  13.4711
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ANDEC
+                LAT              NORTH 47.8867
+                LONG             EAST  11.3344
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ANEDA
+                LAT              NORTH 42.2708
+                LONG             EAST  13.6647
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ARGAX
+                LAT              NORTH 47.0500
+                LONG             EAST   9.2981
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ARGEX
+                LAT              NORTH 44.5525
+                LONG             EAST  11.6697
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ARLES
+                LAT              NORTH 45.9294
+                LONG             EAST   8.3750
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ARLON
+                LAT              NORTH 46.4139
+                LONG             EAST  15.0297
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ARPIK
+                LAT              NORTH 42.7469
+                LONG             EAST  14.7922
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ARTAG
+                LAT              NORTH 47.1644
+                LONG             EAST   8.5139
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ARTUS
+                LAT              NORTH 47.4975
+                LONG             EAST  12.2703
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ASKOD
+                LAT              NORTH 47.3856
+                LONG             EAST  15.8714
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ATRIG
+                LAT              NORTH 46.8850
+                LONG             EAST  11.2653
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              B1
+                LAT              NORTH 45.8333
+                LONG             EAST  12.5000
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BABAG
+                LAT              NORTH 45.3869
+                LONG             EAST  13.1269
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BADOP
+                LAT              NORTH 45.4622
+                LONG             EAST  13.0042
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BADVI
+                LAT              NORTH 47.7311
+                LONG             EAST  11.9453
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BAGNO
+                LAT              NORTH 43.8906
+                LONG             EAST  11.8022
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BAKOR
+                LAT              NORTH 46.6089
+                LONG             EAST  11.7286
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BALAD
+                LAT              NORTH 47.8967
+                LONG             EAST  15.8122
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BALUK
+                LAT              NORTH 44.0986
+                LONG             EAST  10.6697
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BARPI
+                LAT              NORTH 45.5858
+                LONG             EAST  13.5228
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BAXON
+                LAT              NORTH 44.4164
+                LONG             EAST  13.4631
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BELOV
+                LAT              NORTH 44.5425
+                LONG             EAST  12.7133
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BEMKI
+                LAT              NORTH 47.5594
+                LONG             EAST  10.3056
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BENUS
+                LAT              NORTH 44.9069
+                LONG             EAST  11.2036
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BERAS
+                LAT              NORTH 47.3594
+                LONG             EAST  11.7694
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BEROK
+                LAT              NORTH 44.1656
+                LONG             EAST  10.3517
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BETOS
+                LAT              NORTH 48.0681
+                LONG             EAST  11.3500
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BILDU
+                LAT              NORTH 47.1703
+                LONG             EAST  10.6617
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BO
+                LAT              NORTH 44.1692
+                LONG             EAST  15.2639
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BOA
+                LAT              NORTH 44.5369
+                LONG             EAST  11.2906
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BOL
+                LAT              NORTH 42.6183
+                LONG             EAST  12.0486
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BORMI
+                LAT              NORTH 46.0361
+                LONG             EAST  11.1667
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BOTAL
+                LAT              NORTH 45.1336
+                LONG             EAST   9.1228
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BREGO
+                LAT              NORTH 47.3897
+                LONG             EAST   8.3461
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BRENO
+                LAT              NORTH 46.9800
+                LONG             EAST  11.3767
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BUKIN
+                LAT              NORTH 43.6797
+                LONG             EAST  11.6367
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BUSER
+                LAT              NORTH 44.1067
+                LONG             EAST  13.6489
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              BZO
+                LAT              NORTH 46.4639
+                LONG             EAST  11.3222
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              C1
+                LAT              NORTH 46.4000
+                LONG             EAST  12.2250
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              C2
+                LAT              NORTH 46.4006
+                LONG             EAST  12.2256
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              CEV
+                LAT              NORTH 44.2058
+                LONG             EAST  12.3572
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              CHI
+                LAT              NORTH 45.0711
+                LONG             EAST  12.2814
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              CIA
+                LAT              NORTH 41.8650
+                LONG             EAST  12.5608
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              CMP
+                LAT              NORTH 42.1239
+                LONG             EAST  12.3814
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              COD
+                LAT              NORTH 45.2264
+                LONG             EAST   9.5411
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              CRE
+                LAT              NORTH 44.9003
+                LONG             EAST  14.4136
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              D1
+                LAT              NORTH 46.4167
+                LONG             EAST  12.9500
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              D2
+                LAT              NORTH 46.4172
+                LONG             EAST  12.9506
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              DEGES
+                LAT              NORTH 47.4125
+                LONG             EAST   9.2019
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DENAL
+                LAT              NORTH 43.5089
+                LONG             EAST  11.8772
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DENED
+                LAT              NORTH 47.2694
+                LONG             EAST  11.0869
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DENUX
+                LAT              NORTH 48.0703
+                LONG             EAST  15.8806
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DESIP
+                LAT              NORTH 45.6458
+                LONG             EAST   9.1258
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DETSA
+                LAT              NORTH 46.8025
+                LONG             EAST  12.2811
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DIBAX
+                LAT              NORTH 46.1164
+                LONG             EAST  11.0642
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DIKOM
+                LAT              NORTH 43.3836
+                LONG             EAST  13.1672
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DIPEP
+                LAT              NORTH 43.3417
+                LONG             EAST  14.4919
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DITON
+                LAT              NORTH 47.3022
+                LONG             EAST   8.3333
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DITUM
+                LAT              NORTH 44.4058
+                LONG             EAST  12.2472
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DOL
+                LAT              NORTH 46.0842
+                LONG             EAST  14.7786
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DOLOM
+                LAT              NORTH 44.7072
+                LONG             EAST  14.8761
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DORAP
+                LAT              NORTH 47.4728
+                LONG             EAST   9.6011
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DORAV
+                LAT              NORTH 44.3264
+                LONG             EAST   8.8522
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              DORIN
+                LAT              NORTH 45.2258
+                LONG             EAST   9.8661
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              E1
+                LAT              NORTH 45.9508
+                LONG             EAST  13.0536
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              E2
+                LAT              NORTH 45.9514
+                LONG             EAST  13.0542
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              EBITA
+                LAT              NORTH 44.3850
+                LONG             EAST  14.7692
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ELB
+                LAT              NORTH 42.7306
+                LONG             EAST  10.3958
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ELGUS
+                LAT              NORTH 43.5478
+                LONG             EAST  14.9667
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ELKAT
+                LAT              NORTH 46.9911
+                LONG             EAST  13.9056
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ELMEM
+                LAT              NORTH 47.2856
+                LONG             EAST  10.5708
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ELMUR
+                LAT              NORTH 47.1567
+                LONG             EAST   8.9075
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ELSIS
+                LAT              NORTH 46.7589
+                LONG             EAST  15.6114
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ELTAR
+                LAT              NORTH 45.6475
+                LONG             EAST  10.6278
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              EMILY
+                LAT              NORTH 42.1681
+                LONG             EAST  14.1336
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ESISO
+                LAT              NORTH 47.7928
+                LONG             EAST   9.8597
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ETOXU
+                LAT              NORTH 47.7258
+                LONG             EAST   9.5506
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              EVANO
+                LAT              NORTH 45.3375
+                LONG             EAST   8.7608
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              F1
+                LAT              NORTH 45.6539
+                LONG             EAST  12.8517
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              F2
+                LAT              NORTH 45.6544
+                LONG             EAST  12.8522
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              F3
+                LAT              NORTH 45.8506
+                LONG             EAST  12.6506
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              FER
+                LAT              NORTH 44.8144
+                LONG             EAST  11.6164
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              FER2
+                LAT              NORTH 44.8147
+                LONG             EAST  11.6161
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              FOR
+                LAT              NORTH 44.2481
+                LONG             EAST  11.9247
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              FRZ
+                LAT              NORTH 44.0272
+                LONG             EAST  11.0119
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              G1
+                LAT              NORTH 45.7764
+                LONG             EAST  12.1703
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GAPRI
+                LAT              NORTH 43.6947
+                LONG             EAST  15.8003
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GARGA
+                LAT              NORTH 42.2667
+                LONG             EAST  16.1167
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GAZ
+                LAT              NORTH 45.2017
+                LONG             EAST  10.6042
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GBG
+                LAT              NORTH 46.8869
+                LONG             EAST  15.8003
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GEN
+                LAT              NORTH 44.4244
+                LONG             EAST   9.0822
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GERBU
+                LAT              NORTH 43.3442
+                LONG             EAST  13.6239
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GERSA
+                LAT              NORTH 47.0394
+                LONG             EAST   8.5322
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GIBLO
+                LAT              NORTH 45.3583
+                LONG             EAST   9.8667
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GIGGI
+                LAT              NORTH 46.1542
+                LONG             EAST  10.4303
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GINAR
+                LAT              NORTH 43.6325
+                LONG             EAST  10.8161
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GIRDA
+                LAT              NORTH 45.4756
+                LONG             EAST  14.1339
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GIRIS
+                LAT              NORTH 46.7717
+                LONG             EAST  10.8842
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GISER
+                LAT              NORTH 45.0619
+                LONG             EAST  15.1739
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              GITOD
+                LAT              NORTH 42.8003
+                LONG             EAST  12.3108
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GOLVA
+                LAT              NORTH 46.7089
+                LONG             EAST  15.6525
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GOREP
+                LAT              NORTH 44.9183
+                LONG             EAST  12.0997
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GRZ
+                LAT              NORTH 46.9553
+                LONG             EAST  15.4494
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GUBIN
+                LAT              NORTH 43.4869
+                LONG             EAST  12.7742
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              GUI
+                LAT              NORTH 41.9997
+                LONG             EAST  12.7389
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              H1
+                LAT              NORTH 46.2822
+                LONG             EAST  11.9533
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              HS26
+                LAT              NORTH 44.2294
+                LONG             EAST  12.3461
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              HS49
+                LAT              NORTH 46.2994
+                LONG             EAST  12.5292
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              HS78
+                LAT              NORTH 44.2689
+                LONG             EAST  13.1358
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              HSSP
+                LAT              NORTH 43.9431
+                LONG             EAST  14.2814
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              I1
+                LAT              NORTH 44.5903
+                LONG             EAST  12.3742
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              I2
+                LAT              NORTH 44.5906
+                LONG             EAST  12.3744
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              I3
+                LAT              NORTH 44.5908
+                LONG             EAST  12.3747
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              IBENI
+                LAT              NORTH 44.0142
+                LONG             EAST  13.9217
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              INBUT
+                LAT              NORTH 45.4133
+                LONG             EAST  11.9175
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              INN
+                LAT              NORTH 47.2300
+                LONG             EAST  11.4019
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              IPINO
+                LAT              NORTH 45.7072
+                LONG             EAST  13.2842
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              IRBIR
+                LAT              NORTH 47.5664
+                LONG             EAST  11.1036
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              IXITO
+                LAT              NORTH 44.1347
+                LONG             EAST   8.8036
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              IXONA
+                LAT              NORTH 44.8456
+                LONG             EAST  13.5489
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              IXORA
+                LAT              NORTH 45.8367
+                LONG             EAST   8.5889
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              IXUSI
+                LAT              NORTH 43.4386
+                LONG             EAST  11.7308
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              J1
+                LAT              NORTH 43.9594
+                LONG             EAST  12.8767
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              J2
+                LAT              NORTH 43.9600
+                LONG             EAST  12.8772
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              J3
+                LAT              NORTH 43.9603
+                LONG             EAST  12.8939
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              K1
+                LAT              NORTH 44.0728
+                LONG             EAST  12.4167
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              K2
+                LAT              NORTH 44.0739
+                LONG             EAST  12.4339
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              K3
+                LAT              NORTH 44.0736
+                LONG             EAST  12.4336
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              KALIK
+                LAT              NORTH 44.4683
+                LONG             EAST   9.8481
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KALMO
+                LAT              NORTH 44.3217
+                LONG             EAST   9.5942
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KAMPA
+                LAT              NORTH 45.3900
+                LONG             EAST  10.0000
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KARPI
+                LAT              NORTH 44.4842
+                LONG             EAST  10.1625
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KATAR
+                LAT              NORTH 43.0517
+                LONG             EAST  12.6778
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KELIP
+                LAT              NORTH 46.9561
+                LONG             EAST   8.7617
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KOGOL
+                LAT              NORTH 47.6222
+                LONG             EAST  11.3997
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KOLUL
+                LAT              NORTH 47.4672
+                LONG             EAST   8.8228
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KONIN
+                LAT              NORTH 47.8558
+                LONG             EAST  11.3681
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KOPER
+                LAT              NORTH 45.1539
+                LONG             EAST  11.6414
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KOREX
+                LAT              NORTH 44.7711
+                LONG             EAST  15.7692
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KOTOR
+                LAT              NORTH 45.4411
+                LONG             EAST  15.5722
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KPT
+                LAT              NORTH 47.7458
+                LONG             EAST  10.3497
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KREVA
+                LAT              NORTH 44.7744
+                LONG             EAST  11.2350
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KUDES
+                LAT              NORTH 47.5208
+                LONG             EAST   8.8572
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              KULEN
+                LAT              NORTH 45.1653
+                LONG             EAST  15.1336
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              L1
+                LAT              NORTH 44.6667
+                LONG             EAST  12.5833
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              L2
+                LAT              NORTH 44.6672
+                LONG             EAST  12.5839
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              L3
+                LAT              NORTH 44.6678
+                LONG             EAST  12.5844
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LABIN
+                LAT              NORTH 44.9858
+                LONG             EAST  13.0914
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LAGEN
+                LAT              NORTH 44.3942
+                LONG             EAST   8.4981
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LAGUS
+                LAT              NORTH 45.6403
+                LONG             EAST  13.1769
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LAKOL
+                LAT              NORTH 48.0711
+                LONG             EAST  12.0147
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LAMPO
+                LAT              NORTH 46.1058
+                LONG             EAST  11.7014
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LANLI
+                LAT              NORTH 43.9572
+                LONG             EAST  13.1806
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LANNO
+                LAT              NORTH 42.3419
+                LONG             EAST  13.8883
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LAPAB
+                LAT              NORTH 45.5294
+                LONG             EAST  11.9717
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LAPNA
+                LAT              NORTH 46.5356
+                LONG             EAST  15.5206
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LAREN
+                LAT              NORTH 45.2781
+                LONG             EAST  12.0617
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LASEB
+                LAT              NORTH 43.9903
+                LONG             EAST  11.2233
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LDRI
+                LAT              NORTH 45.2169
+                LONG             EAST  14.5703
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LDSP
+                LAT              NORTH 43.5389
+                LONG             EAST  16.2981
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LDZD
+                LAT              NORTH 44.1083
+                LONG             EAST  15.3467
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LEGLO
+                LAT              NORTH 45.6503
+                LONG             EAST   9.7694
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LEONN
+                LAT              NORTH 43.2950
+                LONG             EAST  13.0367
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LESAN
+                LAT              NORTH 44.7750
+                LONG             EAST   8.8122
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIKDA
+                LAT              NORTH 47.0169
+                LONG             EAST  11.7508
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIMC
+                LAT              NORTH 45.6308
+                LONG             EAST   8.7242
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIME
+                LAT              NORTH 45.6700
+                LONG             EAST   9.7014
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIML
+                LAT              NORTH 45.4503
+                LONG             EAST   9.2794
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPA
+                LAT              NORTH 46.0317
+                LONG             EAST  12.5983
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPAX
+                LAT              NORTH 46.0319
+                LONG             EAST  12.5986
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPE
+                LAT              NORTH 44.5306
+                LONG             EAST  11.2925
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPH
+                LAT              NORTH 45.6517
+                LONG             EAST  12.1989
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPK
+                LAT              NORTH 44.1950
+                LONG             EAST  12.0697
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPL
+                LAT              NORTH 45.4333
+                LONG             EAST  10.2667
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPLX
+                LAT              NORTH 45.4336
+                LONG             EAST  10.2669
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPQ
+                LAT              NORTH 45.8267
+                LONG             EAST  13.4722
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPR
+                LAT              NORTH 44.0208
+                LONG             EAST  12.6122
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPS
+                LAT              NORTH 45.6833
+                LONG             EAST  12.1000
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPX
+                LAT              NORTH 45.3953
+                LONG             EAST  10.8875
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPY
+                LAT              NORTH 43.6153
+                LONG             EAST  13.3625
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIPZ
+                LAT              NORTH 45.5000
+                LONG             EAST  12.3500
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIRA
+                LAT              NORTH 41.7986
+                LONG             EAST  12.5950
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIRF
+                LAT              NORTH 41.8111
+                LONG             EAST  12.2525
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIRP
+                LAT              NORTH 43.6997
+                LONG             EAST  10.3944
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIRQ
+                LAT              NORTH 43.8097
+                LONG             EAST  11.2039
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LISKO
+                LAT              NORTH 43.5714
+                LONG             EAST  14.1322
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LIZUM
+                LAT              NORTH 47.1150
+                LONG             EAST  11.7561
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LOBSI
+                LAT              NORTH 44.9050
+                LONG             EAST  12.1725
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LOMRO
+                LAT              NORTH 47.7333
+                LONG             EAST  12.3578
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LORLO
+                LAT              NORTH 46.7242
+                LONG             EAST  10.6789
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LOS
+                LAT              NORTH 44.5272
+                LONG             EAST  14.4728
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LOWS
+                LAT              NORTH 47.7950
+                LONG             EAST  13.0039
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LSZA
+                LAT              NORTH 46.0036
+                LONG             EAST   8.9103
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LSZH
+                LAT              NORTH 47.4583
+                LONG             EAST   8.5481
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LUPOS
+                LAT              NORTH 44.5047
+                LONG             EAST  10.5814
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LUSIL
+                LAT              NORTH 46.0431
+                LONG             EAST  10.1167
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LUSIN
+                LAT              NORTH 45.5528
+                LONG             EAST  15.7522
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              LUTOR
+                LAT              NORTH 44.4881
+                LONG             EAST  11.3608
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              M1
+                LAT              NORTH 43.9569
+                LONG             EAST  13.1808
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              M2
+                LAT              NORTH 43.9575
+                LONG             EAST  13.1811
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MADEB
+                LAT              NORTH 47.3242
+                LONG             EAST  10.2886
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MALUG
+                LAT              NORTH 46.7061
+                LONG             EAST  12.5975
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MAMTO
+                LAT              NORTH 45.3164
+                LONG             EAST  10.2122
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MANAL
+                LAT              NORTH 47.8994
+                LONG             EAST  11.8000
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MANEG
+                LAT              NORTH 47.2042
+                LONG             EAST   8.7222
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MAREL
+                LAT              NORTH 43.2819
+                LONG             EAST  10.6514
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MASEG
+                LAT              NORTH 43.4128
+                LONG             EAST  13.7494
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MATAR
+                LAT              NORTH 46.9750
+                LONG             EAST  11.2533
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MAXIM
+                LAT              NORTH 45.0239
+                LONG             EAST  10.0806
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MAXUR
+                LAT              NORTH 45.7458
+                LONG             EAST  14.9103
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MEBUR
+                LAT              NORTH 44.7597
+                LONG             EAST   9.1717
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MEDAL
+                LAT              NORTH 42.0528
+                LONG             EAST  11.3764
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MINTU
+                LAT              NORTH 44.3400
+                LONG             EAST  14.6956
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MMP
+                LAT              NORTH 45.6408
+                LONG             EAST   8.7347
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MOGTI
+                LAT              NORTH 47.3889
+                LONG             EAST  10.7169
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MOMOL
+                LAT              NORTH 47.4617
+                LONG             EAST   8.6711
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MOMUK
+                LAT              NORTH 47.8386
+                LONG             EAST   9.9969
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MONEB
+                LAT              NORTH 44.6264
+                LONG             EAST   9.2506
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              MONFA
+                LAT              NORTH 45.4872
+                LONG             EAST  13.2792
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              N1
+                LAT              NORTH 44.1736
+                LONG             EAST  12.1786
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              N2
+                LAT              NORTH 44.1742
+                LONG             EAST  12.1794
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              N3
+                LAT              NORTH 44.1744
+                LONG             EAST  12.1794
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              NAKIT
+                LAT              NORTH 45.1881
+                LONG             EAST  13.4478
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NANIS
+                LAT              NORTH 45.7911
+                LONG             EAST  14.0331
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NATAG
+                LAT              NORTH 46.8581
+                LONG             EAST  10.6189
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NEGRA
+                LAT              NORTH 47.7222
+                LONG             EAST   9.4272
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NESES
+                LAT              NORTH 47.5481
+                LONG             EAST  10.5547
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NESTI
+                LAT              NORTH 45.8039
+                LONG             EAST  10.4269
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NIDLO
+                LAT              NORTH 46.8042
+                LONG             EAST  15.9956
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NIGEB
+                LAT              NORTH 47.0892
+                LONG             EAST  11.0769
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NIGSI
+                LAT              NORTH 47.3692
+                LONG             EAST  16.0361
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NIKEL
+                LAT              NORTH 46.1167
+                LONG             EAST  12.1000
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NIKMA
+                LAT              NORTH 43.0664
+                LONG             EAST  12.1803
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NIKOL
+                LAT              NORTH 44.2219
+                LONG             EAST  13.6861
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NIMDU
+                LAT              NORTH 47.1719
+                LONG             EAST  14.7825
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NIVAS
+                LAT              NORTH 45.9000
+                LONG             EAST  12.2814
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NORIN
+                LAT              NORTH 47.3867
+                LONG             EAST  11.4022
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NORKI
+                LAT              NORTH 43.0797
+                LONG             EAST  13.3286
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NORTO
+                LAT              NORTH 47.2664
+                LONG             EAST  11.2519
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NOV
+                LAT              NORTH 45.4242
+                LONG             EAST   8.7939
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              NUTRO
+                LAT              NORTH 43.1600
+                LONG             EAST  14.1492
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OBAGA
+                LAT              NORTH 47.5472
+                LONG             EAST  11.2514
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OBALA
+                LAT              NORTH 44.9203
+                LONG             EAST  14.9725
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OBIKA
+                LAT              NORTH 48.1122
+                LONG             EAST  11.5469
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OBIXO
+                LAT              NORTH 47.9564
+                LONG             EAST  11.4236
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OGEPI
+                LAT              NORTH 46.7872
+                LONG             EAST  11.3556
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OLKIS
+                LAT              NORTH 43.9258
+                LONG             EAST  10.3703
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OLPIX
+                LAT              NORTH 47.0172
+                LONG             EAST  11.6903
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ORI
+                LAT              NORTH 45.6439
+                LONG             EAST   9.8417
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OSDOV
+                LAT              NORTH 47.4400
+                LONG             EAST  10.1831
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OSKOR
+                LAT              NORTH 45.6492
+                LONG             EAST  10.1167
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OSMOT
+                LAT              NORTH 46.6831
+                LONG             EAST  15.5806
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OSPEN
+                LAT              NORTH 47.4853
+                LONG             EAST  15.5272
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OSTEG
+                LAT              NORTH 45.1786
+                LONG             EAST  11.1389
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              OTRES
+                LAT              NORTH 47.0233
+                LONG             EAST  10.7425
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PALEZ
+                LAT              NORTH 44.5750
+                LONG             EAST  15.5331
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PAR
+                LAT              NORTH 44.8222
+                LONG             EAST  10.2933
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PELAD
+                LAT              NORTH 46.5989
+                LONG             EAST   9.7258
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PELEG
+                LAT              NORTH 44.2278
+                LONG             EAST  11.7353
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PEMAR
+                LAT              NORTH 42.0297
+                LONG             EAST  12.9194
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PENNY
+                LAT              NORTH 45.8500
+                LONG             EAST  12.6500
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PEPAG
+                LAT              NORTH 45.9839
+                LONG             EAST   9.0714
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PES
+                LAT              NORTH 42.4361
+                LONG             EAST  14.1844
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PEVAL
+                LAT              NORTH 45.3114
+                LONG             EAST  13.2475
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PIDEP
+                LAT              NORTH 43.8178
+                LONG             EAST  12.2175
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PINIK
+                LAT              NORTH 45.8742
+                LONG             EAST   8.8489
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PINOB
+                LAT              NORTH 47.2494
+                LONG             EAST   8.4508
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PIPOS
+                LAT              NORTH 44.6822
+                LONG             EAST  11.5128
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PIS
+                LAT              NORTH 43.6772
+                LONG             EAST  10.3906
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PODET
+                LAT              NORTH 46.1714
+                LONG             EAST  15.6267
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              POLYP
+                LAT              NORTH 42.4783
+                LONG             EAST  15.2025
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PREKI
+                LAT              NORTH 42.8775
+                LONG             EAST  13.1192
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PUBEG
+                LAT              NORTH 47.5111
+                LONG             EAST  15.6619
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              PUL
+                LAT              NORTH 44.8925
+                LONG             EAST  13.9181
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RADLY
+                LAT              NORTH 46.6469
+                LONG             EAST  15.2092
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RAVED
+                LAT              NORTH 47.7292
+                LONG             EAST   9.6694
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RENTA
+                LAT              NORTH 46.3056
+                LONG             EAST  10.8636
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RESIA
+                LAT              NORTH 46.4783
+                LONG             EAST  10.0433
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RESPU
+                LAT              NORTH 43.6836
+                LONG             EAST  11.5600
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RI
+                LAT              NORTH 45.1375
+                LONG             EAST  14.6531
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RIFEN
+                LAT              NORTH 45.8511
+                LONG             EAST  13.5897
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RIGON
+                LAT              NORTH 45.3175
+                LONG             EAST   8.9789
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RIPUS
+                LAT              NORTH 47.2603
+                LONG             EAST   8.5000
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RIVAM
+                LAT              NORTH 42.4992
+                LONG             EAST  15.7728
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RJK
+                LAT              NORTH 45.2242
+                LONG             EAST  14.5669
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROBAS
+                LAT              NORTH 45.1936
+                LONG             EAST   9.7261
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RODRU
+                LAT              NORTH 45.6708
+                LONG             EAST   9.3933
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROKIB
+                LAT              NORTH 45.9356
+                LONG             EAST  11.6922
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROLSA
+                LAT              NORTH 47.2897
+                LONG             EAST   8.8892
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RONAG
+                LAT              NORTH 46.7794
+                LONG             EAST  10.2589
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROPAG
+                LAT              NORTH 47.2136
+                LONG             EAST  15.7994
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROSKA
+                LAT              NORTH 45.3142
+                LONG             EAST  12.8617
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROTAR
+                LAT              NORTH 45.2628
+                LONG             EAST  12.9956
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROTAX
+                LAT              NORTH 47.9775
+                LONG             EAST  12.3842
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROTIN
+                LAT              NORTH 47.9428
+                LONG             EAST  12.2464
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ROVIG
+                LAT              NORTH 44.9239
+                LONG             EAST  11.8975
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RTT
+                LAT              NORTH 47.4308
+                LONG             EAST  11.9400
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RUNIM
+                LAT              NORTH 43.4978
+                LONG             EAST  12.2017
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RUPAX
+                LAT              NORTH 42.3008
+                LONG             EAST  15.4717
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              RUXOL
+                LAT              NORTH 44.1153
+                LONG             EAST  10.5931
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SAL
+                LAT              NORTH 43.9378
+                LONG             EAST  15.1681
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SALSO
+                LAT              NORTH 44.8708
+                LONG             EAST   9.7242
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SONOM
+                LAT              NORTH 47.7842
+                LONG             EAST   8.8961
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SOPER
+                LAT              NORTH 46.8894
+                LONG             EAST   8.9444
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SOTOV
+                LAT              NORTH 46.9439
+                LONG             EAST  11.2106
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SPL
+                LAT              NORTH 43.5519
+                LONG             EAST  16.3039
+     POINT_NAME_DISPLAY      FALSE 
+RECORD             STATIC_POINT  
+IDENT              SRN
+                LAT              NORTH 45.6458
+                LONG             EAST   9.0217
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SUDUX
+                LAT              NORTH 46.9450
+                LONG             EAST  11.0086
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SUMIR
+                LAT              NORTH 46.2589
+                LONG             EAST  11.3597
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              SUXAN
+                LAT              NORTH 46.5622
+                LONG             EAST  10.4792
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TAGIP
+                LAT              NORTH 45.9336
+                LONG             EAST  10.6900
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TAKUP
+                LAT              NORTH 43.3300
+                LONG             EAST  12.1933
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TALEP
+                LAT              NORTH 43.4622
+                LONG             EAST   8.7122
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TAQ
+                LAT              NORTH 42.2150
+                LONG             EAST  11.7325
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TESTO
+                LAT              NORTH 44.5972
+                LONG             EAST   8.6656
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TIBER
+                LAT              NORTH 42.2489
+                LONG             EAST  12.5989
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TIBLA
+                LAT              NORTH 43.0747
+                LONG             EAST  16.0067
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TIDON
+                LAT              NORTH 45.0856
+                LONG             EAST   9.6139
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TIRUL
+                LAT              NORTH 47.0572
+                LONG             EAST  10.5286
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TITIX
+                LAT              NORTH 47.8583
+                LONG             EAST   8.3967
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TOBAD
+                LAT              NORTH 47.7328
+                LONG             EAST  12.2083
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TOBSO
+                LAT              NORTH 47.0161
+                LONG             EAST  11.8575
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TORPO
+                LAT              NORTH 43.5642
+                LONG             EAST  14.4247
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TRA
+                LAT              NORTH 47.6894
+                LONG             EAST   8.4369
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TRAUN
+                LAT              NORTH 47.9747
+                LONG             EAST  12.5875
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TRE
+                LAT              NORTH 45.6225
+                LONG             EAST  12.0956
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TUKDI
+                LAT              NORTH 47.0114
+                LONG             EAST  15.7153
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TULIK
+                LAT              NORTH 45.2839
+                LONG             EAST  12.7892
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TULSI
+                LAT              NORTH 47.7017
+                LONG             EAST  11.7889
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TURBU
+                LAT              NORTH 47.9142
+                LONG             EAST  11.9486
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TUTAL
+                LAT              NORTH 46.9508
+                LONG             EAST  11.0692
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              TZO
+                LAT              NORTH 45.5592
+                LONG             EAST   9.5072
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              UMBED
+                LAT              NORTH 43.2169
+                LONG             EAST  12.3914
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              UMBEK
+                LAT              NORTH 45.5444
+                LONG             EAST  13.4197
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              UMBIL
+                LAT              NORTH 47.3533
+                LONG             EAST  15.6011
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              UMSON
+                LAT              NORTH 43.5192
+                LONG             EAST  15.7675
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              UNIMI
+                LAT              NORTH 46.8608
+                LONG             EAST  11.0653
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              URBAN
+                LAT              NORTH 43.7939
+                LONG             EAST  12.3483
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              UTENO
+                LAT              NORTH 43.2508
+                LONG             EAST  13.6822
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VAKON
+                LAT              NORTH 45.4781
+                LONG             EAST  10.0000
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VALAV
+                LAT              NORTH 46.6767
+                LONG             EAST  10.3403
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VALEN
+                LAT              NORTH 43.9372
+                LONG             EAST  11.5331
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VALLU
+                LAT              NORTH 46.2917
+                LONG             EAST  15.3364
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VAPIX
+                LAT              NORTH 43.6336
+                LONG             EAST  12.9842
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VAVOR
+                LAT              NORTH 47.9342
+                LONG             EAST  12.1544
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VEBEG
+                LAT              NORTH 47.4083
+                LONG             EAST   9.6519
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VELAD
+                LAT              NORTH 42.0517
+                LONG             EAST  10.7636
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VELIM
+                LAT              NORTH 42.1422
+                LONG             EAST  13.2653
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VERCE
+                LAT              NORTH 45.2797
+                LONG             EAST   8.6525
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VERNA
+                LAT              NORTH 43.7422
+                LONG             EAST  11.8317
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VERUN
+                LAT              NORTH 43.2814
+                LONG             EAST  11.9214
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VESAL
+                LAT              NORTH 46.3900
+                LONG             EAST  11.7164
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VIC
+                LAT              NORTH 45.6372
+                LONG             EAST  11.6764
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VIL
+                LAT              NORTH 45.4078
+                LONG             EAST  10.9061
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VIW
+                LAT              NORTH 46.6964
+                LONG             EAST  13.9147
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              VOG
+                LAT              NORTH 44.9644
+                LONG             EAST   8.9703
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              XANUT
+                LAT              NORTH 47.1164
+                LONG             EAST  15.9119
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              XEBIX
+                LAT              NORTH 47.4000
+                LONG             EAST  10.4800
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              Y2KLO
+                LAT              NORTH 47.4406
+                LONG             EAST   9.0131
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              Y3MAL
+                LAT              NORTH 45.7242
+                LONG             EAST   8.8672
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              Y5PIS
+                LAT              NORTH 43.7308
+                LONG             EAST  10.4789
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              Y7MAL
+                LAT              NORTH 45.7108
+                LONG             EAST   8.7508
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              YLITL
+                LAT              NORTH 47.3567
+                LONG             EAST  10.0456
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              YSI
+                LAT              NORTH 47.8186
+                LONG             EAST  12.9878
+     POINT_NAME_DISPLAY      TRUE 
+RECORD             STATIC_POINT  
+IDENT              ZDA
+                LAT              NORTH 44.0953
+                LONG             EAST  15.3642
+     POINT_NAME_DISPLAY      TRUE 
+RECORD            STATIC_AIRWAY 
+IDENT                          A101 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   VIC 
+        NAVIGATION_POINT_NAME   BORMI 
+        NAVIGATION_POINT_NAME   DIBAX 
+        NAVIGATION_POINT_NAME   RENTA 
+        NAVIGATION_POINT_NAME   SUXAN 
+        NAVIGATION_POINT_NAME   VALAV 
+        NAVIGATION_POINT_NAME   RONAG 
+        NAVIGATION_POINT_NAME   VEBEG 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          A102 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   FER 
+        NAVIGATION_POINT_NAME   ADOSA 
+        NAVIGATION_POINT_NAME   RENTA 
+        NAVIGATION_POINT_NAME   LORLO 
+        NAVIGATION_POINT_NAME   NATAG 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          A103 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   ANC 
+        NAVIGATION_POINT_NAME   GOREP 
+        NAVIGATION_POINT_NAME   ADOSA 
+        NAVIGATION_POINT_NAME   ALBET 
+        NAVIGATION_POINT_NAME   CHI 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          A104 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   BZO 
+        NAVIGATION_POINT_NAME   BRENO 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          A106 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   PUL 
+        NAVIGATION_POINT_NAME   LABIN 
+        NAVIGATION_POINT_NAME   AGOMO 
+        NAVIGATION_POINT_NAME   CHI 
+        NAVIGATION_POINT_NAME   KOPER 
+        NAVIGATION_POINT_NAME   OSTEG 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          A107 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   BELOV 
+        NAVIGATION_POINT_NAME   CHI 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          A108 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   URBAN 
+        NAVIGATION_POINT_NAME   FER 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B1 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   ELB 
+        NAVIGATION_POINT_NAME   GEN 
+        NAVIGATION_POINT_NAME   VOG 
+        NAVIGATION_POINT_NAME   SRN 
+        NAVIGATION_POINT_NAME   ORI 
+        NAVIGATION_POINT_NAME   OSKOR 
+        NAVIGATION_POINT_NAME   ELTAR 
+        NAVIGATION_POINT_NAME   ADOSA 
+        NAVIGATION_POINT_NAME   VIC 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B10 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   TAQ 
+        NAVIGATION_POINT_NAME   AMTEL 
+        NAVIGATION_POINT_NAME   RESPU 
+        NAVIGATION_POINT_NAME   VALEN 
+        NAVIGATION_POINT_NAME   BOA 
+        NAVIGATION_POINT_NAME   KREVA 
+        NAVIGATION_POINT_NAME   BENUS 
+        NAVIGATION_POINT_NAME   OSTEG 
+        NAVIGATION_POINT_NAME   ADOSA 
+        NAVIGATION_POINT_NAME   RENTA 
+        NAVIGATION_POINT_NAME   LORLO 
+        NAVIGATION_POINT_NAME   NATAG 
+        NAVIGATION_POINT_NAME   TIRUL 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B11 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   BOL 
+        NAVIGATION_POINT_NAME   DENAL 
+        NAVIGATION_POINT_NAME   VERNA 
+        NAVIGATION_POINT_NAME   BAGNO 
+        NAVIGATION_POINT_NAME   PELEG 
+        NAVIGATION_POINT_NAME   ARGEX 
+        NAVIGATION_POINT_NAME   FER 
+        NAVIGATION_POINT_NAME   KOPER 
+        NAVIGATION_POINT_NAME   VIC 
+        NAVIGATION_POINT_NAME   ALESE 
+        NAVIGATION_POINT_NAME   BZO 
+        NAVIGATION_POINT_NAME   OGEPI 
+        NAVIGATION_POINT_NAME   BRENO 
+        NAVIGATION_POINT_NAME   INN 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B12 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   FER 
+        NAVIGATION_POINT_NAME   ALBET 
+        NAVIGATION_POINT_NAME   SUMIR 
+        NAVIGATION_POINT_NAME   BZO 
+        NAVIGATION_POINT_NAME   ATRIG 
+        NAVIGATION_POINT_NAME   MATAR 
+        NAVIGATION_POINT_NAME   NORTO 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B13 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   PES 
+        NAVIGATION_POINT_NAME   UTENO 
+        NAVIGATION_POINT_NAME   GERBU 
+        NAVIGATION_POINT_NAME   ANC 
+        NAVIGATION_POINT_NAME   LANLI 
+        NAVIGATION_POINT_NAME   AMLON 
+        NAVIGATION_POINT_NAME   BELOV 
+        NAVIGATION_POINT_NAME   CHI 
+        NAVIGATION_POINT_NAME   VIC 
+        NAVIGATION_POINT_NAME   BORMI 
+        NAVIGATION_POINT_NAME   DIBAX 
+        NAVIGATION_POINT_NAME   RENTA 
+        NAVIGATION_POINT_NAME   SUXAN 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B14 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   BOL 
+        NAVIGATION_POINT_NAME   IXUSI 
+        NAVIGATION_POINT_NAME   VALEN 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B15 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   GEN 
+        NAVIGATION_POINT_NAME   KALIK 
+        NAVIGATION_POINT_NAME   LUPOS 
+        NAVIGATION_POINT_NAME   BOA 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B16 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   PIS 
+        NAVIGATION_POINT_NAME   BEROK 
+        NAVIGATION_POINT_NAME   PAR 
+        NAVIGATION_POINT_NAME   SRN 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B17 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   ADOSA 
+        NAVIGATION_POINT_NAME   BORMI 
+        NAVIGATION_POINT_NAME   BZO 
+        NAVIGATION_POINT_NAME   UNIMI 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B18 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   CHI 
+        NAVIGATION_POINT_NAME   ROTAR 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B19 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   ROSKA 
+        NAVIGATION_POINT_NAME   BADOP 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B2 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   ELB 
+        NAVIGATION_POINT_NAME   MAREL 
+        NAVIGATION_POINT_NAME   GINAR 
+        NAVIGATION_POINT_NAME   FRZ 
+        NAVIGATION_POINT_NAME   BOA 
+        NAVIGATION_POINT_NAME   FER 
+        NAVIGATION_POINT_NAME   ROVIG 
+        NAVIGATION_POINT_NAME   CHI 
+        NAVIGATION_POINT_NAME   TULIK 
+        NAVIGATION_POINT_NAME   ROSKA 
+        NAVIGATION_POINT_NAME   MONFA 
+        NAVIGATION_POINT_NAME   UMBEK 
+        NAVIGATION_POINT_NAME   BARPI 
+        NAVIGATION_POINT_NAME   DOL 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B20 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   ROTAR 
+        NAVIGATION_POINT_NAME   PUL 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B21 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   ANC 
+        NAVIGATION_POINT_NAME   IBENI 
+        NAVIGATION_POINT_NAME   LOS 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B22 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   ANC 
+        NAVIGATION_POINT_NAME   MASEG 
+        NAVIGATION_POINT_NAME   NUTRO 
+        NAVIGATION_POINT_NAME   ARPIK 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B23 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   NIKOL 
+        NAVIGATION_POINT_NAME   ALIVO 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B24 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   VERUN 
+        NAVIGATION_POINT_NAME   GITOD 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B3 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   GEN 
+        NAVIGATION_POINT_NAME   OSKOR 
+        NAVIGATION_POINT_NAME   NESTI 
+        NAVIGATION_POINT_NAME   TAGIP 
+        NAVIGATION_POINT_NAME   DIBAX 
+        NAVIGATION_POINT_NAME   SUMIR 
+        NAVIGATION_POINT_NAME   ALESE 
+        NAVIGATION_POINT_NAME   VESAL 
+        NAVIGATION_POINT_NAME   MALUG 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B4 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   GEN 
+        NAVIGATION_POINT_NAME   KALMO 
+        NAVIGATION_POINT_NAME   BEROK 
+        NAVIGATION_POINT_NAME   FRZ 
+        NAVIGATION_POINT_NAME   LASEB 
+        NAVIGATION_POINT_NAME   VALEN 
+        NAVIGATION_POINT_NAME   BAGNO 
+        NAVIGATION_POINT_NAME   PIDEP 
+        NAVIGATION_POINT_NAME   URBAN 
+        NAVIGATION_POINT_NAME   ANC 
+        NAVIGATION_POINT_NAME   LISKO 
+        NAVIGATION_POINT_NAME   TORPO 
+        NAVIGATION_POINT_NAME   ELGUS 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B5 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   RESIA 
+        NAVIGATION_POINT_NAME   GIGGI 
+        NAVIGATION_POINT_NAME   TAGIP 
+        NAVIGATION_POINT_NAME   ADOSA 
+        NAVIGATION_POINT_NAME   ALBET 
+        NAVIGATION_POINT_NAME   CHI 
+        NAVIGATION_POINT_NAME   AGOMO 
+        NAVIGATION_POINT_NAME   LABIN 
+        NAVIGATION_POINT_NAME   PUL 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B6 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   LUSIL 
+        NAVIGATION_POINT_NAME   GIGGI 
+        NAVIGATION_POINT_NAME   RENTA 
+        NAVIGATION_POINT_NAME   BZO 
+        NAVIGATION_POINT_NAME   BAKOR 
+        NAVIGATION_POINT_NAME   DETSA 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B7 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   GIRDA 
+        NAVIGATION_POINT_NAME   BAXON 
+        NAVIGATION_POINT_NAME   LANLI 
+        NAVIGATION_POINT_NAME   GUBIN 
+        NAVIGATION_POINT_NAME   UMBED 
+        NAVIGATION_POINT_NAME   NIKMA 
+        NAVIGATION_POINT_NAME   BOL 
+        NAVIGATION_POINT_NAME   TAQ 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B8 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   GIRDA 
+        NAVIGATION_POINT_NAME   PUL 
+        NAVIGATION_POINT_NAME   NIKOL 
+        NAVIGATION_POINT_NAME   BUSER 
+        NAVIGATION_POINT_NAME   ANC 
+        NAVIGATION_POINT_NAME   DIKOM 
+        NAVIGATION_POINT_NAME   LEONN 
+        NAVIGATION_POINT_NAME   KATAR 
+        NAVIGATION_POINT_NAME   GITOD 
+        NAVIGATION_POINT_NAME   BOL 
+      ENDL 
+RECORD            STATIC_AIRWAY 
+IDENT                          B9 
+   POINTS_LIST  
+      BEGINL  
+        NAVIGATION_POINT_NAME   BOL 
+        NAVIGATION_POINT_NAME   AMTEL 
+        NAVIGATION_POINT_NAME   FRZ 
+        NAVIGATION_POINT_NAME   LUPOS 
+        NAVIGATION_POINT_NAME   PAR 
+        NAVIGATION_POINT_NAME   TZO 
+      ENDL 
+ RECORD       STATIC_AIRPORT   
+ IDENT               LIRA 
+                LAT              NORTH 45.2961
+                LONG             EAST  13.0289
+ RECORD       STATIC_SECTOR  
+ IDENT                FLOW
+ LOW_LEVEL            0
+ HIGH_LEVEL           305
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8558
+                LONG             EAST  11.7058
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5514
+                LONG             EAST  11.6439
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6847
+                LONG             EAST  11.6422
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.8294
+                LONG             EAST  11.2094
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.0953
+                LONG             EAST  10.1117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3028
+                LONG             EAST   9.9953
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9317
+                LONG             EAST  10.9542
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9556
+                LONG             EAST  12.2514
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3381
+                LONG             EAST  12.8194
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9317
+                LONG             EAST  10.9542
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9831
+                LONG             EAST  13.1022
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2175
+                LONG             EAST  13.0069
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2489
+                LONG             EAST  13.0703
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.8556
+                LONG             EAST  13.6150
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2214
+                LONG             EAST  13.4933
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7097
+                LONG             EAST  12.5833
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0289
+                LONG             EAST  11.8742
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0369
+                LONG             EAST  11.7203
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0325
+                LONG             EAST  11.5533
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9833
+                LONG             EAST  11.3856
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9933
+                LONG             EAST  10.7511
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8628
+                LONG             EAST  10.5947
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.5708
+                LONG             EAST  10.4700
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4536
+                LONG             EAST  10.0383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0350
+                LONG             EAST  10.2653
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9317
+                LONG             EAST  10.9542
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9556
+                LONG             EAST  12.2514
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3381
+                LONG             EAST  12.8194
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8558
+                LONG             EAST  11.7058
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5514
+                LONG             EAST  11.6439
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6847
+                LONG             EAST  11.6422
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.8294
+                LONG             EAST  11.2094
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.0953
+                LONG             EAST  10.1117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3028
+                LONG             EAST   9.9953
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6031
+                LONG             EAST  11.4956
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.4631
+                LONG             EAST  11.8531
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0497
+                LONG             EAST  12.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.8742
+                LONG             EAST  13.1153
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0700
+                LONG             EAST  13.3286
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1567
+                LONG             EAST  13.7383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1492
+                LONG             EAST  14.1586
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1947
+                LONG             EAST  14.7467
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.5672
+                LONG             EAST  14.4419
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.2258
+                LONG             EAST  13.6931
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5336
+                LONG             EAST  13.3336
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8558
+                LONG             EAST  11.7058
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5514
+                LONG             EAST  11.6439
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6847
+                LONG             EAST  11.6422
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3381
+                LONG             EAST  12.8194
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9556
+                LONG             EAST  12.2514
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9317
+                LONG             EAST  10.9542
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2489
+                LONG             EAST  13.0703
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2175
+                LONG             EAST  13.0069
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9831
+                LONG             EAST  13.1022
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9317
+                LONG             EAST  10.9542
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9556
+                LONG             EAST  12.2514
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2214
+                LONG             EAST  13.4933
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.8556
+                LONG             EAST  13.6150
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.5708
+                LONG             EAST  10.4700
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8628
+                LONG             EAST  10.5947
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9933
+                LONG             EAST  10.7511
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9833
+                LONG             EAST  11.3856
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0325
+                LONG             EAST  11.5533
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0369
+                LONG             EAST  11.7203
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0289
+                LONG             EAST  11.8742
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7097
+                LONG             EAST  12.5833
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9556
+                LONG             EAST  12.2514
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.9317
+                LONG             EAST  10.9542
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0350
+                LONG             EAST  10.2653
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4536
+                LONG             EAST  10.0383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.5708
+                LONG             EAST  10.4700
+   ENDS  
+       ENDL
+ RECORD       STATIC_SECTOR  
+ IDENT                MIL
+ LOW_LEVEL            800
+ HIGH_LEVEL           999
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2489
+                LONG             EAST  13.0703
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2175
+                LONG             EAST  13.0069
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9831
+                LONG             EAST  13.1022
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0350
+                LONG             EAST  10.2653
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4536
+                LONG             EAST  10.0383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.5708
+                LONG             EAST  10.4700
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8628
+                LONG             EAST  10.5947
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9933
+                LONG             EAST  10.7511
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9833
+                LONG             EAST  11.3856
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0325
+                LONG             EAST  11.5533
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0369
+                LONG             EAST  11.7203
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0289
+                LONG             EAST  11.8742
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7097
+                LONG             EAST  12.5833
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2214
+                LONG             EAST  13.4933
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.8556
+                LONG             EAST  13.6150
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2489
+                LONG             EAST  13.0703
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2175
+                LONG             EAST  13.0069
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9831
+                LONG             EAST  13.1022
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0350
+                LONG             EAST  10.2653
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4536
+                LONG             EAST  10.0383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.5708
+                LONG             EAST  10.4700
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8628
+                LONG             EAST  10.5947
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9933
+                LONG             EAST  10.7511
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9833
+                LONG             EAST  11.3856
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0325
+                LONG             EAST  11.5533
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0369
+                LONG             EAST  11.7203
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0289
+                LONG             EAST  11.8742
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7097
+                LONG             EAST  12.5833
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2214
+                LONG             EAST  13.4933
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.8556
+                LONG             EAST  13.6150
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5336
+                LONG             EAST  13.3336
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.2258
+                LONG             EAST  13.6931
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.5672
+                LONG             EAST  14.4419
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1947
+                LONG             EAST  14.7467
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1492
+                LONG             EAST  14.1586
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1567
+                LONG             EAST  13.7383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0700
+                LONG             EAST  13.3286
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.8742
+                LONG             EAST  13.1153
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0497
+                LONG             EAST  12.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.4631
+                LONG             EAST  11.8531
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6031
+                LONG             EAST  11.4956
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.8294
+                LONG             EAST  11.2094
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.0953
+                LONG             EAST  10.1117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3028
+                LONG             EAST   9.9953
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5336
+                LONG             EAST  13.3336
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.2258
+                LONG             EAST  13.6931
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.5672
+                LONG             EAST  14.4419
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1947
+                LONG             EAST  14.7467
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1492
+                LONG             EAST  14.1586
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1567
+                LONG             EAST  13.7383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0700
+                LONG             EAST  13.3286
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.8742
+                LONG             EAST  13.1153
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0497
+                LONG             EAST  12.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.4631
+                LONG             EAST  11.8531
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6031
+                LONG             EAST  11.4956
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.8294
+                LONG             EAST  11.2094
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.0953
+                LONG             EAST  10.1117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3028
+                LONG             EAST   9.9953
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+       ENDL
+ RECORD       STATIC_SECTOR  
+ IDENT                PIL1
+ LOW_LEVEL            700
+ HIGH_LEVEL           750
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2489
+                LONG             EAST  13.0703
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2175
+                LONG             EAST  13.0069
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9831
+                LONG             EAST  13.1022
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0350
+                LONG             EAST  10.2653
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4536
+                LONG             EAST  10.0383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.5708
+                LONG             EAST  10.4700
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8628
+                LONG             EAST  10.5947
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9933
+                LONG             EAST  10.7511
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9833
+                LONG             EAST  11.3856
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0325
+                LONG             EAST  11.5533
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0369
+                LONG             EAST  11.7203
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0289
+                LONG             EAST  11.8742
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7097
+                LONG             EAST  12.5833
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2214
+                LONG             EAST  13.4933
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.8556
+                LONG             EAST  13.6150
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+       ENDL
+ RECORD       STATIC_SECTOR  
+ IDENT                PIL2
+ LOW_LEVEL            600
+ HIGH_LEVEL           700
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2489
+                LONG             EAST  13.0703
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2175
+                LONG             EAST  13.0069
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9831
+                LONG             EAST  13.1022
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0350
+                LONG             EAST  10.2653
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4536
+                LONG             EAST  10.0383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.5708
+                LONG             EAST  10.4700
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8628
+                LONG             EAST  10.5947
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9933
+                LONG             EAST  10.7511
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9833
+                LONG             EAST  11.3856
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0325
+                LONG             EAST  11.5533
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0369
+                LONG             EAST  11.7203
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0289
+                LONG             EAST  11.8742
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7097
+                LONG             EAST  12.5833
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2214
+                LONG             EAST  13.4933
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.8556
+                LONG             EAST  13.6150
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+       ENDL
+ RECORD       STATIC_SECTOR  
+ IDENT                PIL3
+ LOW_LEVEL            700
+ HIGH_LEVEL           800
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5336
+                LONG             EAST  13.3336
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.2258
+                LONG             EAST  13.6931
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.5672
+                LONG             EAST  14.4419
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1947
+                LONG             EAST  14.7467
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1492
+                LONG             EAST  14.1586
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1567
+                LONG             EAST  13.7383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0700
+                LONG             EAST  13.3286
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.8742
+                LONG             EAST  13.1153
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0497
+                LONG             EAST  12.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.4631
+                LONG             EAST  11.8531
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6031
+                LONG             EAST  11.4956
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.8294
+                LONG             EAST  11.2094
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.0953
+                LONG             EAST  10.1117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3028
+                LONG             EAST   9.9953
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+       ENDL
+ RECORD       STATIC_SECTOR  
+ IDENT                PIL4
+ LOW_LEVEL            600
+ HIGH_LEVEL           700
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2056
+                LONG             EAST  10.5492
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1906
+                LONG             EAST  10.8128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1667
+                LONG             EAST  11.3000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.8936
+                LONG             EAST  11.8025
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9333
+                LONG             EAST  11.9003
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7817
+                LONG             EAST  12.3711
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7794
+                LONG             EAST  12.5133
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  12.9453
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5336
+                LONG             EAST  13.3336
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.2258
+                LONG             EAST  13.6931
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.5672
+                LONG             EAST  14.4419
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1947
+                LONG             EAST  14.7467
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1492
+                LONG             EAST  14.1586
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1567
+                LONG             EAST  13.7383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0700
+                LONG             EAST  13.3286
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.8742
+                LONG             EAST  13.1153
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0497
+                LONG             EAST  12.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.4631
+                LONG             EAST  11.8531
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6031
+                LONG             EAST  11.4956
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.8294
+                LONG             EAST  11.2094
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.0953
+                LONG             EAST  10.1117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3028
+                LONG             EAST   9.9953
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+       ENDL
+ RECORD       STATIC_SECTOR  
+ IDENT                FEAST
+ LOW_LEVEL            0
+ HIGH_LEVEL           999
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.2258
+                LONG             EAST  13.6931
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.5672
+                LONG             EAST  14.4419
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1947
+                LONG             EAST  14.7467
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 41.6519
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1083
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2489
+                LONG             EAST  13.0703
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.2175
+                LONG             EAST  13.0069
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.9831
+                LONG             EAST  13.1022
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.7836
+                LONG             EAST  13.2000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.5336
+                LONG             EAST  13.3336
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.2258
+                LONG             EAST  13.6931
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.8742
+                LONG             EAST  13.1153
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.2575
+                LONG             EAST  13.6644
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 41.6519
+                LONG             EAST  14.1425
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 41.6519
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1947
+                LONG             EAST  14.7467
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1492
+                LONG             EAST  14.1586
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.1567
+                LONG             EAST  13.7383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0700
+                LONG             EAST  13.3286
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.8742
+                LONG             EAST  13.1153
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.8556
+                LONG             EAST  13.6150
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2214
+                LONG             EAST  13.4933
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7722
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.1083
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3869
+                LONG             EAST  13.4714
+   ENDS  
+       ENDL
+ RECORD       STATIC_SECTOR  
+ IDENT                FNORT
+ LOW_LEVEL            0
+ HIGH_LEVEL           999
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.9767
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 48.3017
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 48.3017
+                LONG             EAST   9.5164
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0939
+                LONG             EAST   9.5281
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8322
+                LONG             EAST  10.1128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8628
+                LONG             EAST  10.5947
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9933
+                LONG             EAST  10.7511
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.9833
+                LONG             EAST  11.3856
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0325
+                LONG             EAST  11.5533
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0369
+                LONG             EAST  11.7203
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0289
+                LONG             EAST  11.8742
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7097
+                LONG             EAST  12.5833
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4986
+                LONG             EAST  13.2675
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.7722
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.9767
+                LONG             EAST  16.3125
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.5708
+                LONG             EAST  10.4700
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.4536
+                LONG             EAST  10.0383
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0736
+                LONG             EAST   8.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.3661
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 48.3017
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 48.3017
+                LONG             EAST   9.5164
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 47.0939
+                LONG             EAST   9.5281
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.8322
+                LONG             EAST  10.1128
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.6906
+                LONG             EAST  10.5117
+   ENDS  
+       ENDL
+ RECORD       STATIC_SECTOR  
+ IDENT                FWEST
+ LOW_LEVEL            0
+ HIGH_LEVEL           999
+    POINTS_LIST  
+       BEGINL  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.3661
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6431
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.7011
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 41.6519
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6650
+                LONG             EAST  10.3728
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.0953
+                LONG             EAST  10.1117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3028
+                LONG             EAST   9.9953
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0350
+                LONG             EAST  10.2653
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0736
+                LONG             EAST   8.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.3661
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6650
+                LONG             EAST  10.3728
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.8294
+                LONG             EAST  11.2094
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6881
+                LONG             EAST  11.4050
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6031
+                LONG             EAST  11.4956
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.4631
+                LONG             EAST  11.8531
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.0497
+                LONG             EAST  12.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.8742
+                LONG             EAST  13.1153
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 42.2575
+                LONG             EAST  13.6644
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 41.6519
+                LONG             EAST  14.1425
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 41.6519
+                LONG             EAST   9.7631
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 41.6519
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6650
+                LONG             EAST  10.3728
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6431
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.7011
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 41.6519
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 43.6650
+                LONG             EAST  10.3728
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 44.0206
+                LONG             EAST  11.0089
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.0953
+                LONG             EAST  10.1117
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.3028
+                LONG             EAST   9.9953
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.4647
+                LONG             EAST  10.0208
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6397
+                LONG             EAST  10.6231
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.7689
+                LONG             EAST  10.5114
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0350
+                LONG             EAST  10.2653
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.2839
+                LONG             EAST  10.0000
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.0736
+                LONG             EAST   8.6861
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 46.3661
+                LONG             EAST   8.1131
+   ENDS  
+             SECTOR_POINTS 
+   BEGINS  
+                LAT              NORTH 45.6431
+                LONG             EAST   8.1131
+   ENDS  
+       ENDL
+ RECORD       STATIC_EXERCISE 
+ IDENT        ASMNEW 
+                LAT              NORTH 45.2628
+                LONG             EAST  12.9956

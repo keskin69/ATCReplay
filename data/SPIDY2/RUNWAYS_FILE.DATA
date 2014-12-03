@@ -1,0 +1,55 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         RUNWAYS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+ RECORD              RUNWAY  
+ IDENT 
+ BEGINS  
+   AP              LIRA 
+   RU 
+   BEGINS  
+     NB            0 
+     DR            'C' 
+   ENDS  
+ ENDS  
+ ACTIVE    TRUE 
+ MAGNETIC_BEARING    100.0 
+               POSITION 
+               BEGINS 
+                LAT              NORTH 41.7986
+                LONG             EAST  12.5950
+               ENDS 
+ LENGTH              0.0 
+   EQUIPMENT        
+   BEGINS  
+     KIND             ILS
+     ILS_INFO         3.05  '2'   
+   ENDS  
+ STRIP_WIDTH                       0.02 
+ APM_DISTANCE                      10.80 
+ GLIDE_ANGLE                       2.29 
+ LATERAL_ANGLE                     8.53 
+ RADIUS_INHIBITION                 3.24 
+ DPM_DISTANCE                      10.80 
+ CLIMB_ANGLE                       3.60 
+ APM_GLIDE_THRESHOLD               0.20 
+ DPM_GLIDE_THRESHOLD               0.20 
+   ROLL_OUT 
+   BEGINS 
+                LAT              NORTH 41.7986
+                LONG             EAST  12.5950
+   ENDS 
+  CENTRE_LINE_LENGTH          0
+  CENTRE_LINE_REF_DIST        0

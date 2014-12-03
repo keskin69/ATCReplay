@@ -1,0 +1,83 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         SIDS_STARS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+ RECORD                   SID 
+ IDENT                    LIRA1   XXXX
+   RU 
+   BEGINS 
+     NB                   00
+   ENDS 
+ START                    DUMM3
+ EXIT_P                   DUMM2
+   POINTS_LIST 
+   BEGINL 
+     SID_POINTS 
+     BEGINS 
+       POINT              DUMM3
+       CONTROLLER_ID      5
+       TARGET_ALT         0
+     ENDS 
+     SID_POINTS 
+     BEGINS 
+       POINT              DUMM2
+       CONTROLLER_ID      5
+       TARGET_ALT         0
+     ENDS 
+     ENDL 
+             AIRCRAFT_CATEGORY_LIST 
+             BEGINL 
+             AIRCRAFT_TYPE  JET 
+             AIRCRAFT_TYPE  TURBO 
+             AIRCRAFT_TYPE  LGHT 
+             ENDL
+ RECORD                   STAR 
+ IDENT                    LIRA2   LIRA
+   RU 
+   BEGINS 
+     NB                   0
+     DR                 'C'  
+   ENDS 
+ GATE                     DUMM2
+ FAF                      DUMM3
+   POINTS_LIST 
+   BEGINL 
+     STAR_POINTS 
+     BEGINS 
+       POINT              DUMM2
+       CONTROLLER_ID      5
+       TARGET_ALT         0
+       PHASIS             INITIAL 
+     ENDS 
+     STAR_POINTS 
+     BEGINS 
+       POINT              VALEN
+       CONTROLLER_ID      5
+       PHASIS             FINAL 
+     ENDS 
+     STAR_POINTS 
+     BEGINS 
+       POINT              DUMM3
+       CONTROLLER_ID      5
+       TARGET_ALT         0
+       PHASIS             FINAL 
+     ENDS 
+   ENDL 
+             AIRCRAFT_CATEGORY_LIST 
+             BEGINL 
+             AIRCRAFT_TYPE  JET 
+             AIRCRAFT_TYPE  TURBO 
+             AIRCRAFT_TYPE  LGHT 
+             ENDL

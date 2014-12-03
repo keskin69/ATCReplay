@@ -1,0 +1,20 @@
+--******************************************************************************
+-- IRS Version:	    2003A
+-- File name:         MASS_ASAS_PARAMETERS_FILE.DATA.2003A
+-- Simulation:        ALL
+-- Description:       default file
+-- Exercise:          none
+-- Airspace_env_name: none
+-- Traffic sample:    none
+-- Constraint config: none
+-- Architecture:      none
+-- Surveillance:      none
+-- Data validation:   none
+-- Date and time:     none
+--******************************************************************************
+RECORD                                   ASAS_PARAMETERS
+   DEFAULT_LATERAL_SEPARATION_ON_ROUTE 5
+   DEFAULT_LATERAL_SEPARATION_TMA 3
+   LEVEL_FOR_TRANSITION 90
+   LEVEL_FOR_SPEED_SATURATION 100
+   SPEED_FOR_SPEED_SATURATION 250.0

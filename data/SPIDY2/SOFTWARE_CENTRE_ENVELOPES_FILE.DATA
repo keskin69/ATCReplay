@@ -1,0 +1,120 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         SOFTWARE_CENTRE_ENVELOPES_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD          SOFTWARE_CENTRE_ENVELOPES_ITEM
+IDENT           1
+ENV
+   BEGINL
+      BOX
+      BEGINS
+         NUMBER          1
+            SEGS_LIST
+            BEGINL
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME SWCE1
+                         POS
+                         BEGINS
+                LAT              NORTH 48.3017
+                LONG             EAST   8.1131
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME SWCE2
+                         POS
+                         BEGINS
+                LAT              NORTH 48.3044
+                LONG             EAST  16.3125
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            999
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME SWCE2
+                         POS
+                         BEGINS
+                LAT              NORTH 48.3044
+                LONG             EAST  16.3125
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME SWCE3
+                         POS
+                         BEGINS
+                LAT              NORTH 41.6519
+                LONG             EAST  16.3125
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            999
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME SWCE3
+                         POS
+                         BEGINS
+                LAT              NORTH 41.6519
+                LONG             EAST  16.3125
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME SWCE4
+                         POS
+                         BEGINS
+                LAT              NORTH 41.6519
+                LONG             EAST   8.1131
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            999
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME SWCE4
+                         POS
+                         BEGINS
+                LAT              NORTH 41.6519
+                LONG             EAST   8.1131
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME SWCE1
+                         POS
+                         BEGINS
+                LAT              NORTH 48.3017
+                LONG             EAST   8.1131
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            999
+            ENDS
+            ENDL
+      ENDS
+   ENDL

@@ -1,0 +1,46 @@
+#
+# This file has been generated from within the IPAS
+# It is meant as a help for configuring the OSYRIS 
+# arrival manager.
+# It contains .
+
+star definitions
+
+Star: DUMMY  (XXXX)
+  Aircraft type(s)     : JET TURBO LGHT 
+Points
+  00 Pointname      : DUMM2
+    Target altitude   : 0
+    Phasis            : INITIAL
+
+  01 Pointname      : VALEN
+    Target altitude   : -1
+    Phasis            : FINAL
+
+  02 Pointname      : DUMM3
+    Target altitude   : 0
+    Phasis            : FINAL
+
+
+Star: LIRA2  (LIRA)
+  Aircraft type(s)     : JET TURBO LGHT 
+Points
+  00 Pointname      : DUMM2
+    Target altitude   : 0
+    Phasis            : INITIAL
+
+  01 Pointname      : VALEN
+    Target altitude   : -1
+    Phasis            : FINAL
+
+  02 Pointname      : DUMM3
+    Target altitude   : 0
+    Phasis            : FINAL
+
+
+runways
+airport: LIRA
+  Heading 0distinction: 'C' 
+  Bearing    100.0 
+airport: XXXX
+  Heading 0  Bearing    0.0 

@@ -1,0 +1,1802 @@
+1000 V ASMNEW  4515N   01259E 1910 02 12 08:29:00  01 01 ASM   SPIDY2           
+1100   01      000 999 ATC1                                                     
+1125 CTS   11/01 11    133515 04          06 1                                  
+1125 CTS   12/02 12    133515                1                                  
+1125 FLOW  34/08 34    13475                 1                                  
+1125 MIL   53/01 53    25850  14             1                                  
+1125 MIL   54/02 54    25850                 1                                  
+1125 NTS   08/01 8     133705 13             1                                  
+1125 NTS   09/02 9     133705                1                                  
+1125 NTT   05/01 5     12738  11          12 1                                  
+1125 NTT   06/02 6     12738                 1                                  
+1125 PIL1  24/08 24    11110                 1                                  
+1125 PIL2  23/08 23    11120                 1                                  
+1125 PIL3  26/08 26    11130                 1                                  
+1125 PIL4  25/08 25    11140                 1                                  
+1125 PIL5  22/08 22    11150                 1                                  
+1125 STS   15/01 15    13394  03          05 1                                  
+1125 STS   16/02 16    13394                 1                                  
+1125 STT   18/01 18    133305 01 02          1                                  
+1125 STT   19/02 19    133305                1                                  
+1100   02      000 999 ATC2                                                     
+1125 FEAST 33/08 33    13580                 1                                  
+1125 FNORT 32/08 32    12628                 1                                  
+1125 FWEST 31/08 31    13453                 1                                  
+1151  GEO PT   A 21127 AIRWAY  022     SECTOR 020                               
+1152  AIRPORT  A 21720 SID     023     RESERV.120                               
+1153                   STAR    023     COORDI.126                               
+1200   ABESI   4609N35 00902E34         NY Y                                    
+1200   ABRUK   4722N59 01500E24         NY Y                                    
+1200   ADOSA   4538N40 01101E35         NY Y                                    
+1200   AGOMO   4501N01 01248E07         NY Y                                    
+1200   AKABI   4743N01 00914E00         NY Y                                    
+1200   AKADO   4520N00 01230E00         NY Y                                    
+1200   ALBET   4525N36 01130E33         NY Y                                    
+1200   ALESE   4616N30 01124E14         NY Y                                    
+1200   ALIVO   4531N24 01444E21         NY Y                                    
+1200   ALPH1   4437N00 01205E00         NY N                                    
+1200   ALPH2   4437N01 01205E01         NN N                                    
+1200   ALPH3   4437N02 01205E01         NN N                                    
+1200   ALPH4   4437N02 01205E02         NN N                                    
+1200   AMDID   4805N50 01223E49         NY Y                                    
+1200   AMEMI   4753N41 01010E02         NY Y                                    
+1200   AMGAS   4744N09 01115E02         NY Y                                    
+1200   AMIKI   4734N26 00902E15         NY Y                                    
+1200   AMLON   4420N21 01252E35         NY Y                                    
+1200   AMTEL   4313N13 01136E31         NY Y                                    
+1200   ANC     4335N11 01328E16         NY Y                                    
+1200   ANDEC   4753N12 01120E04         NY Y                                    
+1200   ANEDA   4216N15 01339E53         NY Y                                    
+1200   ARGAX   4703N00 00917E53         NY Y                                    
+1200   ARGEX   4433N09 01140E11         NY Y                                    
+1200   ARLES   4555N46 00822E30         NY Y                                    
+1200   ARLON   4624N50 01501E47         NY Y                                    
+1200   ARPIK   4244N49 01447E32         NY Y                                    
+1200   ARTAG   4709N52 00830E50         NY Y                                    
+1200   ARTUS   4729N51 01216E13         NY Y                                    
+1200   ASKOD   4723N08 01552E17         NY Y                                    
+1200   ATRIG   4653N06 01115E55         NY Y                                    
+1200   B1      4550N00 01230E00         NY Y                                    
+1200   BABAG   4523N13 01307E37         NY Y                                    
+1200   BADOP   4527N44 01300E15         NY Y                                    
+1200   BADVI   4743N52 01156E43         NY Y                                    
+1200   BAGNO   4353N26 01148E08         NY Y                                    
+1200   BAKOR   4636N32 01143E43         NY Y                                    
+1200   BALAD   4753N48 01548E44         NY Y                                    
+1200   BALUK   4405N55 01040E11         NY Y                                    
+1200   BARPI   4535N09 01331E22         NY Y                                    
+1200   BAXON   4424N59 01327E47         NY Y                                    
+1200   BELOV   4432N33 01242E48         NY Y                                    
+1200   BEMKI   4733N34 01018E20         NY Y                                    
+1200   BENUS   4454N25 01112E13         NY Y                                    
+1200   BERAS   4721N34 01146E10         NY Y                                    
+1200   BEROK   4409N56 01021E06         NY Y                                    
+1200   BETOS   4804N05 01121E00         NY Y                                    
+1200   BILDU   4710N13 01039E42         NY Y                                    
+1200   BO      4410N09 01515E50         NY Y                                    
+1200   BOA     4432N13 01117E26         NY Y                                    
+1200   BOL     4237N06 01202E55         NY Y                                    
+1200   BORMI   4602N10 01110E00         NY Y                                    
+1200   BOTAL   4508N01 00907E22         NY Y                                    
+1200   BREGO   4723N23 00820E46         NY Y                                    
+1200   BRENO   4658N48 01122E36         NY Y                                    
+1200   BUKIN   4340N47 01138E12         NY Y                                    
+1200   BUSER   4406N24 01338E56         NY Y                                    
+1200   BZO     4627N50 01119E20         NY Y                                    
+1200   C1      4624N00 01213E30         NY Y                                    
+1200   C2      4624N02 01213E32         NN N                                    
+1200   CEV     4412N21 01221E26         NY Y                                    
+1200   CHI     4504N16 01216E53         NY Y                                    
+1200   CIA     4151N54 01233E39         NY Y                                    
+1200   CMP     4207N26 01222E53         NY Y                                    
+1200   COD     4513N35 00932E28         NY Y                                    
+1200   CRE     4454N01 01424E49         NY Y                                    
+1200   D1      4625N00 01257E00         NY Y                                    
+1200   D2      4625N02 01257E02         NN N                                    
+1200   DEGES   4724N45 00912E07         NY Y                                    
+1200   DENAL   4330N32 01152E38         NY Y                                    
+1200   DENED   4716N10 01105E13         NY Y                                    
+1200   DENUX   4804N13 01552E50         NY Y                                    
+1200   DESIP   4538N45 00907E33         NY Y                                    
+1200   DETSA   4648N09 01216E52         NY Y                                    
+1200   DIBAX   4606N59 01103E51         NY Y                                    
+1200   DIKOM   4323N01 01310E02         NY Y                                    
+1200   DIPEP   4320N30 01429E31         NY Y                                    
+1200   DITON   4718N08 00820E00         NY Y                                    
+1200   DITUM   4424N21 01214E50         NY Y                                    
+1200   DOL     4605N03 01446E43         NY Y                                    
+1200   DOLOM   4442N26 01452E34         NY Y                                    
+1200   DORAP   4728N22 00936E04         NY Y                                    
+1200   DORAV   4419N35 00851E08         NY Y                                    
+1200   DORIN   4513N33 00951E58         NY Y                                    
+1200   DUMM2   4516N46 01260E44         NN N                                    
+1200   DUMM3   4517N46 01261E44         NN N                                    
+1200   E1      4557N03 01303E13         NY Y                                    
+1200   E2      4557N05 01303E15         NN N                                    
+1200   EBITA   4423N06 01446E09         NY Y                                    
+1200   ELB     4243N50 01023E45         NY Y                                    
+1200   ELGUS   4332N52 01458E00         NY Y                                    
+1200   ELKAT   4659N28 01354E20         NY Y                                    
+1200   ELMEM   4717N08 01034E15         NY Y                                    
+1200   ELMUR   4709N24 00854E27         NY Y                                    
+1200   ELSIS   4645N32 01536E41         NY Y                                    
+1200   ELTAR   4538N51 01037E40         NY Y                                    
+1200   EMILY   4210N05 01408E01         NY Y                                    
+1200   ESISO   4747N34 00951E35         NY Y                                    
+1200   ETOXU   4743N33 00933E02         NY Y                                    
+1200   EVANO   4520N15 00845E39         NY Y                                    
+1200   F1      4539N14 01251E06         NY Y                                    
+1200   F2      4539N16 01251E08         NN N                                    
+1200   F3      4551N02 01239E02         NN N                                    
+1200   FER     4448N52 01136E59         NY Y                                    
+1200   FER2    4448N53 01136E58         NY Y                                    
+1200   FOR     4414N53 01155E29         NY Y                                    
+1200   FRZ     4401N38 01100E43         NY Y                                    
+1200   G1      4546N35 01210E13         NY Y                                    
+1200   GAPRI   4341N41 01548E01         NY Y                                    
+1200   GARGA   4216N00 01607E00         NY Y                                    
+1200   GAZ     4512N06 01036E15         NY Y                                    
+1200   GBG     4653N13 01548E01         NY Y                                    
+1200   GEN     4425N28 00904E56         NY Y                                    
+1200   GERBU   4320N39 01337E26         NY Y                                    
+1200   GERSA   4702N22 00831E56         NY Y                                    
+1200   GIBLO   4521N30 00952E00         NY Y                                    
+1200   GIGGI   4609N15 01025E49         NY Y                                    
+1200   GINAR   4337N57 01048E58         NY Y                                    
+1200   GIRDA   4528N32 01408E02         NY Y                                    
+1200   GIRIS   4646N18 01053E03         NY Y                                    
+1200   GISER   4503N43 01510E26         NN N                                    
+1200   GITOD   4248N01 01218E39         NY Y                                    
+1200   GOLVA   4642N32 01539E09         NY Y                                    
+1200   GOREP   4455N06 01205E59         NY Y                                    
+1200   GRZ     4657N19 01526E58         NY Y                                    
+1200   GUBIN   4329N13 01246E27         NY Y                                    
+1200   GUI     4159N59 01244E20         NY Y                                    
+1200   H1      4616N56 01157E12         NY Y                                    
+1200   HS26    4413N46 01220E46         NN N                                    
+1200   HS49    4617N58 01231E45         NN N                                    
+1200   HS78    4416N08 01308E09         NN N                                    
+1200   HSSP    4356N35 01416E53         NN N                                    
+1200   I1      4435N25 01222E27         NY Y                                    
+1200   I2      4435N26 01222E28         NN N                                    
+1200   I3      4435N27 01222E29         NN N                                    
+1200   IBENI   4400N51 01355E18         NY Y                                    
+1200   INBUT   4524N48 01155E03         NY Y                                    
+1200   INN     4713N48 01124E07         NY Y                                    
+1200   IPINO   4542N26 01317E03         NY Y                                    
+1200   IRBIR   4733N59 01106E13         NY Y                                    
+1200   IXITO   4408N05 00848E13         NY Y                                    
+1200   IXONA   4450N44 01332E56         NY Y                                    
+1200   IXORA   4550N12 00835E20         NY Y                                    
+1200   IXUSI   4326N19 01143E51         NY Y                                    
+1200   J1      4357N34 01252E36         NY Y                                    
+1200   J2      4357N36 01252E38         NN Y                                    
+1200   J3      4357N37 01253E38         NN Y                                    
+1200   K1      4404N22 01225E00         NY Y                                    
+1200   K2      4404N26 01226E02         NN Y                                    
+1200   K3      4404N25 01226E01         NN Y                                    
+1200   KALIK   4428N06 00950E53         NY Y                                    
+1200   KALMO   4419N18 00935E39         NY Y                                    
+1200   KAMPA   4523N24 01000E00         NY Y                                    
+1200   KARPI   4429N03 01009E45         YY Y                                    
+1200   KATAR   4303N06 01240E40         NY Y                                    
+1200   KELIP   4657N22 00845E42         NY Y                                    
+1200   KOGOL   4737N20 01123E59         NY Y                                    
+1200   KOLUL   4728N02 00849E22         NY Y                                    
+1200   KONIN   4751N21 01122E05         NY Y                                    
+1200   KOPER   4509N14 01138E29         NY Y                                    
+1200   KOREX   4446N16 01546E09         NY Y                                    
+1200   KOTOR   4526N28 01534E20         NY Y                                    
+1200   KPT     4744N45 01020E59         NY Y                                    
+1200   KREVA   4446N28 01114E06         NY Y                                    
+1200   KUDES   4731N15 00851E26         NY Y                                    
+1200   KULEN   4509N55 01508E01         NY Y                                    
+1200   L1      4440N00 01235E00         NY Y                                    
+1200   L2      4440N02 01235E02         NY Y                                    
+1200   L3      4440N04 01235E04         NY Y                                    
+1200   LABIN   4459N09 01305E29         NY Y                                    
+1200   LAGEN   4423N39 00829E53         NY Y                                    
+1200   LAGUS   4538N25 01310E37         NY Y                                    
+1200   LAKOL   4804N16 01200E53         NY Y                                    
+1200   LAMPO   4606N21 01142E05         NY Y                                    
+1200   LANLI   4357N26 01310E50         NY Y                                    
+1200   LANNO   4220N31 01353E18         NY Y                                    
+1200   LAPAB   4531N46 01158E18         NY Y                                    
+1200   LAPNA   4632N08 01531E14         NY Y                                    
+1200   LAREN   4516N41 01203E42         NY Y                                    
+1200   LASEB   4359N25 01113E24         NY Y                                    
+1200   LDRI    4513N01 01434E13         NY Y                                    
+1200   LDSP    4332N20 01617E53         NY Y                                    
+1200   LDZD    4406N30 01520E48         NY Y                                    
+1200   LEGLO   4539N01 00946E10         NY Y                                    
+1200   LEONN   4317N42 01302E12         NY Y                                    
+1200   LESAN   4446N30 00848E44         NY Y                                    
+1200   LIKDA   4701N01 01145E03         NY Y                                    
+1200   LIMC    4537N51 00843E27         NY Y                                    
+1200   LIME    4540N12 00942E05         NY Y                                    
+1200   LIML    4527N01 00916E46         NY Y                                    
+1200   LIPA    4601N54 01235E54         NY Y                                    
+1200   LIPAX   4601N55 01235E55         NY Y                                    
+1200   LIPE    4431N50 01117E33         NY Y                                    
+1200   LIPH    4539N06 01211E56         NY Y                                    
+1200   LIPK    4411N42 01204E11         NY Y                                    
+1200   LIPL    4526N00 01016E00         NY Y                                    
+1200   LIPLX   4526N01 01016E01         NY Y                                    
+1200   LIPQ    4549N36 01328E20         NY Y                                    
+1200   LIPR    4401N15 01236E44         NY Y                                    
+1200   LIPS    4541N00 01206E00         NY Y                                    
+1200   LIPX    4523N43 01053E15         NY Y                                    
+1200   LIPY    4336N55 01321E45         NY Y                                    
+1200   LIPZ    4530N00 01221E00         NY Y                                    
+1200   LIRA    4147N55 01235E42020R 060 NY Y                                    
+1200   LIRF    4148N40 01215E09         NY Y                                    
+1200   LIRP    4341N59 01023E40         NY Y                                    
+1200   LIRQ    4348N35 01112E14         NY Y                                    
+1200   LISKO   4334N17 01407E56         NY Y                                    
+1200   LIZUM   4706N54 01145E22         NY Y                                    
+1200   LOBSI   4454N18 01210E21         NY Y                                    
+1200   LOMRO   4744N00 01221E28         NY Y                                    
+1200   LORLO   4643N27 01040E44         NY Y                                    
+1200   LOS     4431N38 01428E22         NY Y                                    
+1200   LOWS    4747N42 01300E14         NY Y                                    
+1200   LSZA    4600N13 00854E37         NY Y                                    
+1200   LSZH    4727N30 00832E53         NY Y                                    
+1200   LUPOS   4430N17 01034E53         NY Y                                    
+1200   LUSIL   4602N35 01007E00         NY Y                                    
+1200   LUSIN   4533N10 01545E08         NY Y                                    
+1200   LUTOR   4429N17 01121E39         NY Y                                    
+1200   M1      4357N25 01310E51         NY Y                                    
+1200   M2      4357N27 01310E52         NY Y                                    
+1200   MADEB   4719N27 01017E19         NY Y                                    
+1200   MALUG   4642N22 01235E51         NY Y                                    
+1200   MAMTO   4518N59 01012E44         NY Y                                    
+1200   MANAL   4753N58 01148E00         NY Y                                    
+1200   MANEG   4712N15 00843E20         NY Y                                    
+1200   MAREL   4316N55 01039E05         NY Y                                    
+1200   MASEG   4324N46 01344E58         NY Y                                    
+1200   MATAR   4658N30 01115E12         NY Y                                    
+1200   MAXIM   4501N26 01004E50         NY Y                                    
+1200   MAXUR   4544N45 01454E37         NY Y                                    
+1200   MEBUR   4445N35 00910E18         NY Y                                    
+1200   MEDAL   4203N10 01122E35         NY Y                                    
+1200   MINTU   4420N24 01441E44         NY Y                                    
+1200   MMP     4538N27 00844E05         NY Y                                    
+1200   MOGTI   4723N20 01043E01         NY Y                                    
+1200   MOMOL   4727N42 00840E16         NY Y                                    
+1200   MOMUK   4750N19 00959E49         NY Y                                    
+1200   MONEB   4437N35 00915E02         NY Y                                    
+1200   MONFA   4529N14 01316E45         NY Y                                    
+1200   N1      4410N25 01210E43         NY Y                                    
+1200   N2      4410N27 01210E46         NN N                                    
+1200   N3      4410N28 01210E46         NN N                                    
+1200   NAKIT   4511N17 01326E52         NY Y                                    
+1200   NANIS   4547N28 01401E59         YY Y                                    
+1200   NATAG   4651N29 01037E08         NY Y                                    
+1200   NEGRA   4743N20 00925E38         NY Y                                    
+1200   NESES   4732N53 01033E17         NY Y                                    
+1200   NESTI   4548N14 01025E37         NY Y                                    
+1200   NIDLO   4648N15 01559E44         NY Y                                    
+1200   NIGEB   4705N21 01104E37         NY Y                                    
+1200   NIGSI   4722N09 01602E10         NY Y                                    
+1200   NIKEL   4607N00 01206E00         NY Y                                    
+1200   NIKMA   4303N59 01210E49         NY Y                                    
+1200   NIKOL   4413N19 01341E10         NY Y                                    
+1200   NIMDU   4710N19 01446E57         NY Y                                    
+1200   NIVAS   4554N00 01216E53         NY Y                                    
+1200   NORIN   4723N12 01124E08         NY Y                                    
+1200   NORKI   4304N47 01319E43         NY Y                                    
+1200   NORTO   4715N59 01115E07         NY Y                                    
+1200   NOV     4525N27 00847E38         NY Y                                    
+1200   NUTRO   4309N36 01408E57         NY Y                                    
+1200   OBAGA   4732N50 01115E05         NY Y                                    
+1200   OBALA   4455N13 01458E21         NY Y                                    
+1200   OBIKA   4806N44 01132E49         NY Y                                    
+1200   OBIXO   4757N23 01125E25         NY Y                                    
+1200   OGEPI   4647N14 01121E20         NY Y                                    
+1200   OLKIS   4355N33 01022E13         NY Y                                    
+1200   OLPIX   4701N02 01141E25         NY Y                                    
+1200   ORI     4538N38 00950E30         NY Y                                    
+1200   OSDOV   4726N24 01010E59         NY Y                                    
+1200   OSKOR   4538N57 01007E00         NY Y                                    
+1200   OSMOT   4640N59 01534E50         NY Y                                    
+1200   OSPEN   4729N07 01531E38         NY Y                                    
+1200   OSTEG   4510N43 01108E20         NY Y                                    
+1200   OTRES   4701N24 01044E33         NY Y                                    
+1200   PALEZ   4434N30 01531E59         NY Y                                    
+1200   PAR     4449N20 01017E36         NY Y                                    
+1200   PELAD   4635N56 00943E33         NY Y                                    
+1200   PELEG   4413N40 01144E07         NY Y                                    
+1200   PEMAR   4201N47 01255E10         NY Y                                    
+1200   PENNY   4551N00 01239E00         NY Y                                    
+1200   PEPAG   4559N02 00904E17         NY Y                                    
+1200   PES     4226N10 01411E04         NY Y                                    
+1200   PEVAL   4518N41 01314E51         NY Y                                    
+1200   PIDEP   4349N04 01213E03         NY Y                                    
+1200   PINIK   4552N27 00850E56         NY Y                                    
+1200   PINOB   4714N58 00827E03         NY Y                                    
+1200   PIPOS   4440N56 01130E46         NY Y                                    
+1200   PIS     4340N38 01023E26         NY Y                                    
+1200   PODET   4610N17 01537E36         NY Y                                    
+1200   POLYP   4228N42 01512E09         NY Y                                    
+1200   PREKI   4252N39 01307E09         NY Y                                    
+1200   PUBEG   4730N40 01539E43         NY Y                                    
+1200   PUL     4453N33 01355E05         NY Y                                    
+1200   RADLY   4638N49 01512E33         NY Y                                    
+1200   RAVED   4743N45 00940E10         NY Y                                    
+1200   RENTA   4618N20 01051E49         NY Y                                    
+1200   RESIA   4628N42 01002E36         NY Y                                    
+1200   RESPU   4341N01 01133E36         NY Y                                    
+1200   RI      4508N15 01439E11         NY Y                                    
+1200   RIFEN   4551N04 01335E23         NY Y                                    
+1200   RIGON   4519N03 00858E44         NY Y                                    
+1200   RIPUS   4715N37 00830E00         NY Y                                    
+1200   RIVAM   4229N57 01546E22         NY Y                                    
+1200   RJK     4513N27 01434E01         NY Y                                    
+1200   ROBAS   4511N37 00943E34         NY Y                                    
+1200   RODRU   4540N15 00923E36         NY Y                                    
+1200   ROKIB   4556N08 01141E32         NY Y                                    
+1200   ROLSA   4717N23 00853E21         NY Y                                    
+1200   RONAG   4646N46 01015E32         NY Y                                    
+1200   ROPAG   4712N49 01547E58         NY Y                                    
+1200   ROSKA   4518N51 01251E42         NY Y                                    
+1200   ROTAR   4515N46 01259E44         NY Y                                    
+1200   ROTAX   4758N39 01223E03         NY Y                                    
+1200   ROTIN   4756N34 01214E47         NY Y                                    
+1200   ROVIG   4455N26 01153E51         NY Y                                    
+1200   RTT     4725N51 01156E24         NY Y                                    
+1200   RUNIM   4329N52 01212E06         NY Y                                    
+1200   RUPAX   4218N03 01528E18         NY Y                                    
+1200   RUXOL   4406N55 01035E35         NY Y                                    
+1200   SAL     4356N16 01510E05         NY Y                                    
+1200   SALSO   4452N15 00943E27         NY Y                                    
+1200   SONOM   4747N03 00853E46         NY Y                                    
+1200   SOPER   4653N22 00856E40         NY Y                                    
+1200   SOTOV   4656N38 01112E38         NY Y                                    
+1200   SPL     4333N07 01618E14         NN N                                    
+1200   SRN     4538N45 00901E18         NY Y                                    
+1200   SUDUX   4656N42 01100E31         NY Y                                    
+1200   SUMIR   4615N32 01121E35         NY Y                                    
+1200   SUXAN   4633N44 01028E45         NY Y                                    
+1200   TAGIP   4556N01 01041E24         NY Y                                    
+1200   TAKUP   4319N48 01211E36         NY Y                                    
+1200   TALEP   4327N44 00842E44         NY Y                                    
+1200   TAQ     4212N54 01143E57         NY Y                                    
+1200   TESTO   4435N50 00839E56         NY Y                                    
+1200   TIBER   4214N56 01235E56         NY Y                                    
+1200   TIBLA   4304N29 01600E24         NY Y                                    
+1200   TIDON   4505N08 00936E50         NY Y                                    
+1200   TIRUL   4703N26 01031E43         NY Y                                    
+1200   TITIX   4751N30 00823E48         NY Y                                    
+1200   TOBAD   4743N58 01212E30         NY Y                                    
+1200   TOBSO   4700N58 01151E27         NY Y                                    
+1200   TORPO   4333N51 01425E29         NY Y                                    
+1200   TRA     4741N22 00826E13         NY Y                                    
+1200   TRAUN   4758N29 01235E15         NY Y                                    
+1200   TRE     4537N21 01205E44         NY Y                                    
+1200   TUKDI   4700N41 01542E55         NY Y                                    
+1200   TULIK   4517N02 01247E21         NY Y                                    
+1200   TULSI   4742N06 01147E20         NY Y                                    
+1200   TURBU   4754N51 01156E55         NY Y                                    
+1200   TUTAL   4657N03 01104E09         NY Y                                    
+1200   TZO     4533N33 00930E26         NY Y                                    
+1200   UMBED   4313N01 01223E29         NY Y                                    
+1200   UMBEK   4532N40 01325E11         NY Y                                    
+1200   UMBIL   4721N12 01536E04         NY Y                                    
+1200   UMSON   4331N09 01546E03         NY Y                                    
+1200   UNIMI   4651N39 01103E55         NY Y                                    
+1200   URBAN   4347N38 01220E54         NY Y                                    
+1200   UTENO   4315N03 01340E56         NY Y                                    
+1200   VAKON   4528N41 01000E00         NY Y                                    
+1200   VALAV   4640N36 01020E25         NY Y                                    
+1200   VALEN   4356N14 01131E59         NY Y                                    
+1200   VALLU   4617N30 01520E11         NY Y                                    
+1200   VAPIX   4338N01 01259E03         NY Y                                    
+1200   VAVOR   4756N03 01209E16         NY Y                                    
+1200   VEBEG   4724N30 00939E07         NY Y                                    
+1200   VELAD   4203N06 01045E49         NY Y                                    
+1200   VELIM   4208N32 01315E55         NY Y                                    
+1200   VERCE   4516N47 00839E09         NY Y                                    
+1200   VERNA   4344N32 01149E54         NY Y                                    
+1200   VERUN   4316N53 01155E17         NY Y                                    
+1200   VESAL   4623N24 01142E59         NY Y                                    
+1200   VIC     4538N14 01140E35         NY Y                                    
+1200   VIL     4524N28 01054E22         NY Y                                    
+1200   VIW     4641N47 01354E53         NY Y                                    
+1200   VOG     4457N52 00858E13         NY Y                                    
+1200   XANUT   4706N59 01554E43         NY Y                                    
+1200   XEBIX   4724N00 01028E48         NY Y                                    
+1200   Y2KLO   4726N26 00900E47         NY Y                                    
+1200   Y3MAL   4543N27 00852E02         NY Y                                    
+1200   Y5PIS   4343N51 01028E44         NY Y                                    
+1200   Y7MAL   4542N39 00845E03         NY Y                                    
+1200   YLITL   4721N24 01002E44         NY Y                                    
+1200   YSI     4749N07 01259E16         NY Y                                    
+1200   ZDA     4405N43 01521E51         NY Y                                    
+1401   A101    VIC             BORMI     10                                     
+1400   A101    BORMI           DIBAX     10                                     
+1400   A101    DIBAX           RENTA     10                                     
+1400   A101    RENTA           SUXAN     10                                     
+1400   A101    SUXAN           VALAV     10                                     
+1400   A101    VALAV           RONAG     10                                     
+1400   A101    RONAG           VEBEG     10                                     
+1401   A102    FER             ADOSA     10                                     
+1400   A102    ADOSA           RENTA     10                                     
+1400   A102    RENTA           LORLO     10                                     
+1400   A102    LORLO           NATAG     10                                     
+1401   A103    ANC             GOREP     10                                     
+1400   A103    GOREP           ADOSA     10                                     
+1400   A103    ADOSA           ALBET     10                                     
+1400   A103    ALBET           CHI       10                                     
+1401   A104    BZO             BRENO     10                                     
+1401   A106    PUL             LABIN     10                                     
+1400   A106    LABIN           AGOMO     10                                     
+1400   A106    AGOMO           CHI       10                                     
+1400   A106    CHI             KOPER     10                                     
+1400   A106    KOPER           OSTEG     10                                     
+1401   A107    BELOV           CHI       10                                     
+1401   A108    URBAN           FER       10                                     
+1401   A_1     DORAV           GEN       10                                     
+1400   A_1     GEN             MONEB     10                                     
+1400   A_1     MONEB           ROBAS     10                                     
+1400   A_1     ROBAS           GIBLO     10                                     
+1400   A_1     GIBLO           OSKOR     10                                     
+1400   A_1     OSKOR           NESTI     10                                     
+1400   A_1     NESTI           TAGIP     10                                     
+1400   A_1     TAGIP           DIBAX     10                                     
+1400   A_1     DIBAX           SUMIR     10                                     
+1400   A_1     SUMIR           ALESE     10                                     
+1400   A_1     ALESE           VESAL     10                                     
+1400   A_1     VESAL           MALUG     10                                     
+1400   A_1     MALUG           ELKAT     10                                     
+1400   A_1     ELKAT           NIMDU     10                                     
+1400   A_1     NIMDU           ASKOD     10                                     
+1401   A_10    URBAN           PELEG     10                                     
+1400   A_10    PELEG           LUTOR     10                                     
+1400   A_10    LUTOR           BOA       10                                     
+1400   A_10    BOA             KREVA     10                                     
+1400   A_10    KREVA           BENUS     10                                     
+1400   A_10    BENUS           OSTEG     10                                     
+1400   A_10    OSTEG           GAZ       10                                     
+1401   A_11    CIA             PEMAR     10                                     
+1400   A_11    PEMAR           ANEDA     10                                     
+1400   A_11    ANEDA           LANNO     10                                     
+1400   A_11    LANNO           PES       10                                     
+1400   A_11    PES             UTENO     10                                     
+1400   A_11    UTENO           GERBU     10                                     
+1400   A_11    GERBU           ANC       10                                     
+1400   A_11    ANC             BUSER     10                                     
+1400   A_11    BUSER           NIKOL     10                                     
+1400   A_11    NIKOL           ALIVO     10                                     
+1400   A_11    ALIVO           MAXUR     10                                     
+1400   A_11    MAXUR           VALLU     10                                     
+1401   A_12    Y7MAL           Y3MAL     10                                     
+1400   A_12    Y3MAL           SRN       10                                     
+1400   A_12    SRN             PAR       10                                     
+1400   A_12    PAR             VALEN     10                                     
+1400   A_12    VALEN           VERNA     10                                     
+1400   A_12    VERNA           PREKI     10                                     
+1400   A_12    PREKI           PES       10                                     
+1400   A_12    PES             NORKI     10                                     
+1400   A_12    NORKI           LEONN     10                                     
+1400   A_12    LEONN           GUBIN     10                                     
+1400   A_12    GUBIN           URBAN     10                                     
+1400   A_12    URBAN           ANC       10                                     
+1400   A_12    ANC             MASEG     10                                     
+1400   A_12    MASEG           NUTRO     10                                     
+1400   A_12    NUTRO           ARPIK     10                                     
+1400   A_12    ARPIK           POLYP     10                                     
+1400   A_12    POLYP           RUPAX     10                                     
+1401   A_13    ESISO           OSDOV     10                                     
+1400   A_13    OSDOV           MADEB     10                                     
+1400   A_13    MADEB           TIRUL     10                                     
+1400   A_13    TIRUL           NATAG     10                                     
+1400   A_13    NATAG           LORLO     10                                     
+1400   A_13    LORLO           RENTA     10                                     
+1400   A_13    RENTA           ADOSA     10                                     
+1400   A_13    ADOSA           FER       10                                     
+1400   A_13    FER             VALEN     10                                     
+1400   A_13    VALEN           RESPU     10                                     
+1400   A_13    RESPU           AMTEL     10                                     
+1400   A_13    AMTEL           TAQ       10                                     
+1401   A_14    TRE             VIC       10                                     
+1400   A_14    VIC             BORMI     10                                     
+1400   A_14    BORMI           DIBAX     10                                     
+1400   A_14    DIBAX           SUXAN     10                                     
+1400   A_14    SUXAN           VALAV     10                                     
+1400   A_14    VALAV           RONAG     10                                     
+1400   A_14    RONAG           ARGAX     10                                     
+1400   A_14    ARGAX           ELMUR     10                                     
+1400   A_14    ELMUR           ROLSA     10                                     
+1400   A_14    ROLSA           KUDES     10                                     
+1400   A_14    KUDES           SONOM     10                                     
+1401   A_15    ADOSA           OSTEG     10                                     
+1400   A_15    OSTEG           KREVA     10                                     
+1400   A_15    KREVA           BOA       10                                     
+1400   A_15    BOA             VALEN     10                                     
+1400   A_15    VALEN           BAGNO     10                                     
+1400   A_15    BAGNO           PIDEP     10                                     
+1400   A_15    PIDEP           URBAN     10                                     
+1400   A_15    URBAN           GUBIN     10                                     
+1400   A_15    GUBIN           LEONN     10                                     
+1400   A_15    LEONN           NORKI     10                                     
+1400   A_15    NORKI           PES       10                                     
+1401   A_16    AMTEL           BOL       10                                     
+1400   A_16    BOL             TIBER     10                                     
+1400   A_16    TIBER           CMP       10                                     
+1401   A_17    FOR             FER       10                                     
+1400   A_17    FER             ROVIG     10                                     
+1400   A_17    ROVIG           CHI       10                                     
+1400   A_17    CHI             TULIK     10                                     
+1400   A_17    TULIK           ROSKA     10                                     
+1400   A_17    ROSKA           MONFA     10                                     
+1400   A_17    MONFA           UMBEK     10                                     
+1400   A_17    UMBEK           BARPI     10                                     
+1400   A_17    BARPI           DOL       10                                     
+1400   A_17    DOL             VALLU     10                                     
+1400   A_17    VALLU           LAPNA     10                                     
+1400   A_17    LAPNA           GOLVA     10                                     
+1400   A_17    GOLVA           GBG       10                                     
+1400   A_17    GBG             XANUT     10                                     
+1401   A_18    CHI             BELOV     10                                     
+1400   A_18    BELOV           URBAN     10                                     
+1400   A_18    URBAN           RUNIM     10                                     
+1400   A_18    RUNIM           TAKUP     10                                     
+1400   A_18    TAKUP           NIKMA     10                                     
+1400   A_18    NIKMA           BOL       10                                     
+1400   A_18    BOL             TAQ       10                                     
+1401   A_19    TURBU           BADVI     10                                     
+1400   A_19    BADVI           RTT       10                                     
+1400   A_19    RTT             TOBSO     10                                     
+1400   A_19    TOBSO           BAKOR     10                                     
+1400   A_19    BAKOR           BZO       10                                     
+1400   A_19    BZO             NIVAS     10                                     
+1400   A_19    NIVAS           BABAG     10                                     
+1400   A_19    BABAG           PEVAL     10                                     
+1400   A_19    PEVAL           NAKIT     10                                     
+1400   A_19    NAKIT           PUL       10                                     
+1400   A_19    PUL             ZDA       10                                     
+1401   A_2     EMILY           NORKI     10                                     
+1400   A_2     NORKI           VAPIX     10                                     
+1400   A_2     VAPIX           VIC       10                                     
+1400   A_2     VIC             ALESE     10                                     
+1400   A_2     ALESE           BZO       10                                     
+1400   A_2     BZO             OGEPI     10                                     
+1400   A_2     OGEPI           BRENO     10                                     
+1400   A_2     BRENO           INN       10                                     
+1400   A_2     INN             NORIN     10                                     
+1400   A_2     NORIN           KOGOL     10                                     
+1400   A_2     KOGOL           KONIN     10                                     
+1401   A_20    GARGA           RIVAM     10                                     
+1400   A_20    RIVAM           DIPEP     10                                     
+1400   A_20    DIPEP           LISKO     10                                     
+1400   A_20    LISKO           CHI       10                                     
+1400   A_20    CHI             VIC       10                                     
+1400   A_20    VIC             KOPER     10                                     
+1400   A_20    KOPER           FER       10                                     
+1400   A_20    FER             LUTOR     10                                     
+1400   A_20    LUTOR           FRZ       10                                     
+1400   A_20    FRZ             GINAR     10                                     
+1400   A_20    GINAR           MAREL     10                                     
+1400   A_20    MAREL           ELB       10                                     
+1400   A_20    ELB             VELAD     10                                     
+1401   A_21    UMBIL           GRZ       10                                     
+1400   A_21    GRZ             RADLY     10                                     
+1400   A_21    RADLY           ARLON     10                                     
+1400   A_21    ARLON           DOL       10                                     
+1400   A_21    DOL             GIRDA     10                                     
+1400   A_21    GIRDA           BAXON     10                                     
+1400   A_21    BAXON           LANLI     10                                     
+1400   A_21    LANLI           VAPIX     10                                     
+1400   A_21    VAPIX           GUBIN     10                                     
+1400   A_21    GUBIN           UMBED     10                                     
+1400   A_21    UMBED           NIKMA     10                                     
+1400   A_21    NIKMA           VELIM     10                                     
+1401   A_22    LISKO           BUSER     10                                     
+1400   A_22    BUSER           AGOMO     10                                     
+1400   A_22    AGOMO           AKADO     10                                     
+1400   A_22    AKADO           LAPAB     10                                     
+1400   A_22    LAPAB           VIC       10                                     
+1400   A_22    VIC             ADOSA     10                                     
+1400   A_22    ADOSA           ELTAR     10                                     
+1400   A_22    ELTAR           OSKOR     10                                     
+1400   A_22    OSKOR           ORI       10                                     
+1400   A_22    ORI             SRN       10                                     
+1400   A_22    SRN             RIGON     10                                     
+1400   A_22    RIGON           NOV       10                                     
+1401   A_23    KALMO           LUPOS     10                                     
+1400   A_23    LUPOS           FER       10                                     
+1400   A_23    FER             BOA       10                                     
+1400   A_23    BOA             LASEB     10                                     
+1401   A_24    BOA             LUPOS     10                                     
+1400   A_24    LUPOS           BEROK     10                                     
+1400   A_24    BEROK           OLKIS     10                                     
+1400   A_24    OLKIS           PIS       10                                     
+1401   A_25    SRN             TZO       10                                     
+1400   A_25    TZO             VAKON     10                                     
+1400   A_25    VAKON           CHI       10                                     
+1400   A_25    CHI             AGOMO     10                                     
+1400   A_25    AGOMO           LABIN     10                                     
+1400   A_25    LABIN           PUL       10                                     
+1400   A_25    PUL             DOLOM     10                                     
+1400   A_25    DOLOM           PALEZ     10                                     
+1401   A_26    OSPEN           ABRUK     10                                     
+1400   A_26    ABRUK           DETSA     10                                     
+1400   A_26    DETSA           BAKOR     10                                     
+1400   A_26    BAKOR           VESAL     10                                     
+1400   A_26    VESAL           LAMPO     10                                     
+1400   A_26    LAMPO           ROKIB     10                                     
+1400   A_26    ROKIB           VIC       10                                     
+1401   A_27    UMSON           IXONA     10                                     
+1400   A_27    IXONA           ROTAR     10                                     
+1400   A_27    ROTAR           AKADO     10                                     
+1400   A_27    AKADO           LAMPO     10                                     
+1400   A_27    LAMPO           BZO       10                                     
+1401   A_28    MOMUK           BEMKI     10                                     
+1400   A_28    BEMKI           XEBIX     10                                     
+1400   A_28    XEBIX           ELMEM     10                                     
+1400   A_28    ELMEM           BILDU     10                                     
+1400   A_28    BILDU           OTRES     10                                     
+1400   A_28    OTRES           GIRIS     10                                     
+1400   A_28    GIRIS           BZO       10                                     
+1400   A_28    BZO             UNIMI     10                                     
+1400   A_28    UNIMI           SUDUX     10                                     
+1400   A_28    SUDUX           MOGTI     10                                     
+1401   A_29    IXONA           PEVAL     10                                     
+1400   A_29    PEVAL           BABAG     10                                     
+1400   A_29    BABAG           NIVAS     10                                     
+1400   A_29    NIVAS           VESAL     10                                     
+1400   A_29    VESAL           OGEPI     10                                     
+1400   A_29    OGEPI           ATRIG     10                                     
+1400   A_29    ATRIG           SOTOV     10                                     
+1400   A_29    SOTOV           NIGEB     10                                     
+1400   A_29    NIGEB           MOGTI     10                                     
+1400   A_29    MOGTI           NESES     10                                     
+1400   A_29    NESES           KPT       10                                     
+1400   A_29    KPT             AMEMI     10                                     
+1401   A_3     UMSON           ELGUS     10                                     
+1400   A_3     ELGUS           TORPO     10                                     
+1400   A_3     TORPO           LISKO     10                                     
+1400   A_3     LISKO           ANC       10                                     
+1400   A_3     ANC             URBAN     10                                     
+1400   A_3     URBAN           PIDEP     10                                     
+1400   A_3     PIDEP           BAGNO     10                                     
+1400   A_3     BAGNO           VALEN     10                                     
+1400   A_3     VALEN           FRZ       10                                     
+1400   A_3     FRZ             Y5PIS     10                                     
+1400   A_3     Y5PIS           PIS       10                                     
+1401   A_30    TRA             KUDES     10                                     
+1400   A_30    KUDES           DEGES     10                                     
+1400   A_30    DEGES           VEBEG     10                                     
+1400   A_30    VEBEG           YLITL     10                                     
+1400   A_30    YLITL           MADEB     10                                     
+1400   A_30    MADEB           ELMEM     10                                     
+1401   A_31    FRZ             RUXOL     10                                     
+1400   A_31    RUXOL           BEROK     10                                     
+1400   A_31    BEROK           GEN       10                                     
+1400   A_31    GEN             VOG       10                                     
+1400   A_31    VOG             MMP       10                                     
+1400   A_31    MMP             PINIK     10                                     
+1401   A_32    PEMAR           TIBER     10                                     
+1400   A_32    TIBER           BOL       10                                     
+1400   A_32    BOL             GITOD     10                                     
+1400   A_32    GITOD           KATAR     10                                     
+1400   A_32    KATAR           LEONN     10                                     
+1400   A_32    LEONN           DIKOM     10                                     
+1400   A_32    DIKOM           ANC       10                                     
+1400   A_32    ANC             GERBU     10                                     
+1400   A_32    GERBU           UTENO     10                                     
+1400   A_32    UTENO           PES       10                                     
+1400   A_32    PES             EMILY     10                                     
+1401   A_33    LAPNA           OSMOT     10                                     
+1400   A_33    OSMOT           ELSIS     10                                     
+1400   A_33    ELSIS           TUKDI     10                                     
+1400   A_33    TUKDI           ROPAG     10                                     
+1400   A_33    ROPAG           ASKOD     10                                     
+1401   A_34    DORIN           PAR       10                                     
+1400   A_34    PAR             MAXIM     10                                     
+1400   A_34    MAXIM           TZO       10                                     
+1401   A_35    SRN             ORI       10                                     
+1400   A_35    ORI             OSKOR     10                                     
+1400   A_35    OSKOR           LEGLO     10                                     
+1400   A_35    LEGLO           DESIP     10                                     
+1401   A_36    KOGOL           TULSI     10                                     
+1400   A_36    TULSI           BADVI     10                                     
+1400   A_36    BADVI           AMDID     10                                     
+1400   A_36    AMDID           ROTAX     10                                     
+1400   A_36    ROTAX           LOMRO     10                                     
+1400   A_36    LOMRO           DETSA     10                                     
+1400   A_36    DETSA           NIVAS     10                                     
+1400   A_36    NIVAS           CHI       10                                     
+1400   A_36    CHI             DITUM     10                                     
+1400   A_36    DITUM           PIDEP     10                                     
+1400   A_36    PIDEP           RUNIM     10                                     
+1401   A_37    KOREX           OBALA     10                                     
+1400   A_37    OBALA           NAKIT     10                                     
+1400   A_37    NAKIT           ROTAR     10                                     
+1400   A_37    ROTAR           CHI       10                                     
+1400   A_37    CHI             ARGEX     10                                     
+1400   A_37    ARGEX           FRZ       10                                     
+1401   A_38    TZO             SRN       10                                     
+1400   A_38    SRN             IXORA     10                                     
+1400   A_38    IXORA           ARLES     10                                     
+1401   A_39    TRE             FER       10                                     
+1400   A_39    FER             URBAN     10                                     
+1401   A_4     PEMAR           GITOD     10                                     
+1400   A_4     GITOD           VERUN     10                                     
+1400   A_4     VERUN           IXUSI     10                                     
+1400   A_4     IXUSI           FRZ       10                                     
+1400   A_4     FRZ             BOTAL     10                                     
+1401   A_40    FRZ             LUPOS     10                                     
+1400   A_40    LUPOS           PAR       10                                     
+1400   A_40    PAR             DORIN     10                                     
+1401   A_41    DENUX           PUBEG     10                                     
+1400   A_41    PUBEG           UMBIL     10                                     
+1401   A_42    PREKI           LANNO     10                                     
+1400   A_42    LANNO           EMILY     10                                     
+1401   A_43    PUBEG           OSPEN     10                                     
+1401   A_44    LUSIN           KOTOR     10                                     
+1400   A_44    KOTOR           RJK       10                                     
+1400   A_44    RJK             NAKIT     10                                     
+1400   A_44    NAKIT           PEVAL     10                                     
+1401   A_45    IPINO           LAGUS     10                                     
+1400   A_45    LAGUS           ROSKA     10                                     
+1400   A_45    ROSKA           TULIK     10                                     
+1400   A_45    TULIK           CHI       10                                     
+1400   A_45    CHI             GOREP     10                                     
+1400   A_45    GOREP           ARGEX     10                                     
+1400   A_45    ARGEX           BOA       10                                     
+1401   A_46    PUL             LOS       10                                     
+1400   A_46    LOS             MINTU     10                                     
+1400   A_46    MINTU           SAL       10                                     
+1400   A_46    SAL             GAPRI     10                                     
+1401   A_47    MOMOL           KOLUL     10                                     
+1400   A_47    KOLUL           Y2KLO     10                                     
+1400   A_47    Y2KLO           DEGES     10                                     
+1400   A_47    DEGES           DORAP     10                                     
+1400   A_47    DORAP           OSDOV     10                                     
+1400   A_47    OSDOV           XEBIX     10                                     
+1400   A_47    XEBIX           TIRUL     10                                     
+1401   A_48    SRN             DESIP     10                                     
+1400   A_48    DESIP           ELTAR     10                                     
+1400   A_48    ELTAR           ADOSA     10                                     
+1400   A_48    ADOSA           ALBET     10                                     
+1400   A_48    ALBET           CHI       10                                     
+1400   A_48    CHI             LOBSI     10                                     
+1400   A_48    LOBSI           FOR       10                                     
+1401   A_49    KPT             RAVED     10                                     
+1400   A_49    RAVED           ETOXU     10                                     
+1400   A_49    ETOXU           NEGRA     10                                     
+1400   A_49    NEGRA           AMIKI     10                                     
+1401   A_5     ANC             DITUM     10                                     
+1400   A_5     DITUM           FER       10                                     
+1400   A_5     FER             MAMTO     10                                     
+1400   A_5     MAMTO           KAMPA     10                                     
+1400   A_5     KAMPA           TZO       10                                     
+1400   A_5     TZO             PEPAG     10                                     
+1400   A_5     PEPAG           ABESI     10                                     
+1400   A_5     ABESI           SOPER     10                                     
+1400   A_5     SOPER           ELMUR     10                                     
+1400   A_5     ELMUR           MANEG     10                                     
+1400   A_5     MANEG           RIPUS     10                                     
+1400   A_5     RIPUS           DITON     10                                     
+1401   A_50    TITIX           TRA       10                                     
+1400   A_50    TRA             RESIA     10                                     
+1400   A_50    RESIA           GIGGI     10                                     
+1400   A_50    GIGGI           TAGIP     10                                     
+1400   A_50    TAGIP           ADOSA     10                                     
+1401   A_51    NIDLO           GRZ       10                                     
+1400   A_51    GRZ             VIW       10                                     
+1400   A_51    VIW             DETSA     10                                     
+1401   A_52    BZO             ATRIG     10                                     
+1400   A_52    ATRIG           MATAR     10                                     
+1400   A_52    MATAR           NORTO     10                                     
+1400   A_52    NORTO           OBAGA     10                                     
+1400   A_52    OBAGA           AMGAS     10                                     
+1400   A_52    AMGAS           OBIXO     10                                     
+1400   A_52    OBIXO           OBIKA     10                                     
+1401   A_53    SRN             ROBAS     10                                     
+1400   A_53    ROBAS           PAR       10                                     
+1401   A_54    BO              EBITA     10                                     
+1400   A_54    EBITA           LOS       10                                     
+1400   A_54    LOS             PUL       10                                     
+1400   A_54    PUL             NAKIT     10                                     
+1401   A_55    LUPOS           KALIK     10                                     
+1400   A_55    KALIK           GEN       10                                     
+1400   A_55    GEN             TESTO     10                                     
+1401   A_56    FRZ             KALIK     10                                     
+1400   A_56    KALIK           MEBUR     10                                     
+1400   A_56    MEBUR           VOG       10                                     
+1400   A_56    VOG             VERCE     10                                     
+1401   A_57    LAKOL           MANAL     10                                     
+1400   A_57    MANAL           TULSI     10                                     
+1400   A_57    TULSI           BERAS     10                                     
+1400   A_57    BERAS           LIZUM     10                                     
+1400   A_57    LIZUM           LIKDA     10                                     
+1400   A_57    LIKDA           BAKOR     10                                     
+1401   A_58    LIZUM           OLPIX     10                                     
+1400   A_58    OLPIX           BZO       10                                     
+1400   A_58    BZO             ALESE     10                                     
+1400   A_58    ALESE           VIC       10                                     
+1401   A_59    TESTO           GEN       10                                     
+1400   A_59    GEN             BEROK     10                                     
+1400   A_59    BEROK           RUXOL     10                                     
+1400   A_59    RUXOL           FRZ       10                                     
+1400   A_59    FRZ             VALEN     10                                     
+1401   A_6     DIBAX           UNIMI     10                                     
+1400   A_6     UNIMI           TUTAL     10                                     
+1400   A_6     TUTAL           NIGEB     10                                     
+1400   A_6     NIGEB           DENED     10                                     
+1400   A_6     DENED           IRBIR     10                                     
+1400   A_6     IRBIR           AMGAS     10                                     
+1400   A_6     AMGAS           ANDEC     10                                     
+1400   A_6     ANDEC           BETOS     10                                     
+1401   A_60    ZDA             PUL       10                                     
+1400   A_60    PUL             TIBLA     10                                     
+1401   A_61    VAVOR           TOBAD     10                                     
+1400   A_61    TOBAD           ARTUS     10                                     
+1400   A_61    ARTUS           DETSA     10                                     
+1401   A_62    BELOV           AMLON     10                                     
+1400   A_62    AMLON           LANLI     10                                     
+1400   A_62    LANLI           ANC       10                                     
+1400   A_62    ANC             LISKO     10                                     
+1400   A_62    LISKO           TORPO     10                                     
+1400   A_62    TORPO           ELGUS     10                                     
+1400   A_62    ELGUS           UMSON     10                                     
+1401   A_63    NIMDU           XANUT     10                                     
+1400   A_63    XANUT           NIGSI     10                                     
+1400   A_63    NIGSI           BALAD     10                                     
+1401   A_64    RI              PUL       10                                     
+1401   A_65    BZO             BORMI     10                                     
+1400   A_65    BORMI           ADOSA     10                                     
+1401   A_66    TUKDI           GRZ       10                                     
+1401   A_67    ARLON           RIFEN     10                                     
+1401   A_68    BADOP           ROSKA     10                                     
+1400   A_68    ROSKA           AGOMO     10                                     
+1400   A_68    AGOMO           BELOV     10                                     
+1400   A_68    BELOV           CHI       10                                     
+1401   A_69    TIBER           PEMAR     10                                     
+1401   A_7     MEDAL           BOL       10                                     
+1400   A_7     BOL             VERUN     10                                     
+1400   A_7     VERUN           DENAL     10                                     
+1400   A_7     DENAL           VERNA     10                                     
+1400   A_7     VERNA           BAGNO     10                                     
+1400   A_7     BAGNO           PELEG     10                                     
+1400   A_7     PELEG           ARGEX     10                                     
+1400   A_7     ARGEX           FER       10                                     
+1400   A_7     FER             ALBET     10                                     
+1400   A_7     ALBET           SUMIR     10                                     
+1400   A_7     SUMIR           BZO       10                                     
+1400   A_7     BZO             RENTA     10                                     
+1400   A_7     RENTA           GIGGI     10                                     
+1400   A_7     GIGGI           LUSIL     10                                     
+1400   A_7     LUSIL           RODRU     10                                     
+1400   A_7     RODRU           EVANO     10                                     
+1400   A_7     EVANO           LESAN     10                                     
+1400   A_7     LESAN           DORAV     10                                     
+1400   A_7     DORAV           IXITO     10                                     
+1400   A_7     IXITO           TALEP     10                                     
+1401   A_70    TZO             ORI       10                                     
+1400   A_70    ORI             COD       10                                     
+1401   A_71    GUI             TIBER     10                                     
+1400   A_71    TIBER           GITOD     10                                     
+1400   A_71    GITOD           BOL       10                                     
+1401   A_72    DESIP           SRN       10                                     
+1401   A_73    BZO             ROKIB     10                                     
+1400   A_73    ROKIB           LAPAB     10                                     
+1400   A_73    LAPAB           CHI       10                                     
+1400   A_73    CHI             ROVIG     10                                     
+1400   A_73    ROVIG           FER       10                                     
+1401   A_74    PIPOS           FER       10                                     
+1401   A_75    LAPAB           ROKIB     10                                     
+1400   A_75    ROKIB           BZO       10                                     
+1400   A_75    BZO             SUMIR     10                                     
+1400   A_75    SUMIR           ALBET     10                                     
+1400   A_75    ALBET           KREVA     10                                     
+1401   A_76    GEN             LAGEN     10                                     
+1401   A_77    ANC             DIKOM     10                                     
+1400   A_77    DIKOM           LEONN     10                                     
+1400   A_77    LEONN           KATAR     10                                     
+1400   A_77    KATAR           GITOD     10                                     
+1401   A_78    KPT             BEMKI     10                                     
+1401   A_79    LORLO           GIGGI     10                                     
+1401   A_8     PODET           VALLU     10                                     
+1400   A_8     VALLU           DOL       10                                     
+1400   A_8     DOL             RIFEN     10                                     
+1400   A_8     RIFEN           BADOP     10                                     
+1400   A_8     BADOP           AKADO     10                                     
+1400   A_8     AKADO           KOPER     10                                     
+1400   A_8     KOPER           PAR       10                                     
+1400   A_8     PAR             LAGEN     10                                     
+1401   A_80    FRZ             IXUSI     10                                     
+1400   A_80    IXUSI           VERUN     10                                     
+1400   A_80    VERUN           NIKMA     10                                     
+1401   A_81    YSI             TRAUN     10                                     
+1400   A_81    TRAUN           ROTIN     10                                     
+1400   A_81    ROTIN           MANAL     10                                     
+1401   A_82    PINOB           ARTAG     10                                     
+1400   A_82    ARTAG           GERSA     10                                     
+1400   A_82    GERSA           KELIP     10                                     
+1400   A_82    KELIP           SOPER     10                                     
+1400   A_82    SOPER           PELAD     10                                     
+1400   A_82    PELAD           RESIA     10                                     
+1400   A_82    RESIA           ELTAR     10                                     
+1400   A_82    ELTAR           BOA       10                                     
+1401   A_83    VELAD           ELB       10                                     
+1400   A_83    ELB             MAREL     10                                     
+1400   A_83    MAREL           GINAR     10                                     
+1400   A_83    GINAR           FRZ       10                                     
+1400   A_83    FRZ             ARGEX     10                                     
+1400   A_83    ARGEX           GOREP     10                                     
+1400   A_83    GOREP           CHI       10                                     
+1401   A_84    RAVED           NEGRA     10                                     
+1400   A_84    NEGRA           AKABI     10                                     
+1400   A_84    AKABI           TRA       10                                     
+1401   A_85    FRZ             LUTOR     10                                     
+1400   A_85    LUTOR           FER       10                                     
+1401   A_86    VIL             KOPER     10                                     
+1400   A_86    KOPER           CHI       10                                     
+1401   A_87    KALIK           SALSO     10                                     
+1400   A_87    SALSO           TIDON     10                                     
+1400   A_87    TIDON           COD       10                                     
+1401   A_88    BEROK           BALUK     10                                     
+1400   A_88    BALUK           FRZ       10                                     
+1401   A_89    LANLI           AMLON     10                                     
+1400   A_89    AMLON           BELOV     10                                     
+1401   A_9     RUPAX           POLYP     10                                     
+1400   A_9     POLYP           ARPIK     10                                     
+1400   A_9     ARPIK           NUTRO     10                                     
+1400   A_9     NUTRO           MASEG     10                                     
+1400   A_9     MASEG           ANC       10                                     
+1400   A_9     ANC             IBENI     10                                     
+1400   A_9     IBENI           LOS       10                                     
+1400   A_9     LOS             KULEN     10                                     
+1400   A_9     KULEN           KOTOR     10                                     
+1400   A_9     KOTOR           LUSIN     10                                     
+1401   A_90    OSKOR           ELTAR     10                                     
+1401   B1      ELB             GEN       10                                     
+1400   B1      GEN             VOG       10                                     
+1400   B1      VOG             SRN       10                                     
+1400   B1      SRN             ORI       10                                     
+1400   B1      ORI             OSKOR     10                                     
+1400   B1      OSKOR           ELTAR     10                                     
+1400   B1      ELTAR           ADOSA     10                                     
+1400   B1      ADOSA           VIC       10                                     
+1401   B10     TAQ             AMTEL     10                                     
+1400   B10     AMTEL           RESPU     10                                     
+1400   B10     RESPU           VALEN     10                                     
+1400   B10     VALEN           BOA       10                                     
+1400   B10     BOA             KREVA     10                                     
+1400   B10     KREVA           BENUS     10                                     
+1400   B10     BENUS           OSTEG     10                                     
+1400   B10     OSTEG           ADOSA     10                                     
+1400   B10     ADOSA           RENTA     10                                     
+1400   B10     RENTA           LORLO     10                                     
+1400   B10     LORLO           NATAG     10                                     
+1400   B10     NATAG           TIRUL     10                                     
+1401   B11     BOL             DENAL     10                                     
+1400   B11     DENAL           VERNA     10                                     
+1400   B11     VERNA           BAGNO     10                                     
+1400   B11     BAGNO           PELEG     10                                     
+1400   B11     PELEG           ARGEX     10                                     
+1400   B11     ARGEX           FER       10                                     
+1400   B11     FER             KOPER     10                                     
+1400   B11     KOPER           VIC       10                                     
+1400   B11     VIC             ALESE     10                                     
+1400   B11     ALESE           BZO       10                                     
+1400   B11     BZO             OGEPI     10                                     
+1400   B11     OGEPI           BRENO     10                                     
+1400   B11     BRENO           INN       10                                     
+1401   B12     FER             ALBET     10                                     
+1400   B12     ALBET           SUMIR     10                                     
+1400   B12     SUMIR           BZO       10                                     
+1400   B12     BZO             ATRIG     10                                     
+1400   B12     ATRIG           MATAR     10                                     
+1400   B12     MATAR           NORTO     10                                     
+1401   B13     PES             UTENO     10                                     
+1400   B13     UTENO           GERBU     10                                     
+1400   B13     GERBU           ANC       10                                     
+1400   B13     ANC             LANLI     10                                     
+1400   B13     LANLI           AMLON     10                                     
+1400   B13     AMLON           BELOV     10                                     
+1400   B13     BELOV           CHI       10                                     
+1400   B13     CHI             VIC       10                                     
+1400   B13     VIC             BORMI     10                                     
+1400   B13     BORMI           DIBAX     10                                     
+1400   B13     DIBAX           RENTA     10                                     
+1400   B13     RENTA           SUXAN     10                                     
+1401   B14     BOL             IXUSI     10                                     
+1400   B14     IXUSI           VALEN     10                                     
+1401   B15     GEN             KALIK     10                                     
+1400   B15     KALIK           LUPOS     10                                     
+1400   B15     LUPOS           BOA       10                                     
+1401   B16     PIS             BEROK     10                                     
+1400   B16     BEROK           PAR       10                                     
+1400   B16     PAR             SRN       10                                     
+1401   B17     ADOSA           BORMI     10                                     
+1400   B17     BORMI           BZO       10                                     
+1400   B17     BZO             UNIMI     10                                     
+1401   B18     CHI             ROTAR     10                                     
+1401   B19     ROSKA           BADOP     10                                     
+1401   B2      ELB             MAREL     10                                     
+1400   B2      MAREL           GINAR     10                                     
+1400   B2      GINAR           FRZ       10                                     
+1400   B2      FRZ             BOA       10                                     
+1400   B2      BOA             FER       10                                     
+1400   B2      FER             ROVIG     10                                     
+1400   B2      ROVIG           CHI       10                                     
+1400   B2      CHI             TULIK     10                                     
+1400   B2      TULIK           ROSKA     10                                     
+1400   B2      ROSKA           MONFA     10                                     
+1400   B2      MONFA           UMBEK     10                                     
+1400   B2      UMBEK           BARPI     10                                     
+1400   B2      BARPI           DOL       10                                     
+1401   B20     ROTAR           PUL       10                                     
+1401   B21     ANC             IBENI     10                                     
+1400   B21     IBENI           LOS       10                                     
+1401   B22     ANC             MASEG     10                                     
+1400   B22     MASEG           NUTRO     10                                     
+1400   B22     NUTRO           ARPIK     10                                     
+1401   B23     NIKOL           ALIVO     10                                     
+1401   B24     VERUN           GITOD     10                                     
+1401   B3      GEN             OSKOR     10                                     
+1400   B3      OSKOR           NESTI     10                                     
+1400   B3      NESTI           TAGIP     10                                     
+1400   B3      TAGIP           DIBAX     10                                     
+1400   B3      DIBAX           SUMIR     10                                     
+1400   B3      SUMIR           ALESE     10                                     
+1400   B3      ALESE           VESAL     10                                     
+1400   B3      VESAL           MALUG     10                                     
+1401   B4      GEN             KALMO     10                                     
+1400   B4      KALMO           BEROK     10                                     
+1400   B4      BEROK           FRZ       10                                     
+1400   B4      FRZ             LASEB     10                                     
+1400   B4      LASEB           VALEN     10                                     
+1400   B4      VALEN           BAGNO     10                                     
+1400   B4      BAGNO           PIDEP     10                                     
+1400   B4      PIDEP           URBAN     10                                     
+1400   B4      URBAN           ANC       10                                     
+1400   B4      ANC             LISKO     10                                     
+1400   B4      LISKO           TORPO     10                                     
+1400   B4      TORPO           ELGUS     10                                     
+1401   B5      RESIA           GIGGI     10                                     
+1400   B5      GIGGI           TAGIP     10                                     
+1400   B5      TAGIP           ADOSA     10                                     
+1400   B5      ADOSA           ALBET     10                                     
+1400   B5      ALBET           CHI       10                                     
+1400   B5      CHI             AGOMO     10                                     
+1400   B5      AGOMO           LABIN     10                                     
+1400   B5      LABIN           PUL       10                                     
+1401   B6      LUSIL           GIGGI     10                                     
+1400   B6      GIGGI           RENTA     10                                     
+1400   B6      RENTA           BZO       10                                     
+1400   B6      BZO             BAKOR     10                                     
+1400   B6      BAKOR           DETSA     10                                     
+1401   B7      GIRDA           BAXON     10                                     
+1400   B7      BAXON           LANLI     10                                     
+1400   B7      LANLI           GUBIN     10                                     
+1400   B7      GUBIN           UMBED     10                                     
+1400   B7      UMBED           NIKMA     10                                     
+1400   B7      NIKMA           BOL       10                                     
+1400   B7      BOL             TAQ       10                                     
+1401   B8      GIRDA           PUL       10                                     
+1400   B8      PUL             NIKOL     10                                     
+1400   B8      NIKOL           BUSER     10                                     
+1400   B8      BUSER           ANC       10                                     
+1400   B8      ANC             DIKOM     10                                     
+1400   B8      DIKOM           LEONN     10                                     
+1400   B8      LEONN           KATAR     10                                     
+1400   B8      KATAR           GITOD     10                                     
+1400   B8      GITOD           BOL       10                                     
+1401   B9      BOL             AMTEL     10                                     
+1400   B9      AMTEL           FRZ       10                                     
+1400   B9      FRZ             LUPOS     10                                     
+1400   B9      LUPOS           PAR       10                                     
+1400   B9      PAR             TZO       10                                     
+1401   DUMMY   DUMM3           DUMM2     0                                      
+1500   LIRA    4517N46 01261E4400000                                            
+1501   LIRA00C 4147N55 01235E42I2         0303                                  
+1500   XXXX    4516N46 01260E4400000                                            
+1501   XXXX00  4516N46 01260E44I1         0300                                  
+1600   DUMMY   XXXX00  DUMM305 00000                                            
+1601                   DUMM2   00000                                            
+1600   LIRA1   XXXX00  DUMM305 00000                                            
+1601                   DUMM2   00000                                            
+1700   DUMMY   XXXX00  DUMM205 00000                                            
+1701                1  VALEN   00000                                            
+1702                3  DUMM3   00000                                            
+1703                3  XXXX                                                     
+1700   LIRA2   LIRA00C DUMM205 00000                                            
+1701                1  VALEN   00000                                            
+1702                3  DUMM3   00000                                            
+1703                3  LIRA                                                     
+2300 C CTS   1 S0040 S 4523N13 01328E17305 355                                  
+2300 C CTS   1 S0037 S 4514N56 01304E13305 355                                  
+2300 C CTS   1 S0036 S 4513N03 01300E25305 355                                  
+2300 C CTS   1 S0030 S 4458N59 01306E08305 355                                  
+2300 C CTS   1 S0026 S 4447N01 01312E00305 355                                  
+2300 C CTS   1 S0025 S 4447N01 01256E43305 355                                  
+2300 C CTS   1 S0023 S 4446N46 01230E48305 355                                  
+2300 C CTS   1 S0024 S 4446N54 01222E16305 355                                  
+2300 C CTS   1 S0029 S 4456N00 01154E01305 355                                  
+2300 C CTS   1 S0028 S 4453N37 01148E09305 355                                  
+2300 C CTS   1 S0033 S 4510N00 01118E00305 355                                  
+2300 C CTS   1 S0034 S 4511N26 01048E46305 355                                  
+2300 C CTS   1 S0035 S 4512N20 01032E57305 355                                  
+2300 C CTS   1 S0041 S 4527N53 01001E15305 355                                  
+2300 C CTS   1 S0042 S 4538N23 01037E23305 355                                  
+2300 C CTS   1 S0044 S 4546N08 01030E41305 355                                  
+2300 C CTS   1 S0046 S 4555N54 01057E15305 355                                  
+2300 C CTS   1 S0047 S 4557N20 01215E05305 355                                  
+2300 C CTS   1 S0054 S 4629N55 01316E03305 355                                  
+2300 C CTS   1 S0050 S 4613N17 01329E36305 355                                  
+2300 C CTS   1 S0045 S 4551N20 01336E54305 355                                  
+2300 C CTS   1 S0040 S 4523N13 01328E17305 355                                  
+2300 C FLOW  1 S0028 S 4453N37 01148E09000 175                                  
+2300 C FLOW  1 S0029 S 4456N00 01154E01000 175                                  
+2300 C FLOW  1 S0024 S 4446N54 01222E16000 175                                  
+2300 C FLOW  1 S0039 S 4520N17 01249E10000 175                                  
+2300 C FLOW  1 S0047 S 4557N20 01215E05000 175                                  
+2300 C FLOW  1 S0046 S 4555N54 01057E15000 175                                  
+2300 C FLOW  1 S0044 S 4546N08 01030E41000 175                                  
+2300 C FLOW  1 S0042 S 4538N23 01037E23000 175                                  
+2300 C FLOW  1 S0041 S 4527N53 01001E15000 175                                  
+2300 C FLOW  1 S0035 S 4512N20 01032E57000 175                                  
+2300 C FLOW  1 S0034 S 4511N26 01048E46000 175                                  
+2300 C FLOW  1 S0033 S 4510N00 01118E00000 175                                  
+2300 C FLOW  1 S0028 S 4453N37 01148E09000 175                                  
+2300 C FLOW  2 S0028 S 4453N37 01148E09000 175                                  
+2300 C FLOW  2 S0027 S 4451N21 01142E21000 175                                  
+2300 C FLOW  2 S0022 S 4433N05 01138E38000 175                                  
+2300 C FLOW  2 S0015 S 4341N05 01138E32000 175                                  
+2300 C FLOW  2 S0016 S 4341N17 01124E18000 175                                  
+2300 C FLOW  2 S0018 S 4349N46 01112E34000 175                                  
+2300 C FLOW  2 S0019 S 4401N14 01100E32000 175                                  
+2300 C FLOW  2 S0031 S 4505N43 01006E42000 175                                  
+2300 C FLOW  2 S0038 S 4518N10 00959E43000 175                                  
+2300 C FLOW  2 S0041 S 4527N53 01001E15000 175                                  
+2300 C FLOW  2 S0035 S 4512N20 01032E57000 175                                  
+2300 C FLOW  2 S0034 S 4511N26 01048E46000 175                                  
+2300 C FLOW  2 S0033 S 4510N00 01118E00000 175                                  
+2300 C FLOW  2 S0028 S 4453N37 01148E09000 175                                  
+2300 C FLOW  3 S0026 S 4447N01 01312E00000 245                                  
+2300 C FLOW  3 S0030 S 4458N59 01306E08000 245                                  
+2300 C FLOW  3 S0036 S 4513N03 01300E25000 245                                  
+2300 C FLOW  3 S0037 S 4514N56 01304E13000 245                                  
+2300 C FLOW  3 S0040 S 4523N13 01328E17000 245                                  
+2300 C FLOW  3 S0045 S 4551N20 01336E54000 245                                  
+2300 C FLOW  3 S0050 S 4613N17 01329E36000 245                                  
+2300 C FLOW  3 S0054 S 4629N55 01316E03000 245                                  
+2300 C FLOW  3 S0056 S 4642N35 01235E00000 245                                  
+2300 C FLOW  3 S0061 S 4701N44 01152E27000 245                                  
+2300 C FLOW  3 S0063 S 4702N13 01143E13000 245                                  
+2300 C FLOW  3 S0062 S 4701N57 01133E12000 245                                  
+2300 C FLOW  3 S0060 S 4659N00 01123E08000 245                                  
+2300 C FLOW  3 S0066 S 4659N36 01045E04000 245                                  
+2300 C FLOW  3 S0064 S 4651N46 01035E41000 245                                  
+2300 C FLOW  3 S0057 S 4641N26 01030E42000 245                                  
+2300 C FLOW  3 S0055 S 4634N15 01028E12000 245                                  
+2300 C FLOW  3 S0053 S 4627N13 01002E18000 245                                  
+2300 C FLOW  3 S0051 S 4617N02 01000E00000 245                                  
+2300 C FLOW  3 S0048 S 4602N06 01015E55000 245                                  
+2300 C FLOW  3 S0044 S 4546N08 01030E41000 245                                  
+2300 C FLOW  3 S0046 S 4555N54 01057E15000 245                                  
+2300 C FLOW  3 S0047 S 4557N20 01215E05000 245                                  
+2300 C FLOW  3 S0039 S 4520N17 01249E10000 245                                  
+2300 C FLOW  3 S0024 S 4446N54 01222E16000 245                                  
+2300 C FLOW  3 S0023 S 4446N46 01230E48000 245                                  
+2300 C FLOW  3 S0025 S 4447N01 01256E43000 245                                  
+2300 C FLOW  3 S0026 S 4447N01 01312E00000 245                                  
+2300 C FLOW  4 S0046 S 4555N54 01057E15175 245                                  
+2300 C FLOW  4 S0047 S 4557N20 01215E05175 245                                  
+2300 C FLOW  4 S0039 S 4520N17 01249E10175 245                                  
+2300 C FLOW  4 S0024 S 4446N54 01222E16175 245                                  
+2300 C FLOW  4 S0029 S 4456N00 01154E01175 245                                  
+2300 C FLOW  4 S0028 S 4453N37 01148E09175 245                                  
+2300 C FLOW  4 S0033 S 4510N00 01118E00175 245                                  
+2300 C FLOW  4 S0034 S 4511N26 01048E46175 245                                  
+2300 C FLOW  4 S0035 S 4512N20 01032E57175 245                                  
+2300 C FLOW  4 S0041 S 4527N53 01001E15175 245                                  
+2300 C FLOW  4 S0042 S 4538N23 01037E23175 245                                  
+2300 C FLOW  4 S0044 S 4546N08 01030E41175 245                                  
+2300 C FLOW  4 S0046 S 4555N54 01057E15175 245                                  
+2300 C FLOW  5 S0040 S 4523N13 01328E17245 305                                  
+2300 C FLOW  5 S0037 S 4514N56 01304E13245 305                                  
+2300 C FLOW  5 S0036 S 4513N03 01300E25245 305                                  
+2300 C FLOW  5 S0030 S 4458N59 01306E08245 305                                  
+2300 C FLOW  5 S0026 S 4447N01 01312E00245 305                                  
+2300 C FLOW  5 S0025 S 4447N01 01256E43245 305                                  
+2300 C FLOW  5 S0023 S 4446N46 01230E48245 305                                  
+2300 C FLOW  5 S0024 S 4446N54 01222E16245 305                                  
+2300 C FLOW  5 S0029 S 4456N00 01154E01245 305                                  
+2300 C FLOW  5 S0028 S 4453N37 01148E09245 305                                  
+2300 C FLOW  5 S0033 S 4510N00 01118E00245 305                                  
+2300 C FLOW  5 S0034 S 4511N26 01048E46245 305                                  
+2300 C FLOW  5 S0035 S 4512N20 01032E57245 305                                  
+2300 C FLOW  5 S0041 S 4527N53 01001E15245 305                                  
+2300 C FLOW  5 S0042 S 4538N23 01037E23245 305                                  
+2300 C FLOW  5 S0044 S 4546N08 01030E41245 305                                  
+2300 C FLOW  5 S0046 S 4555N54 01057E15245 305                                  
+2300 C FLOW  5 S0047 S 4557N20 01215E05245 305                                  
+2300 C FLOW  5 S0054 S 4629N55 01316E03245 305                                  
+2300 C FLOW  5 S0050 S 4613N17 01329E36245 305                                  
+2300 C FLOW  5 S0045 S 4551N20 01336E54245 305                                  
+2300 C FLOW  5 S0040 S 4523N13 01328E17245 305                                  
+2300 C FLOW  6 S0016 S 4341N17 01124E18000 305                                  
+2300 C FLOW  6 S0013 S 4336N11 01129E44000 305                                  
+2300 C FLOW  6 S0011 S 4327N47 01151E11000 305                                  
+2300 C FLOW  6 S0005 S 4302N59 01241E10000 305                                  
+2300 C FLOW  6 S0004 S 4252N27 01306E55000 305                                  
+2300 C FLOW  6 S0007 S 4304N12 01319E43000 305                                  
+2300 C FLOW  6 S0009 S 4309N24 01344E18000 305                                  
+2300 C FLOW  6 S0008 S 4308N57 01409E31000 305                                  
+2300 C FLOW  6 S0010 S 4311N41 01444E48000 305                                  
+2300 C FLOW  6 S0012 S 4334N02 01426E31000 305                                  
+2300 C FLOW  6 S0020 S 4413N33 01341E35000 305                                  
+2300 C FLOW  6 S0021 S 4432N01 01320E01000 305                                  
+2300 C FLOW  6 S0026 S 4447N01 01312E00000 305                                  
+2300 C FLOW  6 S0025 S 4447N01 01256E43000 305                                  
+2300 C FLOW  6 S0023 S 4446N46 01230E48000 305                                  
+2300 C FLOW  6 S0024 S 4446N54 01222E16000 305                                  
+2300 C FLOW  6 S0029 S 4456N00 01154E01000 305                                  
+2300 C FLOW  6 S0028 S 4453N37 01148E09000 305                                  
+2300 C FLOW  6 S0027 S 4451N21 01142E21000 305                                  
+2300 C FLOW  6 S0022 S 4433N05 01138E38000 305                                  
+2300 C FLOW  6 S0015 S 4341N05 01138E32000 305                                  
+2300 C FLOW  6 S0016 S 4341N17 01124E18000 305                                  
+2300 C FLOW  7 S0055 S 4634N15 01028E12245 305                                  
+2300 C FLOW  7 S0057 S 4641N26 01030E42245 305                                  
+2300 C FLOW  7 S0064 S 4651N46 01035E41245 305                                  
+2300 C FLOW  7 S0066 S 4659N36 01045E04245 305                                  
+2300 C FLOW  7 S0060 S 4659N00 01123E08245 305                                  
+2300 C FLOW  7 S0062 S 4701N57 01133E12245 305                                  
+2300 C FLOW  7 S0063 S 4702N13 01143E13245 305                                  
+2300 C FLOW  7 S0061 S 4701N44 01152E27245 305                                  
+2300 C FLOW  7 S0056 S 4642N35 01235E00245 305                                  
+2300 C FLOW  7 S0054 S 4629N55 01316E03245 305                                  
+2300 C FLOW  7 S0047 S 4557N20 01215E05245 305                                  
+2300 C FLOW  7 S0046 S 4555N54 01057E15245 305                                  
+2300 C FLOW  7 S0044 S 4546N08 01030E41245 305                                  
+2300 C FLOW  7 S0048 S 4602N06 01015E55245 305                                  
+2300 C FLOW  7 S0051 S 4617N02 01000E00245 305                                  
+2300 C FLOW  7 S0053 S 4627N13 01002E18245 305                                  
+2300 C FLOW  7 S0055 S 4634N15 01028E12245 305                                  
+2300 C FLOW  8 S0041 S 4527N53 01001E15175 305                                  
+2300 C FLOW  8 S0035 S 4512N20 01032E57175 305                                  
+2300 C FLOW  8 S0034 S 4511N26 01048E46175 305                                  
+2300 C FLOW  8 S0033 S 4510N00 01118E00175 305                                  
+2300 C FLOW  8 S0028 S 4453N37 01148E09175 305                                  
+2300 C FLOW  8 S0027 S 4451N21 01142E21175 305                                  
+2300 C FLOW  8 S0022 S 4433N05 01138E38175 305                                  
+2300 C FLOW  8 S0015 S 4341N05 01138E32175 305                                  
+2300 C FLOW  8 S0016 S 4341N17 01124E18175 305                                  
+2300 C FLOW  8 S0018 S 4349N46 01112E34175 305                                  
+2300 C FLOW  8 S0019 S 4401N14 01100E32175 305                                  
+2300 C FLOW  8 S0031 S 4505N43 01006E42175 305                                  
+2300 C FLOW  8 S0038 S 4518N10 00959E43175 305                                  
+2300 C FLOW  8 S0041 S 4527N53 01001E15175 305                                  
+2300 C NTS   1 S0055 S 4634N15 01028E12305 355                                  
+2300 C NTS   1 S0057 S 4641N26 01030E42305 355                                  
+2300 C NTS   1 S0064 S 4651N46 01035E41305 355                                  
+2300 C NTS   1 S0066 S 4659N36 01045E04305 355                                  
+2300 C NTS   1 S0060 S 4659N00 01123E08305 355                                  
+2300 C NTS   1 S0062 S 4701N57 01133E12305 355                                  
+2300 C NTS   1 S0063 S 4702N13 01143E13305 355                                  
+2300 C NTS   1 S0061 S 4701N44 01152E27305 355                                  
+2300 C NTS   1 S0056 S 4642N35 01235E00305 355                                  
+2300 C NTS   1 S0054 S 4629N55 01316E03305 355                                  
+2300 C NTS   1 S0047 S 4557N20 01215E05305 355                                  
+2300 C NTS   1 S0046 S 4555N54 01057E15305 355                                  
+2300 C NTS   1 S0044 S 4546N08 01030E41305 355                                  
+2300 C NTS   1 S0048 S 4602N06 01015E55305 355                                  
+2300 C NTS   1 S0051 S 4617N02 01000E00305 355                                  
+2300 C NTS   1 S0053 S 4627N13 01002E18305 355                                  
+2300 C NTS   1 S0055 S 4634N15 01028E12305 355                                  
+2300 C NTT   1 S0040 S 4523N13 01328E17355 600                                  
+2300 C NTT   1 S0037 S 4514N56 01304E13355 600                                  
+2300 C NTT   1 S0036 S 4513N03 01300E25355 600                                  
+2300 C NTT   1 S0030 S 4458N59 01306E08355 600                                  
+2300 C NTT   1 S0026 S 4447N01 01312E00355 600                                  
+2300 C NTT   1 S0025 S 4447N01 01256E43355 600                                  
+2300 C NTT   1 S0023 S 4446N46 01230E48355 600                                  
+2300 C NTT   1 S0024 S 4446N54 01222E16355 600                                  
+2300 C NTT   1 S0029 S 4456N00 01154E01355 600                                  
+2300 C NTT   1 S0028 S 4453N37 01148E09355 600                                  
+2300 C NTT   1 S0033 S 4510N00 01118E00355 600                                  
+2300 C NTT   1 S0034 S 4511N26 01048E46355 600                                  
+2300 C NTT   1 S0035 S 4512N20 01032E57355 600                                  
+2300 C NTT   1 S0041 S 4527N53 01001E15355 600                                  
+2300 C NTT   1 S0042 S 4538N23 01037E23355 600                                  
+2300 C NTT   1 S0044 S 4546N08 01030E41355 600                                  
+2300 C NTT   1 S0048 S 4602N06 01015E55355 600                                  
+2300 C NTT   1 S0051 S 4617N02 01000E00355 600                                  
+2300 C NTT   1 S0053 S 4627N13 01002E18355 600                                  
+2300 C NTT   1 S0055 S 4634N15 01028E12355 600                                  
+2300 C NTT   1 S0057 S 4641N26 01030E42355 600                                  
+2300 C NTT   1 S0064 S 4651N46 01035E41355 600                                  
+2300 C NTT   1 S0066 S 4659N36 01045E04355 600                                  
+2300 C NTT   1 S0060 S 4659N00 01123E08355 600                                  
+2300 C NTT   1 S0062 S 4701N57 01133E12355 600                                  
+2300 C NTT   1 S0063 S 4702N13 01143E13355 600                                  
+2300 C NTT   1 S0061 S 4701N44 01152E27355 600                                  
+2300 C NTT   1 S0056 S 4642N35 01235E00355 600                                  
+2300 C NTT   1 S0054 S 4629N55 01316E03355 600                                  
+2300 C NTT   1 S0050 S 4613N17 01329E36355 600                                  
+2300 C NTT   1 S0045 S 4551N20 01336E54355 600                                  
+2300 C NTT   1 S0040 S 4523N13 01328E17355 600                                  
+2300 C PIL1  1 S0040 S 4523N13 01328E17700 750                                  
+2300 C PIL1  1 S0037 S 4514N56 01304E13700 750                                  
+2300 C PIL1  1 S0036 S 4513N03 01300E25700 750                                  
+2300 C PIL1  1 S0030 S 4458N59 01306E08700 750                                  
+2300 C PIL1  1 S0026 S 4447N01 01312E00700 750                                  
+2300 C PIL1  1 S0025 S 4447N01 01256E43700 750                                  
+2300 C PIL1  1 S0023 S 4446N46 01230E48700 750                                  
+2300 C PIL1  1 S0024 S 4446N54 01222E16700 750                                  
+2300 C PIL1  1 S0029 S 4456N00 01154E01700 750                                  
+2300 C PIL1  1 S0028 S 4453N37 01148E09700 750                                  
+2300 C PIL1  1 S0033 S 4510N00 01118E00700 750                                  
+2300 C PIL1  1 S0034 S 4511N26 01048E46700 750                                  
+2300 C PIL1  1 S0035 S 4512N20 01032E57700 750                                  
+2300 C PIL1  1 S0041 S 4527N53 01001E15700 750                                  
+2300 C PIL1  1 S0042 S 4538N23 01037E23700 750                                  
+2300 C PIL1  1 S0044 S 4546N08 01030E41700 750                                  
+2300 C PIL1  1 S0048 S 4602N06 01015E55700 750                                  
+2300 C PIL1  1 S0051 S 4617N02 01000E00700 750                                  
+2300 C PIL1  1 S0053 S 4627N13 01002E18700 750                                  
+2300 C PIL1  1 S0055 S 4634N15 01028E12700 750                                  
+2300 C PIL1  1 S0057 S 4641N26 01030E42700 750                                  
+2300 C PIL1  1 S0064 S 4651N46 01035E41700 750                                  
+2300 C PIL1  1 S0066 S 4659N36 01045E04700 750                                  
+2300 C PIL1  1 S0060 S 4659N00 01123E08700 750                                  
+2300 C PIL1  1 S0062 S 4701N57 01133E12700 750                                  
+2300 C PIL1  1 S0063 S 4702N13 01143E13700 750                                  
+2300 C PIL1  1 S0061 S 4701N44 01152E27700 750                                  
+2300 C PIL1  1 S0056 S 4642N35 01235E00700 750                                  
+2300 C PIL1  1 S0054 S 4629N55 01316E03700 750                                  
+2300 C PIL1  1 S0050 S 4613N17 01329E36700 750                                  
+2300 C PIL1  1 S0045 S 4551N20 01336E54700 750                                  
+2300 C PIL1  1 S0040 S 4523N13 01328E17700 750                                  
+2300 C PIL2  1 S0040 S 4523N13 01328E17600 700                                  
+2300 C PIL2  1 S0037 S 4514N56 01304E13600 700                                  
+2300 C PIL2  1 S0036 S 4513N03 01300E25600 700                                  
+2300 C PIL2  1 S0030 S 4458N59 01306E08600 700                                  
+2300 C PIL2  1 S0026 S 4447N01 01312E00600 700                                  
+2300 C PIL2  1 S0025 S 4447N01 01256E43600 700                                  
+2300 C PIL2  1 S0023 S 4446N46 01230E48600 700                                  
+2300 C PIL2  1 S0024 S 4446N54 01222E16600 700                                  
+2300 C PIL2  1 S0029 S 4456N00 01154E01600 700                                  
+2300 C PIL2  1 S0028 S 4453N37 01148E09600 700                                  
+2300 C PIL2  1 S0033 S 4510N00 01118E00600 700                                  
+2300 C PIL2  1 S0034 S 4511N26 01048E46600 700                                  
+2300 C PIL2  1 S0035 S 4512N20 01032E57600 700                                  
+2300 C PIL2  1 S0041 S 4527N53 01001E15600 700                                  
+2300 C PIL2  1 S0042 S 4538N23 01037E23600 700                                  
+2300 C PIL2  1 S0044 S 4546N08 01030E41600 700                                  
+2300 C PIL2  1 S0048 S 4602N06 01015E55600 700                                  
+2300 C PIL2  1 S0051 S 4617N02 01000E00600 700                                  
+2300 C PIL2  1 S0053 S 4627N13 01002E18600 700                                  
+2300 C PIL2  1 S0055 S 4634N15 01028E12600 700                                  
+2300 C PIL2  1 S0057 S 4641N26 01030E42600 700                                  
+2300 C PIL2  1 S0064 S 4651N46 01035E41600 700                                  
+2300 C PIL2  1 S0066 S 4659N36 01045E04600 700                                  
+2300 C PIL2  1 S0060 S 4659N00 01123E08600 700                                  
+2300 C PIL2  1 S0062 S 4701N57 01133E12600 700                                  
+2300 C PIL2  1 S0063 S 4702N13 01143E13600 700                                  
+2300 C PIL2  1 S0061 S 4701N44 01152E27600 700                                  
+2300 C PIL2  1 S0056 S 4642N35 01235E00600 700                                  
+2300 C PIL2  1 S0054 S 4629N55 01316E03600 700                                  
+2300 C PIL2  1 S0050 S 4613N17 01329E36600 700                                  
+2300 C PIL2  1 S0045 S 4551N20 01336E54600 700                                  
+2300 C PIL2  1 S0040 S 4523N13 01328E17600 700                                  
+2300 C PIL3  1 S0041 S 4527N53 01001E15700 800                                  
+2300 C PIL3  1 S0035 S 4512N20 01032E57700 800                                  
+2300 C PIL3  1 S0034 S 4511N26 01048E46700 800                                  
+2300 C PIL3  1 S0033 S 4510N00 01118E00700 800                                  
+2300 C PIL3  1 S0028 S 4453N37 01148E09700 800                                  
+2300 C PIL3  1 S0029 S 4456N00 01154E01700 800                                  
+2300 C PIL3  1 S0024 S 4446N54 01222E16700 800                                  
+2300 C PIL3  1 S0023 S 4446N46 01230E48700 800                                  
+2300 C PIL3  1 S0025 S 4447N01 01256E43700 800                                  
+2300 C PIL3  1 S0026 S 4447N01 01312E00700 800                                  
+2300 C PIL3  1 S0021 S 4432N01 01320E01700 800                                  
+2300 C PIL3  1 S0020 S 4413N33 01341E35700 800                                  
+2300 C PIL3  1 S0012 S 4334N02 01426E31700 800                                  
+2300 C PIL3  1 S0010 S 4311N41 01444E48700 800                                  
+2300 C PIL3  1 S0008 S 4308N57 01409E31700 800                                  
+2300 C PIL3  1 S0009 S 4309N24 01344E18700 800                                  
+2300 C PIL3  1 S0007 S 4304N12 01319E43700 800                                  
+2300 C PIL3  1 S0004 S 4252N27 01306E55700 800                                  
+2300 C PIL3  1 S0005 S 4302N59 01241E10700 800                                  
+2300 C PIL3  1 S0011 S 4327N47 01151E11700 800                                  
+2300 C PIL3  1 S0013 S 4336N11 01129E44700 800                                  
+2300 C PIL3  1 S0016 S 4341N17 01124E18700 800                                  
+2300 C PIL3  1 S0018 S 4349N46 01112E34700 800                                  
+2300 C PIL3  1 S0019 S 4401N14 01100E32700 800                                  
+2300 C PIL3  1 S0031 S 4505N43 01006E42700 800                                  
+2300 C PIL3  1 S0038 S 4518N10 00959E43700 800                                  
+2300 C PIL3  1 S0041 S 4527N53 01001E15700 800                                  
+2300 C PIL4  1 S0041 S 4527N53 01001E15600 700                                  
+2300 C PIL4  1 S0035 S 4512N20 01032E57600 700                                  
+2300 C PIL4  1 S0034 S 4511N26 01048E46600 700                                  
+2300 C PIL4  1 S0033 S 4510N00 01118E00600 700                                  
+2300 C PIL4  1 S0028 S 4453N37 01148E09600 700                                  
+2300 C PIL4  1 S0029 S 4456N00 01154E01600 700                                  
+2300 C PIL4  1 S0024 S 4446N54 01222E16600 700                                  
+2300 C PIL4  1 S0023 S 4446N46 01230E48600 700                                  
+2300 C PIL4  1 S0025 S 4447N01 01256E43600 700                                  
+2300 C PIL4  1 S0026 S 4447N01 01312E00600 700                                  
+2300 C PIL4  1 S0021 S 4432N01 01320E01600 700                                  
+2300 C PIL4  1 S0020 S 4413N33 01341E35600 700                                  
+2300 C PIL4  1 S0012 S 4334N02 01426E31600 700                                  
+2300 C PIL4  1 S0010 S 4311N41 01444E48600 700                                  
+2300 C PIL4  1 S0008 S 4308N57 01409E31600 700                                  
+2300 C PIL4  1 S0009 S 4309N24 01344E18600 700                                  
+2300 C PIL4  1 S0007 S 4304N12 01319E43600 700                                  
+2300 C PIL4  1 S0004 S 4252N27 01306E55600 700                                  
+2300 C PIL4  1 S0005 S 4302N59 01241E10600 700                                  
+2300 C PIL4  1 S0011 S 4327N47 01151E11600 700                                  
+2300 C PIL4  1 S0013 S 4336N11 01129E44600 700                                  
+2300 C PIL4  1 S0016 S 4341N17 01124E18600 700                                  
+2300 C PIL4  1 S0018 S 4349N46 01112E34600 700                                  
+2300 C PIL4  1 S0019 S 4401N14 01100E32600 700                                  
+2300 C PIL4  1 S0031 S 4505N43 01006E42600 700                                  
+2300 C PIL4  1 S0038 S 4518N10 00959E43600 700                                  
+2300 C PIL4  1 S0041 S 4527N53 01001E15600 700                                  
+2300 C PIL5  1 S0040 S 4523N13 01328E17750 800                                  
+2300 C PIL5  1 S0037 S 4514N56 01304E13750 800                                  
+2300 C PIL5  1 S0036 S 4513N03 01300E25750 800                                  
+2300 C PIL5  1 S0030 S 4458N59 01306E08750 800                                  
+2300 C PIL5  1 S0026 S 4447N01 01312E00750 800                                  
+2300 C PIL5  1 S0025 S 4447N01 01256E43750 800                                  
+2300 C PIL5  1 S0023 S 4446N46 01230E48750 800                                  
+2300 C PIL5  1 S0024 S 4446N54 01222E16750 800                                  
+2300 C PIL5  1 S0029 S 4456N00 01154E01750 800                                  
+2300 C PIL5  1 S0028 S 4453N37 01148E09750 800                                  
+2300 C PIL5  1 S0033 S 4510N00 01118E00750 800                                  
+2300 C PIL5  1 S0034 S 4511N26 01048E46750 800                                  
+2300 C PIL5  1 S0035 S 4512N20 01032E57750 800                                  
+2300 C PIL5  1 S0041 S 4527N53 01001E15750 800                                  
+2300 C PIL5  1 S0042 S 4538N23 01037E23750 800                                  
+2300 C PIL5  1 S0044 S 4546N08 01030E41750 800                                  
+2300 C PIL5  1 S0048 S 4602N06 01015E55750 800                                  
+2300 C PIL5  1 S0051 S 4617N02 01000E00750 800                                  
+2300 C PIL5  1 S0053 S 4627N13 01002E18750 800                                  
+2300 C PIL5  1 S0055 S 4634N15 01028E12750 800                                  
+2300 C PIL5  1 S0057 S 4641N26 01030E42750 800                                  
+2300 C PIL5  1 S0064 S 4651N46 01035E41750 800                                  
+2300 C PIL5  1 S0066 S 4659N36 01045E04750 800                                  
+2300 C PIL5  1 S0060 S 4659N00 01123E08750 800                                  
+2300 C PIL5  1 S0062 S 4701N57 01133E12750 800                                  
+2300 C PIL5  1 S0063 S 4702N13 01143E13750 800                                  
+2300 C PIL5  1 S0061 S 4701N44 01152E27750 800                                  
+2300 C PIL5  1 S0056 S 4642N35 01235E00750 800                                  
+2300 C PIL5  1 S0054 S 4629N55 01316E03750 800                                  
+2300 C PIL5  1 S0050 S 4613N17 01329E36750 800                                  
+2300 C PIL5  1 S0045 S 4551N20 01336E54750 800                                  
+2300 C PIL5  1 S0040 S 4523N13 01328E17750 800                                  
+2300 C STS   1 S0038 S 4518N10 00959E43305 355                                  
+2300 C STS   1 S0041 S 4527N53 01001E15305 355                                  
+2300 C STS   1 S0035 S 4512N20 01032E57305 355                                  
+2300 C STS   1 S0034 S 4511N26 01048E46305 355                                  
+2300 C STS   1 S0033 S 4510N00 01118E00305 355                                  
+2300 C STS   1 S0028 S 4453N37 01148E09305 355                                  
+2300 C STS   1 S0029 S 4456N00 01154E01305 355                                  
+2300 C STS   1 S0024 S 4446N54 01222E16305 355                                  
+2300 C STS   1 S0023 S 4446N46 01230E48305 355                                  
+2300 C STS   1 S0025 S 4447N01 01256E43305 355                                  
+2300 C STS   1 S0026 S 4447N01 01312E00305 355                                  
+2300 C STS   1 S0021 S 4432N01 01320E01305 355                                  
+2300 C STS   1 S0020 S 4413N33 01341E35305 355                                  
+2300 C STS   1 S0012 S 4334N02 01426E31305 355                                  
+2300 C STS   1 S0010 S 4311N41 01444E48305 355                                  
+2300 C STS   1 S0008 S 4308N57 01409E31305 355                                  
+2300 C STS   1 S0009 S 4309N24 01344E18305 355                                  
+2300 C STS   1 S0007 S 4304N12 01319E43305 355                                  
+2300 C STS   1 S0004 S 4252N27 01306E55305 355                                  
+2300 C STS   1 S0005 S 4302N59 01241E10305 355                                  
+2300 C STS   1 S0011 S 4327N47 01151E11305 355                                  
+2300 C STS   1 S0013 S 4336N11 01129E44305 355                                  
+2300 C STS   1 S0016 S 4341N17 01124E18305 355                                  
+2300 C STS   1 S0018 S 4349N46 01112E34305 355                                  
+2300 C STS   1 S0019 S 4401N14 01100E32305 355                                  
+2300 C STS   1 S0031 S 4505N43 01006E42305 355                                  
+2300 C STS   1 S0038 S 4518N10 00959E43305 355                                  
+2300 C STT   1 S0041 S 4527N53 01001E15355 600                                  
+2300 C STT   1 S0035 S 4512N20 01032E57355 600                                  
+2300 C STT   1 S0034 S 4511N26 01048E46355 600                                  
+2300 C STT   1 S0033 S 4510N00 01118E00355 600                                  
+2300 C STT   1 S0028 S 4453N37 01148E09355 600                                  
+2300 C STT   1 S0029 S 4456N00 01154E01355 600                                  
+2300 C STT   1 S0024 S 4446N54 01222E16355 600                                  
+2300 C STT   1 S0023 S 4446N46 01230E48355 600                                  
+2300 C STT   1 S0025 S 4447N01 01256E43355 600                                  
+2300 C STT   1 S0026 S 4447N01 01312E00355 600                                  
+2300 C STT   1 S0021 S 4432N01 01320E01355 600                                  
+2300 C STT   1 S0020 S 4413N33 01341E35355 600                                  
+2300 C STT   1 S0012 S 4334N02 01426E31355 600                                  
+2300 C STT   1 S0010 S 4311N41 01444E48355 600                                  
+2300 C STT   1 S0008 S 4308N57 01409E31355 600                                  
+2300 C STT   1 S0009 S 4309N24 01344E18355 600                                  
+2300 C STT   1 S0007 S 4304N12 01319E43355 600                                  
+2300 C STT   1 S0004 S 4252N27 01306E55355 600                                  
+2300 C STT   1 S0005 S 4302N59 01241E10355 600                                  
+2300 C STT   1 S0011 S 4327N47 01151E11355 600                                  
+2300 C STT   1 S0013 S 4336N11 01129E44355 600                                  
+2300 C STT   1 S0016 S 4341N17 01124E18355 600                                  
+2300 C STT   1 S0018 S 4349N46 01112E34355 600                                  
+2300 C STT   1 S0019 S 4401N14 01100E32355 600                                  
+2300 C STT   1 S0031 S 4505N43 01006E42355 600                                  
+2300 C STT   1 S0038 S 4518N10 00959E43355 600                                  
+2300 C STT   1 S0041 S 4527N53 01001E15355 600                                  
+2300 M MIL   1 S0040 S 4523N13 01328E17800 900                                  
+2300 M MIL   1 S0037 S 4514N56 01304E13800 900                                  
+2300 M MIL   1 S0036 S 4513N03 01300E25800 900                                  
+2300 M MIL   1 S0030 S 4458N59 01306E08800 900                                  
+2300 M MIL   1 S0026 S 4447N01 01312E00800 900                                  
+2300 M MIL   1 S0025 S 4447N01 01256E43800 900                                  
+2300 M MIL   1 S0023 S 4446N46 01230E48800 900                                  
+2300 M MIL   1 S0024 S 4446N54 01222E16800 900                                  
+2300 M MIL   1 S0029 S 4456N00 01154E01800 900                                  
+2300 M MIL   1 S0028 S 4453N37 01148E09800 900                                  
+2300 M MIL   1 S0033 S 4510N00 01118E00800 900                                  
+2300 M MIL   1 S0034 S 4511N26 01048E46800 900                                  
+2300 M MIL   1 S0035 S 4512N20 01032E57800 900                                  
+2300 M MIL   1 S0041 S 4527N53 01001E15800 900                                  
+2300 M MIL   1 S0042 S 4538N23 01037E23800 900                                  
+2300 M MIL   1 S0044 S 4546N08 01030E41800 900                                  
+2300 M MIL   1 S0048 S 4602N06 01015E55800 900                                  
+2300 M MIL   1 S0051 S 4617N02 01000E00800 900                                  
+2300 M MIL   1 S0053 S 4627N13 01002E18800 900                                  
+2300 M MIL   1 S0055 S 4634N15 01028E12800 900                                  
+2300 M MIL   1 S0057 S 4641N26 01030E42800 900                                  
+2300 M MIL   1 S0064 S 4651N46 01035E41800 900                                  
+2300 M MIL   1 S0066 S 4659N36 01045E04800 900                                  
+2300 M MIL   1 S0060 S 4659N00 01123E08800 900                                  
+2300 M MIL   1 S0062 S 4701N57 01133E12800 900                                  
+2300 M MIL   1 S0063 S 4702N13 01143E13800 900                                  
+2300 M MIL   1 S0061 S 4701N44 01152E27800 900                                  
+2300 M MIL   1 S0056 S 4642N35 01235E00800 900                                  
+2300 M MIL   1 S0054 S 4629N55 01316E03800 900                                  
+2300 M MIL   1 S0050 S 4613N17 01329E36800 900                                  
+2300 M MIL   1 S0045 S 4551N20 01336E54800 900                                  
+2300 M MIL   1 S0040 S 4523N13 01328E17800 900                                  
+2300 M MIL   2 S0041 S 4527N53 01001E15800 900                                  
+2300 M MIL   2 S0035 S 4512N20 01032E57800 900                                  
+2300 M MIL   2 S0034 S 4511N26 01048E46800 900                                  
+2300 M MIL   2 S0033 S 4510N00 01118E00800 900                                  
+2300 M MIL   2 S0028 S 4453N37 01148E09800 900                                  
+2300 M MIL   2 S0029 S 4456N00 01154E01800 900                                  
+2300 M MIL   2 S0024 S 4446N54 01222E16800 900                                  
+2300 M MIL   2 S0023 S 4446N46 01230E48800 900                                  
+2300 M MIL   2 S0025 S 4447N01 01256E43800 900                                  
+2300 M MIL   2 S0026 S 4447N01 01312E00800 900                                  
+2300 M MIL   2 S0021 S 4432N01 01320E01800 900                                  
+2300 M MIL   2 S0020 S 4413N33 01341E35800 900                                  
+2300 M MIL   2 S0012 S 4334N02 01426E31800 900                                  
+2300 M MIL   2 S0010 S 4311N41 01444E48800 900                                  
+2300 M MIL   2 S0008 S 4308N57 01409E31800 900                                  
+2300 M MIL   2 S0009 S 4309N24 01344E18800 900                                  
+2300 M MIL   2 S0007 S 4304N12 01319E43800 900                                  
+2300 M MIL   2 S0004 S 4252N27 01306E55800 900                                  
+2300 M MIL   2 S0005 S 4302N59 01241E10800 900                                  
+2300 M MIL   2 S0011 S 4327N47 01151E11800 900                                  
+2300 M MIL   2 S0013 S 4336N11 01129E44800 900                                  
+2300 M MIL   2 S0016 S 4341N17 01124E18800 900                                  
+2300 M MIL   2 S0018 S 4349N46 01112E34800 900                                  
+2300 M MIL   2 S0019 S 4401N14 01100E32800 900                                  
+2300 M MIL   2 S0031 S 4505N43 01006E42800 900                                  
+2300 M MIL   2 S0038 S 4518N10 00959E43800 900                                  
+2300 M MIL   2 S0041 S 4527N53 01001E15800 900                                  
+2300 M MIL   3 S0041 S 4527N53 01001E15900 999                                  
+2300 M MIL   3 S0035 S 4512N20 01032E57900 999                                  
+2300 M MIL   3 S0034 S 4511N26 01048E46900 999                                  
+2300 M MIL   3 S0033 S 4510N00 01118E00900 999                                  
+2300 M MIL   3 S0028 S 4453N37 01148E09900 999                                  
+2300 M MIL   3 S0029 S 4456N00 01154E01900 999                                  
+2300 M MIL   3 S0024 S 4446N54 01222E16900 999                                  
+2300 M MIL   3 S0023 S 4446N46 01230E48900 999                                  
+2300 M MIL   3 S0025 S 4447N01 01256E43900 999                                  
+2300 M MIL   3 S0026 S 4447N01 01312E00900 999                                  
+2300 M MIL   3 S0021 S 4432N01 01320E01900 999                                  
+2300 M MIL   3 S0020 S 4413N33 01341E35900 999                                  
+2300 M MIL   3 S0012 S 4334N02 01426E31900 999                                  
+2300 M MIL   3 S0010 S 4311N41 01444E48900 999                                  
+2300 M MIL   3 S0008 S 4308N57 01409E31900 999                                  
+2300 M MIL   3 S0009 S 4309N24 01344E18900 999                                  
+2300 M MIL   3 S0007 S 4304N12 01319E43900 999                                  
+2300 M MIL   3 S0004 S 4252N27 01306E55900 999                                  
+2300 M MIL   3 S0005 S 4302N59 01241E10900 999                                  
+2300 M MIL   3 S0011 S 4327N47 01151E11900 999                                  
+2300 M MIL   3 S0013 S 4336N11 01129E44900 999                                  
+2300 M MIL   3 S0016 S 4341N17 01124E18900 999                                  
+2300 M MIL   3 S0018 S 4349N46 01112E34900 999                                  
+2300 M MIL   3 S0019 S 4401N14 01100E32900 999                                  
+2300 M MIL   3 S0031 S 4505N43 01006E42900 999                                  
+2300 M MIL   3 S0038 S 4518N10 00959E43900 999                                  
+2300 M MIL   3 S0041 S 4527N53 01001E15900 999                                  
+2300 M MIL   4 S0040 S 4523N13 01328E17900 999                                  
+2300 M MIL   4 S0037 S 4514N56 01304E13900 999                                  
+2300 M MIL   4 S0036 S 4513N03 01300E25900 999                                  
+2300 M MIL   4 S0030 S 4458N59 01306E08900 999                                  
+2300 M MIL   4 S0026 S 4447N01 01312E00900 999                                  
+2300 M MIL   4 S0025 S 4447N01 01256E43900 999                                  
+2300 M MIL   4 S0023 S 4446N46 01230E48900 999                                  
+2300 M MIL   4 S0024 S 4446N54 01222E16900 999                                  
+2300 M MIL   4 S0029 S 4456N00 01154E01900 999                                  
+2300 M MIL   4 S0028 S 4453N37 01148E09900 999                                  
+2300 M MIL   4 S0033 S 4510N00 01118E00900 999                                  
+2300 M MIL   4 S0034 S 4511N26 01048E46900 999                                  
+2300 M MIL   4 S0035 S 4512N20 01032E57900 999                                  
+2300 M MIL   4 S0041 S 4527N53 01001E15900 999                                  
+2300 M MIL   4 S0042 S 4538N23 01037E23900 999                                  
+2300 M MIL   4 S0044 S 4546N08 01030E41900 999                                  
+2300 M MIL   4 S0048 S 4602N06 01015E55900 999                                  
+2300 M MIL   4 S0051 S 4617N02 01000E00900 999                                  
+2300 M MIL   4 S0053 S 4627N13 01002E18900 999                                  
+2300 M MIL   4 S0055 S 4634N15 01028E12900 999                                  
+2300 M MIL   4 S0057 S 4641N26 01030E42900 999                                  
+2300 M MIL   4 S0064 S 4651N46 01035E41900 999                                  
+2300 M MIL   4 S0066 S 4659N36 01045E04900 999                                  
+2300 M MIL   4 S0060 S 4659N00 01123E08900 999                                  
+2300 M MIL   4 S0062 S 4701N57 01133E12900 999                                  
+2300 M MIL   4 S0063 S 4702N13 01143E13900 999                                  
+2300 M MIL   4 S0061 S 4701N44 01152E27900 999                                  
+2300 M MIL   4 S0056 S 4642N35 01235E00900 999                                  
+2300 M MIL   4 S0054 S 4629N55 01316E03900 999                                  
+2300 M MIL   4 S0050 S 4613N17 01329E36900 999                                  
+2300 M MIL   4 S0045 S 4551N20 01336E54900 999                                  
+2300 M MIL   4 S0040 S 4523N13 01328E17900 999                                  
+2300 C FEAST 1 S0020 S 4413N33 01341E35000 999                                  
+2300 C FEAST 1 S0012 S 4334N02 01426E31000 999                                  
+2300 C FEAST 1 S0010 S 4311N41 01444E48000 999                                  
+2300 C FEAST 1 S0002 S 4139N07 01618E45000 999                                  
+2300 C FEAST 1 S0032 S 4506N30 01618E45000 999                                  
+2300 C FEAST 1 S0040 S 4523N13 01328E17000 999                                  
+2300 C FEAST 1 S0037 S 4514N56 01304E13000 999                                  
+2300 C FEAST 1 S0036 S 4513N03 01300E25000 999                                  
+2300 C FEAST 1 S0030 S 4458N59 01306E08000 999                                  
+2300 C FEAST 1 S0026 S 4447N01 01312E00000 999                                  
+2300 C FEAST 1 S0021 S 4432N01 01320E01000 999                                  
+2300 C FEAST 1 S0020 S 4413N33 01341E35000 999                                  
+2300 C FEAST 2 S0040 S 4523N13 01328E17000 999                                  
+2300 C FEAST 2 S0045 S 4551N20 01336E54000 999                                  
+2300 C FEAST 2 S0050 S 4613N17 01329E36000 999                                  
+2300 C FEAST 2 S0054 S 4629N55 01316E03000 999                                  
+2300 C FEAST 2 S0058 S 4646N20 01618E45000 999                                  
+2300 C FEAST 2 S0032 S 4506N30 01618E45000 999                                  
+2300 C FEAST 2 S0040 S 4523N13 01328E17000 999                                  
+2300 C FEAST 3 S0004 S 4252N27 01306E55000 999                                  
+2300 C FEAST 3 S0003 S 4215N27 01339E52000 999                                  
+2300 C FEAST 3 S0000 S 4139N07 01408E33000 999                                  
+2300 C FEAST 3 S0002 S 4139N07 01618E45000 999                                  
+2300 C FEAST 3 S0010 S 4311N41 01444E48000 999                                  
+2300 C FEAST 3 S0008 S 4308N57 01409E31000 999                                  
+2300 C FEAST 3 S0009 S 4309N24 01344E18000 999                                  
+2300 C FEAST 3 S0007 S 4304N12 01319E43000 999                                  
+2300 C FEAST 3 S0004 S 4252N27 01306E55000 999                                  
+2300 C FNORT 1 S0057 S 4641N26 01030E42000 999                                  
+2300 C FNORT 1 S0055 S 4634N15 01028E12000 999                                  
+2300 C FNORT 1 S0053 S 4627N13 01002E18000 999                                  
+2300 C FNORT 1 S0051 S 4617N02 01000E00000 999                                  
+2300 C FNORT 1 S0049 S 4604N25 00841E10000 999                                  
+2300 C FNORT 1 S0052 S 4621N58 00806E47000 999                                  
+2300 C FNORT 1 S0069 S 4818N06 00806E47000 999                                  
+2300 C FNORT 1 S0070 S 4818N06 00930E59000 999                                  
+2300 C FNORT 1 S0065 S 4705N38 00931E41000 999                                  
+2300 C FNORT 1 S0059 S 4649N56 01006E46000 999                                  
+2300 C FNORT 1 S0057 S 4641N26 01030E42000 999                                  
+2300 C FNORT 2 S0067 S 4758N36 01618E45000 999                                  
+2300 C FNORT 2 S0068 S 4818N06 01618E45000 999                                  
+2300 C FNORT 2 S0070 S 4818N06 00930E59000 999                                  
+2300 C FNORT 2 S0065 S 4705N38 00931E41000 999                                  
+2300 C FNORT 2 S0059 S 4649N56 01006E46000 999                                  
+2300 C FNORT 2 S0057 S 4641N26 01030E42000 999                                  
+2300 C FNORT 2 S0064 S 4651N46 01035E41000 999                                  
+2300 C FNORT 2 S0066 S 4659N36 01045E04000 999                                  
+2300 C FNORT 2 S0060 S 4659N00 01123E08000 999                                  
+2300 C FNORT 2 S0062 S 4701N57 01133E12000 999                                  
+2300 C FNORT 2 S0063 S 4702N13 01143E13000 999                                  
+2300 C FNORT 2 S0061 S 4701N44 01152E27000 999                                  
+2300 C FNORT 2 S0056 S 4642N35 01235E00000 999                                  
+2300 C FNORT 2 S0054 S 4629N55 01316E03000 999                                  
+2300 C FNORT 2 S0058 S 4646N20 01618E45000 999                                  
+2300 C FNORT 2 S0067 S 4758N36 01618E45000 999                                  
+2300 C FWEST 1 S0052 S 4621N58 00806E47000 315                                  
+2300 C FWEST 1 S0043 S 4538N35 00806E47000 315                                  
+2300 C FWEST 1 S0017 S 4342N04 00806E47000 315                                  
+2300 C FWEST 1 S0006 S 4139N07 00806E47000 315                                  
+2300 C FWEST 1 S0014 S 4339N54 01022E22000 315                                  
+2300 C FWEST 1 S0019 S 4401N14 01100E32000 315                                  
+2300 C FWEST 1 S0031 S 4505N43 01006E42000 315                                  
+2300 C FWEST 1 S0038 S 4518N10 00959E43000 315                                  
+2300 C FWEST 1 S0041 S 4527N53 01001E15000 315                                  
+2300 C FWEST 1 S0042 S 4538N23 01037E23000 315                                  
+2300 C FWEST 1 S0044 S 4546N08 01030E41000 315                                  
+2300 C FWEST 1 S0048 S 4602N06 01015E55000 315                                  
+2300 C FWEST 1 S0051 S 4617N02 01000E00000 315                                  
+2300 C FWEST 1 S0049 S 4604N25 00841E10000 315                                  
+2300 C FWEST 1 S0052 S 4621N58 00806E47000 315                                  
+2300 C FWEST 2 S0043 S 4538N35 00806E47315 999                                  
+2300 C FWEST 2 S0017 S 4342N04 00806E47315 999                                  
+2300 C FWEST 2 S0006 S 4139N07 00806E47315 999                                  
+2300 C FWEST 2 S0014 S 4339N54 01022E22315 999                                  
+2300 C FWEST 2 S0019 S 4401N14 01100E32315 999                                  
+2300 C FWEST 2 S0031 S 4505N43 01006E42315 999                                  
+2300 C FWEST 2 S0038 S 4518N10 00959E43315 999                                  
+2300 C FWEST 2 S0041 S 4527N53 01001E15315 999                                  
+2300 C FWEST 2 S0042 S 4538N23 01037E23315 999                                  
+2300 C FWEST 2 S0044 S 4546N08 01030E41315 999                                  
+2300 C FWEST 2 S0048 S 4602N06 01015E55315 999                                  
+2300 C FWEST 2 S0051 S 4617N02 01000E00315 999                                  
+2300 C FWEST 2 S0049 S 4604N25 00841E10315 999                                  
+2300 C FWEST 2 S0052 S 4621N58 00806E47315 999                                  
+2300 C FWEST 2 S0043 S 4538N35 00806E47315 999                                  
+2300 C FWEST 3 S0014 S 4339N54 01022E22000 999                                  
+2300 C FWEST 3 S0019 S 4401N14 01100E32000 999                                  
+2300 C FWEST 3 S0018 S 4349N46 01112E34000 999                                  
+2300 C FWEST 3 S0016 S 4341N17 01124E18000 999                                  
+2300 C FWEST 3 S0013 S 4336N11 01129E44000 999                                  
+2300 C FWEST 3 S0011 S 4327N47 01151E11000 999                                  
+2300 C FWEST 3 S0005 S 4302N59 01241E10000 999                                  
+2300 C FWEST 3 S0004 S 4252N27 01306E55000 999                                  
+2300 C FWEST 3 S0003 S 4215N27 01339E52000 999                                  
+2300 C FWEST 3 S0000 S 4139N07 01408E33000 999                                  
+2300 C FWEST 3 S0001 S 4139N07 00945E47000 999                                  
+2300 C FWEST 3 S0006 S 4139N07 00806E47000 999                                  
+2300 C FWEST 3 S0014 S 4339N54 01022E22000 999                                  
+2300 M ACBA  1 ACBA1 N 4449N15 01245E43000 600                                  
+2300 M ACBA  1 ACBA2 N 4446N00 01330E00000 600                                  
+2300 M ACBA  1 ACBA3 N 4434N03 01342E26000 600                                  
+2300 M ACBA  1 ACBA4 N 4418N23 01409E59000 600                                  
+2300 M ACBA  1 ACBA5 N 4343N58 01454E29000 600                                  
+2300 M ACBA  1 ACBA6 N 4344N30 01408E00000 600                                  
+2300 M ACBA  1 ACBA7 N 4350N34 01331E45000 600                                  
+2300 M ACBA  1 ACBA1 N 4449N15 01245E43000 600                                  
+2300 M R21   1 C134  N 4454N00 01220E25125 240                                  
+2300 M R21   1 C133  N 4454N00 01240E00125 240                                  
+2300 M R21   1 C132  N 4348N06 01331E47125 240                                  
+2300 M R21   1 C100  N 4346N27 01313E11125 240                                  
+2300 M R21   1 C99   N 4400N16 01158E50125 240                                  
+2300 M R21   1 C96   N 4416N00 01156E00125 240                                  
+2300 M R21   1 C134  N 4454N00 01220E25125 240                                  
+2300 M R26   1 C101  N 4453N10 01212E57240 370                                  
+2300 M R26   1 C102  N 4444N04 01150E01240 370                                  
+2300 M R26   1 C103  N 4417N38 01155E36240 370                                  
+2300 M R26   1 C104  N 4355N00 01230E52240 370                                  
+2300 M R26   1 C105  N 4350N25 01254E28240 370                                  
+2300 M R26   1 C131  N 4356N19 01258E02240 370                                  
+2300 M R26   1 C101  N 4453N10 01212E57240 370                                  
+2300 M R49   1 C63   N 4601N58 01148E58050 370                                  
+2300 M R49   1 C64   N 4608N00 01236E00050 370                                  
+2300 M R49   1 C65   N 4618N52 01314E53050 370                                  
+2300 M R49   1 C70   N 4550N40 01314E30050 370                                  
+2300 M R49   1 C119  N 4534N30 01258E17050 370                                  
+2300 M R49   1 C120  N 4535N17 01250E00050 370                                  
+2300 M R49   1 C122  N 4538N35 01226E49050 370                                  
+2300 M R49   1 C123  N 4536N16 01213E58050 370                                  
+2300 M R49   1 C124  N 4540N54 01159E56050 370                                  
+2300 M R49   1 C125  N 4543N34 01158E07050 370                                  
+2300 M R49   1 C126  N 4548N28 01154E45050 370                                  
+2300 M R49   1 C127  N 4557N10 01148E45050 370                                  
+2300 M R49   1 C63   N 4601N58 01148E58050 370                                  
+2300 M R49   2 C130  N 4620N13 01150E02130 370                                  
+2300 M R49   2 C129  N 4634N54 01230E42130 370                                  
+2300 M R49   2 C128  N 4628N00 01315E00130 370                                  
+2300 M R49   2 C65   N 4618N52 01314E53130 370                                  
+2300 M R49   2 C64   N 4608N00 01236E00130 370                                  
+2300 M R49   2 C63   N 4601N58 01148E58130 370                                  
+2300 M R49   2 C130  N 4620N13 01150E02130 370                                  
+2300 M TSA78 1 C68   N 4634N54 01230E42370 600                                  
+2300 M TSA78 1 C69   N 4628N00 01315E00370 600                                  
+2300 M TSA78 1 C71   N 4525N00 01300E00370 600                                  
+2300 M TSA78 1 C72   N 4510N00 01300E00370 600                                  
+2300 M TSA78 1 C73   N 4432N00 01320E00370 600                                  
+2300 M TSA78 1 C74   N 4358N45 01357E00370 600                                  
+2300 M TSA78 1 C76   N 4350N00 01346E00370 600                                  
+2300 M TSA78 1 C77   N 4350N00 01318E00370 600                                  
+2300 M TSA78 1 C78   N 4359N26 01224E03370 600                                  
+2300 M TSA78 1 C79   N 4414N26 01200E36370 600                                  
+2300 M TSA78 1 C67   N 4539N33 01151E10370 600                                  
+2300 M TSA78 1 C66   N 4615N58 01138E25370 600                                  
+2300 M TSA78 1 C68   N 4634N54 01230E42370 600                                  
+2400   000     000             +15                                              
+9999                                                                            

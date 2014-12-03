@@ -1,0 +1,37 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         TDM_PARAMETERS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD          TDM_PARAMETERS_ITEM
+IDENT                                      1
+TRACK_DEVIATION_COMPUTATION_PERIOD         10
+MODULO_FOR_TDM_ON_UNCORRELATED_FPL        6
+TRACK_DEVIATION_COMPUTATION_SHIFT          15
+DO_COMPUTATION_FOR_AIRCRAFT_IN_HOLD        FALSE
+TRACK_DEVIATION_IN_THE_CENTRE_IS_ACTIVE    TRUE
+NOT_CORRELATED_FPL_TIME_SHIFT   0.0
+TIME_SHIFT_TRIGGERING_DEADLINE   0.0
+TIME_DEVIATION_THRESHOLD_IS_ACTIVE         FALSE
+TIME_DEVIATION_THRESHOLD                   15
+ALTITUDE_DEVIATION_THRESHOLD_IS_ACTIVE     FALSE
+ALTITUDE_DEVIATION_THRESHOLD               100
+LONGITUDINAL_DEVIATION_THRESHOLD_IS_ACTIVE FALSE
+LONGITUDINAL_DEVIATION_THRESHOLD           50.0
+LATERAL_DEVIATION_THRESHOLD_IS_ACTIVE      TRUE
+LATERAL_DEVIATION_THRESHOLD                10.0
+HEADING_DEVIATION_THRESHOLD_IS_ACTIVE      FALSE
+HEADING_DEVIATION_THRESHOLD                5.0
+GROUNDSPEED_DEVIATION_THRESHOLD_IS_ACTIVE  FALSE
+GROUNDSPEED_DEVIATION_THRESHOLD            100.0

@@ -1,0 +1,55 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         SYSCO_PARAMETERS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD SYSCO_PARAMETERS_ITEM
+   IDENT 1
+   EXTER_COORDINATION_PARAMETERS_LIST
+   BEGINL
+      EXTERNAL_COORDINATION_PARAMETERS
+      BEGINS
+         CENTRE_NAME                                   ATC1
+         DIALOGUE_LEVEL                                0
+         USE_PAC                                       FALSE
+         PAC_FORMAT                                    ABI
+         MINIMUM_COP_ETO_DELTA_FOR_REV_RRV_SENDING     10
+         MINIMUM_LEVEL_DELTA_FOR_REV_RRV_SENDING       100
+         COORDINATION_PHASE_INITIATION_TIME            10
+         TRANSFER_PHASE_INITIATION_TIME                60.0
+         COORDINATION_POINT_TYPE                       INTERSECTION
+         MINIMUM_COP_POSITION_FOR_REV_REVISION         5
+      ENDS
+   ENDL
+   INTER_COORDINATION_PARAMETERS
+      BEGINS
+         DIALOGUE_LEVEL                                0
+         USE_PAC                                       TRUE
+         ENTRY_MAS                                     TRUE
+         EXIT_MAS                                      TRUE
+         ENTRY_COF                                     TRUE
+         EXIT_COF                                      TRUE
+         MINIMUM_COP_ETO_DELTA_FOR_ABI_RESENDING       10
+         MINIMUM_COP_ETO_ETD_DELTA_FOR_PAC_RESENDING   10
+         MINIMUM_COP_ETO_DELTA_FOR_REV_RRV_SENDING     6
+         COORDINATION_PHASE_INITIATION_TIME            10
+         TRANSFER_PHASE_INITIATION_TIME                30.0
+         ABI_TRANSMISSION_TIME                         30
+         OPERATIONAL_RESPONSE_COORDINATION_TIME_OUT    30
+         OPERATIONAL_RESPONSE_TRANSFER_TIME_OUT        30
+         COORDINATION_PHASE_INITIATION_DISTANCE        10
+         CONTROLLING_TIME_THRESHOLD                    120.0
+         MINIMUM_COP_POSITION_FOR_REV_REVISION         3
+         COORDINATION_POINT_TYPE                       INTERSECTION
+      ENDS

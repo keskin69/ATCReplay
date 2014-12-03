@@ -1,0 +1,16 @@
+--*******************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      x.x
+-- File name:         TBS_PARAMETERS_FILE.DATA
+-- Simulation:        Development
+-- Description:                                         
+-- Exercise:          C1B135
+-- Airspace_env_name: CORA1B
+-- Traffic sample:    C1B135
+-- Constraint config: CORA1B
+-- Architecture:      CORA1B
+-- Surveillance:      CORA1B
+-- Data validation:   X
+-- Date and time:     31/08/2005   
+--*******************************************************
+DEFAULT DEFAULT 2.0

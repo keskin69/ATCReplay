@@ -1,0 +1,42 @@
+Error because of sorting
+Error from selection flight list +1
+Zoom problem with vertical window (not the same area as radar screen)
+Prb. with background map with vertical window (No track visible)
+
+Att symbol on track
+R&B Tool
+Better Alert messages in alert windows 
+Double highlighting track for MTCD/STCA from alert window
+STCA/APW/MTCD segments on flight leg
+HMI Logs sync.
+
+Shadow Mode
+
+STCA Animator
+Control window: Range, Alt Filter, Speed Vector Length, History Dots
+Individual Speed Vector from c/s menus
+
+Design:
+Seperate eons/IPAS part from the player in another project/layer.
+Obfuscation+Sign the Jar
+
+Leader line at the center
+Support Raster Map/CoastLines
+
+More from IPAS files or more from eons. Instead of IPAS we can get Sector/TSA/WPT informations from Eons (?)
+
+Home made TDM
+Home made MONA
+
+Advance/Performance:
+Saving Canvas Image in different formats
+Full sync. with realtime (XXX)
+Slider to go back and forth on the run (XXX)
+
+Tools:
+Airspace Occupation
+Airways Usage
+Load Graph Mode per sector/all
+Fuel Burn
+Cummulative Distance Counter
+ISA Parser and ISA Window

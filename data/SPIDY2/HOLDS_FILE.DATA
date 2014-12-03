@@ -1,0 +1,67 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         HOLDS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD            HOLD
+  IDENT               
+  BEGINS              
+    POINT         LIRA
+  ENDS
+  ORIENTATION      20.0
+  TURN_DIRECTION  'R'
+  LEG_TIME         60.0
+RECORD            HOLD_DEFAULT_SPEED
+  TR              
+  BEGINL          
+    HOLD_LEVEL_SPEED              
+    BEGINS                        
+      LEVEL_R                     
+      BEGINS                      
+        MAXI               6000
+        MINI                  0
+      ENDS                        
+      SPEED_R                     
+      BEGINS                      
+        MAXI                229.0
+        MINI                210.0
+      ENDS                        
+    ENDS                          
+    HOLD_LEVEL_SPEED              
+    BEGINS                        
+      LEVEL_R                     
+      BEGINS                      
+        MAXI              14000
+        MINI               6001
+      ENDS                        
+      SPEED_R                     
+      BEGINS                      
+        MAXI                270.0
+        MINI                240.0
+      ENDS                        
+    ENDS                          
+    HOLD_LEVEL_SPEED              
+    BEGINS                        
+      LEVEL_R                     
+      BEGINS                      
+        MAXI              24000
+        MINI              14001
+      ENDS                        
+      SPEED_R                     
+      BEGINS                      
+        MAXI                344.0
+        MINI                294.0
+      ENDS                        
+    ENDS                          
+  ENDL          

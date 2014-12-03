@@ -1,0 +1,219 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         MASS_SYSTEM_CONFIGURATION_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD THE_GENERAL_SUPERVISOR
+    TGS   CUSTOMER
+RECORD THE_TIME_GENERATOR
+    TTG   CUSTOMER
+RECORD DELTA_TIME
+    DT    5.0
+RECORD HARDWARE_CLOCK_DELTA_TIME
+    HCDT  5.0
+RECORD CREATION_ACTIVATION_DELTA_TIME
+    CADT  600.0
+RECORD CREATION_NEGOTIATOR_DELTA_TIME
+    CNDT  2400.0
+RECORD POSITIONS_DELIVERY_CADENCE
+    PDC   1
+RECORD FLIGHTS_CREATION_CADENCE
+    FCC   1
+RECORD CONFIGURATION_TABLE
+   CONF
+   BEGINL
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   1
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   11
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   12
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   13
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   14
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   2
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   3
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   4
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   49
+         CLASS         EXERCISE_MANAGEMENT
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   5
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   6
+         CLASS         OPERATOR_INTERFACE
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   60
+         CLASS         FLIGHTS_SET
+      ENDS
+      CONFIGURATION_RECORD
+      BEGINS
+         IDENT_VM_ID   61
+         CLASS         FLIGHTS_SET
+      ENDS
+   ENDL
+RECORD OPERATOR_STATUS_TABLE
+   CONF
+   BEGINL
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  1
+         FREQ      133.305  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  11
+         FREQ      127.380  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    CLOSED
+         OPERATOR  12
+         FREQ      127.380  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  13
+         FREQ      133.705  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  14
+         FREQ      258.500  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  2
+         FREQ      133.305  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  3
+         FREQ      133.940  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  4
+         FREQ      133.515  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    CLOSED
+         OPERATOR  5
+         FREQ      133.940  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    CLOSED
+         OPERATOR  6
+         FREQ      133.515  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  22
+         FREQ      111.500  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  23
+         FREQ      111.200  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  24
+         FREQ      111.100  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  25
+         FREQ      111.400  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  26
+         FREQ      111.300  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  31
+         FREQ      134.530  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  32
+         FREQ      126.280  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  33
+         FREQ      135.800  0.0  0.0
+      ENDS
+      OPERATOR_STATUS_RECORD
+      BEGINS
+         STATUS    OPEN
+         OPERATOR  34
+         FREQ      134.750  0.0  0.0
+      ENDS
+   ENDL

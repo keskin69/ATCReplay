@@ -1,0 +1,37 @@
+--******************************************************************************
+-- IRS Version:       ACE2005A
+-- BADA Version:      x.x
+-- File name:         TBS_PARAMETERS_FILE.DATA
+-- Simulation:        Development
+-- Description:                                         
+-- Exercise:          C1B135
+-- Airspace_env_name: CORA1B
+-- Traffic sample:    C1B135
+-- Constraint config: CORA1B
+-- Architecture:      CORA1B
+-- Surveillance:      CORA1B
+-- Data validation:   X
+-- Date and time:     31/08/2005   
+--******************************************************************************
+RECORD MANAGED_RUNWAY
+        RUNWAY         
+                     BEGINS
+                     AP              LFPG
+                     RU
+                     BEGINS
+                       NB            9
+                     ENDS
+                   ENDS
+         COMPUTATION_AREA_NAME	CBA16
+         LANDING_AREA_NAME	TRA16
+RECORD FIXED_TBS
+TBS_LH_FH	90
+TBS_LH_FM	110
+TBS_LH_FL	145
+TBS_LM_FH	60
+TBS_LM_FM	60
+TBS_LM_FL	125
+TBS_LL_FH	60
+TBS_LL_FM	60
+TBS_LL_FL	70
+

@@ -1,0 +1,198 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         SOFTWARE_CENTRE_STCA_AIRSPACE_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD          SOFTWARE_CENTRE_STCA_AIRSPACE_ITEM
+IDENT           1
+STCA_VOLUMES
+BEGINL
+  STCA_VOLUME
+  BEGINS
+    VOLUME
+    BEGINL
+      BOX
+      BEGINS
+         NUMBER          1
+            SEGS_LIST
+            BEGINL
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME STCA1
+                         POS
+                         BEGINS
+                LAT              NORTH 45.9500
+                LONG             EAST   9.3500
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME STCA2
+                         POS
+                         BEGINS
+                LAT              NORTH 43.5000
+                LONG             EAST  11.2417
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME STCA2
+                         POS
+                         BEGINS
+                LAT              NORTH 43.5000
+                LONG             EAST  11.2417
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME STCA3
+                         POS
+                         BEGINS
+                LAT              NORTH 42.6250
+                LONG             EAST  13.4667
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME STCA3
+                         POS
+                         BEGINS
+                LAT              NORTH 42.6250
+                LONG             EAST  13.4667
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME STCA4
+                         POS
+                         BEGINS
+                LAT              NORTH 43.1500
+                LONG             EAST  15.1500
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME STCA4
+                         POS
+                         BEGINS
+                LAT              NORTH 43.1500
+                LONG             EAST  15.1500
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME STCA5
+                         POS
+                         BEGINS
+                LAT              NORTH 45.0000
+                LONG             EAST  13.6083
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME STCA5
+                         POS
+                         BEGINS
+                LAT              NORTH 45.0000
+                LONG             EAST  13.6083
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME STCA6
+                         POS
+                         BEGINS
+                LAT              NORTH 46.8917
+                LONG             EAST  13.7750
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME STCA6
+                         POS
+                         BEGINS
+                LAT              NORTH 46.8917
+                LONG             EAST  13.7750
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME STCA7
+                         POS
+                         BEGINS
+                LAT              NORTH 47.5000
+                LONG             EAST  10.6750
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            SEGMENT_BOXES
+            BEGINS
+               BEG_POINT
+                BEGINS
+                     NAME STCA7
+                         POS
+                         BEGINS
+                LAT              NORTH 47.5000
+                LONG             EAST  10.6750
+                         ENDS
+                ENDS
+               END_POINT
+                BEGINS
+                     NAME STCA1
+                         POS
+                         BEGINS
+                LAT              NORTH 45.9500
+                LONG             EAST   9.3500
+                         ENDS
+                ENDS
+               LEVEL_INF            0
+               LEVEL_SUP            600
+            ENDS
+            ENDL
+      ENDS
+    ENDL
+    VERTICAL_THRESHOLD               600.0
+    NON_RVSM_VERTICAL_THRESHOLD    1200.0
+    HORIZONTAL_THRESHOLD               4.0
+  ENDS
+ENDL

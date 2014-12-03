@@ -1,0 +1,26 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         ATC_CENTRES_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+  RECORD            ATC_CENTRE_ITEM
+  IDENT             1
+  CENTRE_NAME       ATC1
+  SOFTWARE_CENTRE   1
+  DATALINK_EQUIPMENT                   NON_EQUIPPED
+  RECORD            ATC_CENTRE_ITEM
+  IDENT             2
+  CENTRE_NAME       ATC2
+  SOFTWARE_CENTRE   1
+  DATALINK_EQUIPMENT                   NON_EQUIPPED

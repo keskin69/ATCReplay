@@ -1,0 +1,21 @@
+--******************************************************************************
+-- IRS Version:       ACE2008A
+-- BADA Version:      3.6
+-- File name:         IAS_PARAMETERS_FILE.DATA
+-- Simulation:        ASM
+-- Description:       simulation de devpt
+-- Exercise:          SPIDY2
+-- Airspace_env_name: ASMNEW
+-- Meteo env name:    ASMNEW
+-- Traffic sample:    SPEEDYD
+-- Constraint config: ASMNEW
+-- Architecture:      ASMNEW
+-- Surveillance:      ASMNEW
+-- Data validation:   V
+-- Date and time:     12/02/10   08:29h
+--******************************************************************************
+RECORD          IAS_PARAMETERS_ITEM
+IDENT                                               1
+AIR_SITUATION_ESTABLISHMENT_PERIOD                  5.00
+TRACK_OBSOLESCENCE_TIME                             20.00
+TIME_AFTER_FLIGHT_END_FOR_FLIGHT_PLAN_DELETION     15.00
